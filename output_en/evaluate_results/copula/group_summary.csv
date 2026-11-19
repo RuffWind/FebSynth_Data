@@ -1,0 +1,27 @@
+﻿group_name,provider,real_count,target_count,pooled_target_count,fixed_exact_columns,generated_columns_count,pool_size,rounds,rejected_rows_total,warning_count
+7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=J18,model,106,106,106,Sex,45,1037,2,23,1
+7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=J06,model,703,703,703,Sex,45,7012,2,18,1
+7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=P36,model,160,160,160,Sex,45,1595,2,5,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J20,model,602,602,602,Sex,45,6019,2,1,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J20,model,482,482,482,Sex,45,4819,2,1,1
+7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=P23,model,419,419,419,Sex,45,4190,2,0,1
+7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=J06,model,543,543,543,Sex,45,5419,2,11,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J06,model,4153,4153,4153,Sex,45,41475,2,55,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J18,model,1606,1606,1606,Sex,45,16059,2,1,1
+7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=P23,model,554,554,554,Sex,45,5539,2,1,1
+7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=J18,model,148,148,148,Sex,45,1473,2,7,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J40,model,95,95,95,Sex,45,950,2,0,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J06,model,3231,3231,3231,Sex,45,32287,2,23,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J18,model,1058,1058,1058,Sex,45,10464,2,116,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=R50,model,148,148,148,Sex,45,1479,2,1,1
+7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=P36,model,222,222,222,Sex,45,2218,2,2,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=A41,model,248,248,248,Sex,45,2471,2,9,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J40,model,142,142,142,Sex,45,1420,2,0,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=R50,model,234,234,234,Sex,45,2340,2,0,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=A41,model,164,164,164,Sex,45,1636,2,4,1
+7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=A41,model,100,100,100,Sex,45,1000,2,0,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=A09,model,139,139,139,Sex,45,1388,2,2,1
+7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=R50,model,105,105,105,Sex,45,1050,2,0,1
+Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=K52,model,133,133,133,Sex,45,1330,2,0,1
+Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=K52,model,96,96,96,Sex,45,960,2,0,1
+Other(merged 473个稀有/缺失Group),model,3013,3013,3013,,46,26301,2,3829,1

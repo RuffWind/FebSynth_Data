@@ -1,0 +1,621 @@
+﻿experiment_id,n_att,p_given,k_neighbors,n_token_range,encoded_feature,source_column,evaluated_attack_rows,true_positive_count,predicted_positive_count,f1_score
+1,10000,0.5,1,4,Cyanosis_0,Cyanosis,5035,802,143,0.13968253968253969
+1,10000,0.5,1,4,Cyanosis_1,Cyanosis,4998,185,15,0.0
+1,10000,0.5,1,4,Cyanosis___MISSING__,Cyanosis,4930,3920,4789,0.8848317832127685
+1,10000,0.5,1,4,Frothing at the Mouth_0,Frothing at the Mouth,5039,236,7,0.024691358024691357
+1,10000,0.5,1,4,Frothing at the Mouth_1,Frothing at the Mouth,5022,387,28,0.05301204819277108
+1,10000,0.5,1,4,Frothing at the Mouth___MISSING__,Frothing at the Mouth,4957,4355,4930,0.9354873451803984
+1,10000,0.5,1,4,Inspiratory Dyspnea_0,Inspiratory Dyspnea,5038,210,43,0.16600790513833993
+1,10000,0.5,1,4,Inspiratory Dyspnea_1,Inspiratory Dyspnea,4897,56,0,0.0
+1,10000,0.5,1,4,Inspiratory Dyspnea___MISSING__,Inspiratory Dyspnea,5064,4765,5022,0.9690405640134873
+1,10000,0.5,1,4,Vomiting_0,Vomiting,4915,2151,2981,0.6652377240841777
+1,10000,0.5,1,4,Vomiting_1,Vomiting,4983,1217,809,0.3840078973346496
+1,10000,0.5,1,4,Vomiting___MISSING__,Vomiting,4930,1603,1319,0.5735797399041752
+1,10000,0.5,1,4,Choking During Feeding_0,Choking During Feeding,4843,734,224,0.21085594989561587
+1,10000,0.5,1,4,Choking During Feeding_1,Choking During Feeding,5059,573,229,0.2718204488778055
+1,10000,0.5,1,4,Choking During Feeding___MISSING__,Choking During Feeding,5009,3643,4610,0.8491457651762996
+1,10000,0.5,1,4,Abnormal Breath Sounds_0,Abnormal Breath Sounds,4942,803,199,0.2055888223552894
+1,10000,0.5,1,4,Abnormal Breath Sounds_1,Abnormal Breath Sounds,4926,100,3,0.0
+1,10000,0.5,1,4,Abnormal Breath Sounds___MISSING__,Abnormal Breath Sounds,4981,4016,4799,0.8927963698241633
+1,10000,0.5,1,4,Cough_0,Cough,4960,1957,2217,0.6066123622424533
+1,10000,0.5,1,4,Cough_1,Cough,4977,1969,2065,0.6013882002974715
+1,10000,0.5,1,4,Cough___MISSING__,Cough,4950,1077,859,0.5020661157024794
+1,10000,0.5,1,4,Pharyngeal Congestion_0,Pharyngeal Congestion,4995,4,0,0.0
+1,10000,0.5,1,4,Pharyngeal Congestion_1,Pharyngeal Congestion,4939,947,6,0.004197271773347324
+1,10000,0.5,1,4,Pharyngeal Congestion___MISSING__,Pharyngeal Congestion,5009,4061,4994,0.8956377691882937
+1,10000,0.5,1,4,Rales_0,Rales,4899,1227,189,0.1694915254237288
+1,10000,0.5,1,4,Rales_1,Rales,4999,61,0,0.0
+1,10000,0.5,1,4,Rales___MISSING__,Rales,5000,3650,4821,0.8478337858576319
+1,10000,0.5,1,4,Hoarseness_0,Hoarseness,5033,246,2,0.008064516129032258
+1,10000,0.5,1,4,Hoarseness_1,Hoarseness,4897,37,0,0.0
+1,10000,0.5,1,4,Hoarseness___MISSING__,Hoarseness,4980,4698,4976,0.9708497002274137
+1,10000,0.5,1,4,Chills_0,Chills,4953,675,392,0.44611059044048734
+1,10000,0.5,1,4,Chills_1,Chills,4957,20,0,0.0
+1,10000,0.5,1,4,Chills___MISSING__,Chills,4963,4268,4572,0.926923076923077
+1,10000,0.5,1,4,Convulsion_0,Convulsion,4907,1706,1458,0.595448798988622
+1,10000,0.5,1,4,Convulsion_1,Convulsion,4931,119,4,0.0
+1,10000,0.5,1,4,Convulsion___MISSING__,Convulsion,4994,3089,3506,0.798483699772555
+1,10000,0.5,1,4,Hand Rash_0,Hand Rash,4985,75,0,0.0
+1,10000,0.5,1,4,Hand Rash_1,Hand Rash,5015,382,29,0.058394160583941604
+1,10000,0.5,1,4,Hand Rash___MISSING__,Hand Rash,5000,4550,4979,0.9520411375800188
+1,10000,0.5,1,4,Shortness of Breath_0,Shortness of Breath,5023,661,195,0.26401869158878505
+1,10000,0.5,1,4,Shortness of Breath_1,Shortness of Breath,5010,236,7,0.01646090534979424
+1,10000,0.5,1,4,Shortness of Breath___MISSING__,Shortness of Breath,4967,4110,4781,0.9063097514340345
+1,10000,0.5,1,4,Irritability_0,Irritability,4950,292,5,0.020202020202020204
+1,10000,0.5,1,4,Irritability_1,Irritability,4843,234,0,0.0
+1,10000,0.5,1,4,Irritability___MISSING__,Irritability,4942,4402,4934,0.9419451585261354
+1,10000,0.5,1,4,Aversion to Cold_0,Aversion to Cold,5012,327,160,0.32854209445585214
+1,10000,0.5,1,4,Aversion to Cold_1,Aversion to Cold,4950,7,0,0.0
+1,10000,0.5,1,4,Aversion to Cold___MISSING__,Aversion to Cold,4879,4554,4722,0.9648555411815438
+1,10000,0.5,1,4,Rash_0,Rash,5018,2428,2451,0.7058823529411765
+1,10000,0.5,1,4,Rash_1,Rash,4945,178,22,0.01
+1,10000,0.5,1,4,Rash___MISSING__,Rash,5019,2404,2587,0.7164896814265678
+1,10000,0.5,1,4,Listlessness_0,Listlessness,5023,223,41,0.18181818181818182
+1,10000,0.5,1,4,Listlessness_1,Listlessness,4937,741,53,0.05793450881612091
+1,10000,0.5,1,4,Listlessness___MISSING__,Listlessness,4935,3988,4856,0.8962008141112618
+1,10000,0.5,1,4,Cold Extremities_0,Cold Extremities,4942,561,41,0.06312292358803986
+1,10000,0.5,1,4,Cold Extremities_1,Cold Extremities,5015,4,0,0.0
+1,10000,0.5,1,4,Cold Extremities___MISSING__,Cold Extremities,4969,4409,4919,0.9391080617495712
+1,10000,0.5,1,4,Diarrhea_0,Diarrhea,4950,2684,3444,0.75
+1,10000,0.5,1,4,Diarrhea_1,Diarrhea,5016,444,71,0.08155339805825243
+1,10000,0.5,1,4,Diarrhea___MISSING__,Diarrhea,5059,1806,1540,0.6108786610878661
+1,10000,0.5,1,4,Reduced Feeding / Anorexia_0,Reduced Feeding / Anorexia,4990,165,13,0.06741573033707865
+1,10000,0.5,1,4,Reduced Feeding / Anorexia_1,Reduced Feeding / Anorexia,5002,876,51,0.045307443365695796
+1,10000,0.5,1,4,Reduced Feeding / Anorexia___MISSING__,Reduced Feeding / Anorexia,4910,3880,4854,0.8820700709869476
+1,10000,0.5,1,4,Jaundice_0,Jaundice,5028,69,1,0.0
+1,10000,0.5,1,4,Jaundice_1,Jaundice,4944,288,117,0.2617283950617284
+1,10000,0.5,1,4,Jaundice___MISSING__,Jaundice,4937,4554,4818,0.9596670934699104
+1,10000,0.5,1,4,Sex_0,Sex,4917,2032,1867,0.5847653244421647
+1,10000,0.5,1,4,Sex_1,Sex,5089,2937,3110,0.7322639325285265
+1,10000,0.5,1,4,Hospitalization_0,Hospitalization,5072,3117,3246,0.7952223793807952
+1,10000,0.5,1,4,Hospitalization_1,Hospitalization,4982,1934,1793,0.6573651730614435
+1,10000,0.5,1,4,icu_0,ICU Admission,4980,4678,4895,0.9683484801002821
+1,10000,0.5,1,4,icu_1,ICU Admission,4892,290,95,0.23376623376623376
+1,10000,0.5,1,4,"C-Reactive Protein_(8,9]",C-Reactive Protein,5021,86,1702,0.05592841163310962
+1,10000,0.5,1,4,C-Reactive Protein_<=8,C-Reactive Protein,4990,3708,2846,0.7277998169057064
+1,10000,0.5,1,4,C-Reactive Protein_>9,C-Reactive Protein,4979,1180,637,0.4424876169510182
+1,10000,0.5,1,4,"Basophil Percentage_(0,0.1]",Basophil Percentage,5011,824,1626,0.3248979591836735
+1,10000,0.5,1,4,"Basophil Percentage_(0.1,0.25]",Basophil Percentage,4965,1083,1241,0.35370051635111877
+1,10000,0.5,1,4,Basophil Percentage_<=0,Basophil Percentage,5066,1897,1963,0.48911917098445595
+1,10000,0.5,1,4,Basophil Percentage_>0.25,Basophil Percentage,4866,1170,594,0.3276643990929705
+1,10000,0.5,1,4,"Eosinophil Percentage_(1,2.1]",Eosinophil Percentage,5006,955,1690,0.34253308128544424
+1,10000,0.5,1,4,"Eosinophil Percentage_(2.1,4]",Eosinophil Percentage,4895,1322,1229,0.3927871422971384
+1,10000,0.5,1,4,Eosinophil Percentage_<=1,Eosinophil Percentage,4914,1576,1396,0.47442799461641993
+1,10000,0.5,1,4,Eosinophil Percentage_>4,Eosinophil Percentage,4931,1148,1014,0.40888066604995377
+1,10000,0.5,1,4,"Neutrophil Percentage_(30,43]",Neutrophil Percentage,4943,1312,1130,0.5061425061425061
+1,10000,0.5,1,4,"Neutrophil Percentage_(43,56]",Neutrophil Percentage,4973,1261,1289,0.4776470588235294
+1,10000,0.5,1,4,Neutrophil Percentage_<=30,Neutrophil Percentage,4881,1181,1317,0.6589271417133707
+1,10000,0.5,1,4,Neutrophil Percentage_>56,Neutrophil Percentage,4938,1143,1360,0.6328405912904514
+1,10000,0.5,1,4,"Absolute Neutrophil Count_(2.22,3.53]",Absolute Neutrophil Count,4884,1217,1163,0.5050420168067227
+1,10000,0.5,1,4,"Absolute Neutrophil Count_(3.53,5.84]",Absolute Neutrophil Count,4939,1239,1288,0.554016620498615
+1,10000,0.5,1,4,Absolute Neutrophil Count_<=2.22,Absolute Neutrophil Count,5044,1292,1438,0.6586080586080586
+1,10000,0.5,1,4,Absolute Neutrophil Count_>5.84,Absolute Neutrophil Count,4926,1232,1288,0.7396825396825397
+1,10000,0.5,1,4,"Monocyte Percentage_(4,6]",Monocyte Percentage,5043,1239,1336,0.45281553398058255
+1,10000,0.5,1,4,"Monocyte Percentage_(6,9.2]",Monocyte Percentage,4890,1238,1401,0.4759378552482001
+1,10000,0.5,1,4,Monocyte Percentage_<=4,Monocyte Percentage,4994,1289,1340,0.5492582731076455
+1,10000,0.5,1,4,Monocyte Percentage_>9.2,Monocyte Percentage,4990,1288,1240,0.5878164556962026
+1,10000,0.5,1,4,"Absolute Monocyte Count_(0.4,0.59]",Absolute Monocyte Count,4919,1195,1185,0.4218487394957983
+1,10000,0.5,1,4,"Absolute Monocyte Count_(0.59,0.88]",Absolute Monocyte Count,4972,1238,1153,0.4450020911752405
+1,10000,0.5,1,4,Absolute Monocyte Count_<=0.4,Absolute Monocyte Count,4967,1263,1654,0.5869043537881385
+1,10000,0.5,1,4,Absolute Monocyte Count_>0.88,Absolute Monocyte Count,4953,1231,1288,0.5605398967844383
+1,10000,0.5,1,4,"Mean Corpuscular Volume_(88.5,93.1]",Mean Corpuscular Volume,4934,1200,1063,0.41626159964648696
+1,10000,0.5,1,4,"Mean Corpuscular Volume_(93.1,97.8]",Mean Corpuscular Volume,4991,1218,1235,0.4207093355075418
+1,10000,0.5,1,4,Mean Corpuscular Volume_<=88.5,Mean Corpuscular Volume,4934,1255,1364,0.5987017945780833
+1,10000,0.5,1,4,Mean Corpuscular Volume_>97.8,Mean Corpuscular Volume,5060,1306,1636,0.5995921142080217
+1,10000,0.5,1,4,"Mean Corpuscular Hemoglobin Concentration_(322,330]",Mean Corpuscular Hemoglobin Concentration,4882,1181,1192,0.34049726085124316
+1,10000,0.5,1,4,"Mean Corpuscular Hemoglobin Concentration_(330,339]",Mean Corpuscular Hemoglobin Concentration,4922,1250,1439,0.37634808478988474
+1,10000,0.5,1,4,Mean Corpuscular Hemoglobin Concentration_<=322,Mean Corpuscular Hemoglobin Concentration,4968,1310,1310,0.4381679389312977
+1,10000,0.5,1,4,Mean Corpuscular Hemoglobin Concentration_>339,Mean Corpuscular Hemoglobin Concentration,4975,1123,1332,0.444806517311609
+1,10000,0.5,1,4,"Mean Corpuscular Hemoglobin_(29,30.7]",Mean Corpuscular Hemoglobin,5024,1238,1114,0.45153061224489793
+1,10000,0.5,1,4,"Mean Corpuscular Hemoglobin_(30.7,32.5]",Mean Corpuscular Hemoglobin,4979,1205,1110,0.4552915766738661
+1,10000,0.5,1,4,Mean Corpuscular Hemoglobin_<=29,Mean Corpuscular Hemoglobin,4930,1336,1473,0.6422214311142755
+1,10000,0.5,1,4,Mean Corpuscular Hemoglobin_>32.5,Mean Corpuscular Hemoglobin,4984,1277,1508,0.6865350089766606
+1,10000,0.5,1,4,"Lymphocyte Percentage_(33,45.5]",Lymphocyte Percentage,4953,1199,1238,0.48256052523594584
+1,10000,0.5,1,4,"Lymphocyte Percentage_(45.5,59]",Lymphocyte Percentage,5014,1328,1175,0.4898122253296045
+1,10000,0.5,1,4,Lymphocyte Percentage_<=33,Lymphocyte Percentage,5040,1273,1397,0.6636704119850187
+1,10000,0.5,1,4,Lymphocyte Percentage_>59,Lymphocyte Percentage,4905,1166,1346,0.6576433121019108
+1,10000,0.5,1,4,"Absolute Lymphocyte Count_(2.73,4.36]",Absolute Lymphocyte Count,4998,1279,1392,0.5226506926244852
+1,10000,0.5,1,4,"Absolute Lymphocyte Count_(4.36,5.96]",Absolute Lymphocyte Count,4954,1227,1159,0.509639564124057
+1,10000,0.5,1,4,Absolute Lymphocyte Count_<=2.73,Absolute Lymphocyte Count,4878,1236,1378,0.6931905126243305
+1,10000,0.5,1,4,Absolute Lymphocyte Count_>5.96,Absolute Lymphocyte Count,4937,1228,1241,0.6156338598622925
+1,10000,0.5,1,4,"White Blood Cell Count_(6.67,9.22]",White Blood Cell Count,4911,1259,1321,0.5643410852713179
+1,10000,0.5,1,4,"White Blood Cell Count_(9.22,12.56]",White Blood Cell Count,4977,1228,1224,0.5367047308319739
+1,10000,0.5,1,4,White Blood Cell Count_<=6.67,White Blood Cell Count,4940,1189,1330,0.6899563318777293
+1,10000,0.5,1,4,White Blood Cell Count_>12.56,White Blood Cell Count,4938,1245,1248,0.6971520256718813
+1,10000,0.5,1,4,"Plateletcrit_(0.3,0.38]",Plateletcrit,5053,1316,1468,0.42313218390804597
+1,10000,0.5,1,4,"Plateletcrit_(0.38,0.47]",Plateletcrit,4972,1164,1338,0.40927258193445243
+1,10000,0.5,1,4,Plateletcrit_<=0.3,Plateletcrit,4974,1293,1505,0.5203716940671909
+1,10000,0.5,1,4,Plateletcrit_>0.47,Plateletcrit,5020,1202,1005,0.4458541005890349
+1,10000,0.5,1,4,"Platelet Count_(278.75,357]",Platelet Count,4973,1248,1253,0.3718512594962015
+1,10000,0.5,1,4,"Platelet Count_(357,447]",Platelet Count,4977,1272,1128,0.36916666666666664
+1,10000,0.5,1,4,Platelet Count_<=278.75,Platelet Count,4924,1197,1562,0.4849583182312432
+1,10000,0.5,1,4,Platelet Count_>447,Platelet Count,4920,1233,1306,0.49468294604174873
+1,10000,0.5,1,4,"Hemoglobin_(107,118]",Hemoglobin,4877,1191,1089,0.4456140350877193
+1,10000,0.5,1,4,"Hemoglobin_(118,135]",Hemoglobin,5018,1295,1256,0.4492355938847511
+1,10000,0.5,1,4,Hemoglobin_<=107,Hemoglobin,5043,1298,1556,0.5844428871758934
+1,10000,0.5,1,4,Hemoglobin_>135,Hemoglobin,4925,1231,1374,0.6403071017274472
+1,10000,0.5,1,4,"Hematocrit_(32.7,36.1]",Hematocrit,4998,1218,1268,0.43845534995977475
+1,10000,0.5,1,4,"Hematocrit_(36.1,40.66]",Hematocrit,4991,1244,1133,0.432477913336138
+1,10000,0.5,1,4,Hematocrit_<=32.7,Hematocrit,5012,1221,1451,0.5486526946107785
+1,10000,0.5,1,4,Hematocrit_>40.66,Hematocrit,5023,1285,1379,0.6171171171171171
+1,10000,0.5,1,4,"Weight_(3.95,4.84]",Weight,4945,1207,1371,0.44065166795965865
+1,10000,0.5,1,4,"Weight_(4.84,5.56]",Weight,4959,1262,1143,0.4182952182952183
+1,10000,0.5,1,4,Weight_<=3.95,Weight,4956,1251,1479,0.5985347985347985
+1,10000,0.5,1,4,Weight_>5.56,Weight,5024,1259,1298,0.5561204536566289
+1,10000,0.5,1,4,"Peak Temperature_(38,38.28]",Peak Temperature,4942,980,1320,0.38521739130434784
+1,10000,0.5,1,4,"Peak Temperature_(38.28,38.6]",Peak Temperature,4933,1305,1361,0.43285821455363843
+1,10000,0.5,1,4,Peak Temperature_<=38,Peak Temperature,4903,1486,1419,0.5115318416523236
+1,10000,0.5,1,4,Peak Temperature_>38.6,Peak Temperature,5014,1146,1149,0.4636165577342048
+1,10000,0.5,1,4,"Fever Duration_(0.91,1]",Fever Duration,4940,2111,2213,0.5314523589269196
+1,10000,0.5,1,4,"Fever Duration_(1,1.16]",Fever Duration,4947,346,1695,0.18324350808427242
+1,10000,0.5,1,4,Fever Duration_<=0.91,Fever Duration,5064,1315,925,0.36964285714285716
+1,10000,0.5,1,4,Fever Duration_>1.16,Fever Duration,4891,1185,555,0.31264367816091954
+1,10000,0.5,1,4,"Age in Days_(29,51]",Age in Days,4946,1255,1271,0.505938242280285
+1,10000,0.5,1,4,"Age in Days_(51,71]",Age in Days,4914,1255,1004,0.4524125719344843
+1,10000,0.5,1,4,Age in Days_<=29,Age in Days,4959,1266,1310,0.7041925465838509
+1,10000,0.5,1,4,Age in Days_>71,Age in Days,4977,1249,1626,0.6246956521739131
+2,10000,0.5,10,4,Cyanosis_0,Cyanosis,4967,813,8,0.0194884287454324
+2,10000,0.5,10,4,Cyanosis_1,Cyanosis,5020,183,0,0.0
+2,10000,0.5,10,4,Cyanosis___MISSING__,Cyanosis,4965,3935,4963,0.8844684198696336
+2,10000,0.5,10,4,Frothing at the Mouth_0,Frothing at the Mouth,5015,235,0,0.0
+2,10000,0.5,10,4,Frothing at the Mouth_1,Frothing at the Mouth,4964,411,0,0.0
+2,10000,0.5,10,4,Frothing at the Mouth___MISSING__,Frothing at the Mouth,4942,4304,4942,0.9309971879731775
+2,10000,0.5,10,4,Inspiratory Dyspnea_0,Inspiratory Dyspnea,4901,231,3,0.02564102564102564
+2,10000,0.5,10,4,Inspiratory Dyspnea_1,Inspiratory Dyspnea,4932,53,0,0.0
+2,10000,0.5,10,4,Inspiratory Dyspnea___MISSING__,Inspiratory Dyspnea,4953,4662,4951,0.9699365442629773
+2,10000,0.5,10,4,Vomiting_0,Vomiting,4977,2174,3397,0.6957458266020463
+2,10000,0.5,10,4,Vomiting_1,Vomiting,4991,1225,274,0.25083388925950634
+2,10000,0.5,10,4,Vomiting___MISSING__,Vomiting,4981,1599,970,0.5838847800700662
+2,10000,0.5,10,4,Choking During Feeding_0,Choking During Feeding,4945,716,27,0.05114401076716016
+2,10000,0.5,10,4,Choking During Feeding_1,Choking During Feeding,4942,601,43,0.09316770186335403
+2,10000,0.5,10,4,Choking During Feeding___MISSING__,Choking During Feeding,5004,3705,4917,0.8580375782881002
+2,10000,0.5,10,4,Abnormal Breath Sounds_0,Abnormal Breath Sounds,4961,835,11,0.02364066193853428
+2,10000,0.5,10,4,Abnormal Breath Sounds_1,Abnormal Breath Sounds,4974,109,0,0.0
+2,10000,0.5,10,4,Abnormal Breath Sounds___MISSING__,Abnormal Breath Sounds,5013,4040,4994,0.8943989373477972
+2,10000,0.5,10,4,Cough_0,Cough,5032,1830,1852,0.6219445953286258
+2,10000,0.5,10,4,Cough_1,Cough,5025,2050,1680,0.6026809651474531
+2,10000,0.5,10,4,Cough___MISSING__,Cough,4899,1071,554,0.5304615384615384
+2,10000,0.5,10,4,Pharyngeal Congestion_0,Pharyngeal Congestion,4944,3,0,0.0
+2,10000,0.5,10,4,Pharyngeal Congestion_1,Pharyngeal Congestion,4978,956,0,0.0
+2,10000,0.5,10,4,Pharyngeal Congestion___MISSING__,Pharyngeal Congestion,4947,3939,4947,0.886563133018231
+2,10000,0.5,10,4,Rales_0,Rales,4997,1291,12,0.01841903300076746
+2,10000,0.5,10,4,Rales_1,Rales,4972,63,0,0.0
+2,10000,0.5,10,4,Rales___MISSING__,Rales,4960,3647,4948,0.8486329261198371
+2,10000,0.5,10,4,Hoarseness_0,Hoarseness,4988,286,0,0.0
+2,10000,0.5,10,4,Hoarseness_1,Hoarseness,4950,30,0,0.0
+2,10000,0.5,10,4,Hoarseness___MISSING__,Hoarseness,4934,4649,4934,0.9702598351247
+2,10000,0.5,10,4,Chills_0,Chills,4990,691,140,0.30324909747292417
+2,10000,0.5,10,4,Chills_1,Chills,5031,21,0,0.0
+2,10000,0.5,10,4,Chills___MISSING__,Chills,4906,4237,4776,0.9373127704426939
+2,10000,0.5,10,4,Convulsion_0,Convulsion,4973,1761,1093,0.5823405746320953
+2,10000,0.5,10,4,Convulsion_1,Convulsion,5007,138,0,0.0
+2,10000,0.5,10,4,Convulsion___MISSING__,Convulsion,5065,3118,3992,0.8202531645569621
+2,10000,0.5,10,4,Hand Rash_0,Hand Rash,4985,84,0,0.0
+2,10000,0.5,10,4,Hand Rash_1,Hand Rash,4881,383,0,0.0
+2,10000,0.5,10,4,Hand Rash___MISSING__,Hand Rash,4901,4447,4901,0.9514334617030381
+2,10000,0.5,10,4,Shortness of Breath_0,Shortness of Breath,4980,612,17,0.04769475357710652
+2,10000,0.5,10,4,Shortness of Breath_1,Shortness of Breath,4970,259,0,0.0
+2,10000,0.5,10,4,Shortness of Breath___MISSING__,Shortness of Breath,4997,4124,4973,0.9066725294052984
+2,10000,0.5,10,4,Irritability_0,Irritability,4954,329,0,0.0
+2,10000,0.5,10,4,Irritability_1,Irritability,4900,228,0,0.0
+2,10000,0.5,10,4,Irritability___MISSING__,Irritability,5046,4458,5046,0.9381313131313131
+2,10000,0.5,10,4,Aversion to Cold_0,Aversion to Cold,5019,340,45,0.22337662337662337
+2,10000,0.5,10,4,Aversion to Cold_1,Aversion to Cold,4983,9,0,0.0
+2,10000,0.5,10,4,Aversion to Cold___MISSING__,Aversion to Cold,4983,4657,4947,0.9693877551020408
+2,10000,0.5,10,4,Rash_0,Rash,4937,2389,2617,0.7590890930882941
+2,10000,0.5,10,4,Rash_1,Rash,4893,199,0,0.0
+2,10000,0.5,10,4,Rash___MISSING__,Rash,4951,2388,2314,0.7422373458102935
+2,10000,0.5,10,4,Listlessness_0,Listlessness,4993,232,1,0.008583690987124463
+2,10000,0.5,10,4,Listlessness_1,Listlessness,5012,757,2,0.005270092226613966
+2,10000,0.5,10,4,Listlessness___MISSING__,Listlessness,4962,3973,4961,0.8894112379673159
+2,10000,0.5,10,4,Cold Extremities_0,Cold Extremities,4942,571,1,0.0034965034965034965
+2,10000,0.5,10,4,Cold Extremities_1,Cold Extremities,4977,4,0,0.0
+2,10000,0.5,10,4,Cold Extremities___MISSING__,Cold Extremities,4972,4387,4972,0.9374933219361042
+2,10000,0.5,10,4,Diarrhea_0,Diarrhea,4935,2722,3810,0.7881200244947949
+2,10000,0.5,10,4,Diarrhea_1,Diarrhea,4905,436,0,0.0
+2,10000,0.5,10,4,Diarrhea___MISSING__,Diarrhea,4954,1794,1197,0.6218655967903711
+2,10000,0.5,10,4,Reduced Feeding / Anorexia_0,Reduced Feeding / Anorexia,4946,186,1,0.0106951871657754
+2,10000,0.5,10,4,Reduced Feeding / Anorexia_1,Reduced Feeding / Anorexia,4843,899,2,0.0022197558268590455
+2,10000,0.5,10,4,Reduced Feeding / Anorexia___MISSING__,Reduced Feeding / Anorexia,5006,3927,5006,0.8792119108921975
+2,10000,0.5,10,4,Jaundice_0,Jaundice,5005,84,0,0.0
+2,10000,0.5,10,4,Jaundice_1,Jaundice,4863,290,20,0.1032258064516129
+2,10000,0.5,10,4,Jaundice___MISSING__,Jaundice,5067,4670,5048,0.960279892982095
+2,10000,0.5,10,4,Sex_0,Sex,4939,2083,1262,0.5943198804185351
+2,10000,0.5,10,4,Sex_1,Sex,5011,2890,3707,0.7958162801273306
+2,10000,0.5,10,4,Hospitalization_0,Hospitalization,4951,3028,3530,0.8478194571515706
+2,10000,0.5,10,4,Hospitalization_1,Hospitalization,4912,1857,1388,0.6915254237288135
+2,10000,0.5,10,4,icu_0,ICU Admission,4975,4692,4972,0.9708195364238411
+2,10000,0.5,10,4,icu_1,ICU Admission,5064,298,6,0.03289473684210526
+2,10000,0.5,10,4,"C-Reactive Protein_(8,9]",C-Reactive Protein,5001,88,886,0.07597535934291581
+2,10000,0.5,10,4,C-Reactive Protein_<=8,C-Reactive Protein,4988,3639,2550,0.7164323800290838
+2,10000,0.5,10,4,C-Reactive Protein_>9,C-Reactive Protein,5013,1256,336,0.3793969849246231
+2,10000,0.5,10,4,"Basophil Percentage_(0,0.1]",Basophil Percentage,4935,794,597,0.3378864126527678
+2,10000,0.5,10,4,"Basophil Percentage_(0.1,0.25]",Basophil Percentage,4890,1117,464,0.27956989247311825
+2,10000,0.5,10,4,Basophil Percentage_<=0,Basophil Percentage,4934,1866,1205,0.4402474763920547
+2,10000,0.5,10,4,Basophil Percentage_>0.25,Basophil Percentage,4923,1131,95,0.12561174551386622
+2,10000,0.5,10,4,"Eosinophil Percentage_(1,2.1]",Eosinophil Percentage,4826,954,757,0.3471654003506721
+2,10000,0.5,10,4,"Eosinophil Percentage_(2.1,4]",Eosinophil Percentage,4978,1264,379,0.2641509433962264
+2,10000,0.5,10,4,Eosinophil Percentage_<=1,Eosinophil Percentage,5065,1589,911,0.4856
+2,10000,0.5,10,4,Eosinophil Percentage_>4,Eosinophil Percentage,5014,1167,398,0.3233226837060703
+2,10000,0.5,10,4,"Neutrophil Percentage_(30,43]",Neutrophil Percentage,5005,1244,476,0.4325581395348837
+2,10000,0.5,10,4,"Neutrophil Percentage_(43,56]",Neutrophil Percentage,5100,1309,520,0.4384909786768726
+2,10000,0.5,10,4,Neutrophil Percentage_<=30,Neutrophil Percentage,4930,1196,933,0.7618600281822452
+2,10000,0.5,10,4,Neutrophil Percentage_>56,Neutrophil Percentage,5012,1226,1085,0.7581133708351363
+2,10000,0.5,10,4,"Absolute Neutrophil Count_(2.22,3.53]",Absolute Neutrophil Count,4906,1172,480,0.44794188861985473
+2,10000,0.5,10,4,"Absolute Neutrophil Count_(3.53,5.84]",Absolute Neutrophil Count,5008,1251,646,0.5482340537691092
+2,10000,0.5,10,4,Absolute Neutrophil Count_<=2.22,Absolute Neutrophil Count,4983,1245,1036,0.7531784305129329
+2,10000,0.5,10,4,Absolute Neutrophil Count_>5.84,Absolute Neutrophil Count,4982,1283,1079,0.8230313293818797
+2,10000,0.5,10,4,"Monocyte Percentage_(4,6]",Monocyte Percentage,5015,1217,482,0.36374337845791643
+2,10000,0.5,10,4,"Monocyte Percentage_(6,9.2]",Monocyte Percentage,4977,1226,596,0.42041712403951703
+2,10000,0.5,10,4,Monocyte Percentage_<=4,Monocyte Percentage,4974,1363,676,0.5159391858754291
+2,10000,0.5,10,4,Monocyte Percentage_>9.2,Monocyte Percentage,4876,1145,679,0.6447368421052632
+2,10000,0.5,10,4,"Absolute Monocyte Count_(0.4,0.59]",Absolute Monocyte Count,4875,1179,310,0.2847548690396239
+2,10000,0.5,10,4,"Absolute Monocyte Count_(0.59,0.88]",Absolute Monocyte Count,5002,1271,353,0.31896551724137934
+2,10000,0.5,10,4,Absolute Monocyte Count_<=0.4,Absolute Monocyte Count,4968,1284,1116,0.6866666666666666
+2,10000,0.5,10,4,Absolute Monocyte Count_>0.88,Absolute Monocyte Count,4965,1215,719,0.6008273009307136
+2,10000,0.5,10,4,"Mean Corpuscular Volume_(88.5,93.1]",Mean Corpuscular Volume,4890,1162,263,0.2624561403508772
+2,10000,0.5,10,4,"Mean Corpuscular Volume_(93.1,97.8]",Mean Corpuscular Volume,4893,1232,391,0.33271719038817005
+2,10000,0.5,10,4,Mean Corpuscular Volume_<=88.5,Mean Corpuscular Volume,5040,1249,1022,0.6772346983707618
+2,10000,0.5,10,4,Mean Corpuscular Volume_>97.8,Mean Corpuscular Volume,5049,1267,1237,0.6797124600638977
+2,10000,0.5,10,4,"Mean Corpuscular Hemoglobin Concentration_(322,330]",Mean Corpuscular Hemoglobin Concentration,4952,1217,330,0.2365869424692954
+2,10000,0.5,10,4,"Mean Corpuscular Hemoglobin Concentration_(330,339]",Mean Corpuscular Hemoglobin Concentration,4960,1268,428,0.29009433962264153
+2,10000,0.5,10,4,Mean Corpuscular Hemoglobin Concentration_<=322,Mean Corpuscular Hemoglobin Concentration,4984,1331,622,0.3789042498719918
+2,10000,0.5,10,4,Mean Corpuscular Hemoglobin Concentration_>339,Mean Corpuscular Hemoglobin Concentration,4880,1144,707,0.4624527282549973
+2,10000,0.5,10,4,"Mean Corpuscular Hemoglobin_(29,30.7]",Mean Corpuscular Hemoglobin,4932,1193,324,0.3216875411997363
+2,10000,0.5,10,4,"Mean Corpuscular Hemoglobin_(30.7,32.5]",Mean Corpuscular Hemoglobin,5011,1213,362,0.36444444444444446
+2,10000,0.5,10,4,Mean Corpuscular Hemoglobin_<=29,Mean Corpuscular Hemoglobin,4996,1319,1259,0.747866563227308
+2,10000,0.5,10,4,Mean Corpuscular Hemoglobin_>32.5,Mean Corpuscular Hemoglobin,5069,1299,1238,0.7654710287741426
+2,10000,0.5,10,4,"Lymphocyte Percentage_(33,45.5]",Lymphocyte Percentage,4952,1225,498,0.4503772489843297
+2,10000,0.5,10,4,"Lymphocyte Percentage_(45.5,59]",Lymphocyte Percentage,4928,1292,443,0.41152737752161384
+2,10000,0.5,10,4,Lymphocyte Percentage_<=33,Lymphocyte Percentage,4917,1240,980,0.7423423423423423
+2,10000,0.5,10,4,Lymphocyte Percentage_>59,Lymphocyte Percentage,4945,1169,1015,0.7811355311355311
+2,10000,0.5,10,4,"Absolute Lymphocyte Count_(2.73,4.36]",Absolute Lymphocyte Count,4944,1241,652,0.5176967776016904
+2,10000,0.5,10,4,"Absolute Lymphocyte Count_(4.36,5.96]",Absolute Lymphocyte Count,4897,1216,439,0.41933534743202416
+2,10000,0.5,10,4,Absolute Lymphocyte Count_<=2.73,Absolute Lymphocyte Count,4998,1205,1057,0.801945181255526
+2,10000,0.5,10,4,Absolute Lymphocyte Count_>5.96,Absolute Lymphocyte Count,5042,1214,746,0.6448979591836734
+2,10000,0.5,10,4,"White Blood Cell Count_(6.67,9.22]",White Blood Cell Count,4977,1212,684,0.5527426160337553
+2,10000,0.5,10,4,"White Blood Cell Count_(9.22,12.56]",White Blood Cell Count,5054,1288,593,0.4954811270600744
+2,10000,0.5,10,4,White Blood Cell Count_<=6.67,White Blood Cell Count,4936,1237,1003,0.7901785714285714
+2,10000,0.5,10,4,White Blood Cell Count_>12.56,White Blood Cell Count,4960,1240,955,0.7416856492027335
+2,10000,0.5,10,4,"Plateletcrit_(0.3,0.38]",Plateletcrit,4937,1223,585,0.377212389380531
+2,10000,0.5,10,4,"Plateletcrit_(0.38,0.47]",Plateletcrit,4942,1188,389,0.3018389346861129
+2,10000,0.5,10,4,Plateletcrit_<=0.3,Plateletcrit,5096,1349,826,0.5655172413793104
+2,10000,0.5,10,4,Plateletcrit_>0.47,Plateletcrit,4926,1176,310,0.3351278600269179
+2,10000,0.5,10,4,"Platelet Count_(278.75,357]",Platelet Count,4954,1198,240,0.21279554937413073
+2,10000,0.5,10,4,"Platelet Count_(357,447]",Platelet Count,5003,1271,214,0.19393939393939394
+2,10000,0.5,10,4,Platelet Count_<=278.75,Platelet Count,4955,1225,864,0.5763523216850167
+2,10000,0.5,10,4,Platelet Count_>447,Platelet Count,4994,1301,624,0.47064935064935065
+2,10000,0.5,10,4,"Hemoglobin_(107,118]",Hemoglobin,4981,1211,318,0.2995421844342708
+2,10000,0.5,10,4,"Hemoglobin_(118,135]",Hemoglobin,4948,1249,373,0.3316892725030826
+2,10000,0.5,10,4,Hemoglobin_<=107,Hemoglobin,4867,1278,1024,0.6576889661164205
+2,10000,0.5,10,4,Hemoglobin_>135,Hemoglobin,4913,1191,1007,0.7461328480436761
+2,10000,0.5,10,4,"Hematocrit_(32.7,36.1]",Hematocrit,4985,1201,394,0.34231974921630093
+2,10000,0.5,10,4,"Hematocrit_(36.1,40.66]",Hematocrit,5030,1254,344,0.29161451814768463
+2,10000,0.5,10,4,Hematocrit_<=32.7,Hematocrit,5021,1279,1033,0.639273356401384
+2,10000,0.5,10,4,Hematocrit_>40.66,Hematocrit,4893,1232,983,0.6979683972911964
+2,10000,0.5,10,4,"Weight_(3.95,4.84]",Weight,5000,1278,466,0.35894495412844035
+2,10000,0.5,10,4,"Weight_(4.84,5.56]",Weight,4903,1251,314,0.27731629392971247
+2,10000,0.5,10,4,Weight_<=3.95,Weight,5060,1300,1126,0.7015663643858203
+2,10000,0.5,10,4,Weight_>5.56,Weight,4990,1248,865,0.6142924751538098
+2,10000,0.5,10,4,"Peak Temperature_(38,38.28]",Peak Temperature,4905,986,374,0.3014705882352941
+2,10000,0.5,10,4,"Peak Temperature_(38.28,38.6]",Peak Temperature,4941,1319,610,0.35977190254017627
+2,10000,0.5,10,4,Peak Temperature_<=38,Peak Temperature,4935,1519,803,0.49870801033591733
+2,10000,0.5,10,4,Peak Temperature_>38.6,Peak Temperature,4926,1161,595,0.4977220956719818
+2,10000,0.5,10,4,"Fever Duration_(0.91,1]",Fever Duration,4976,2139,1471,0.4925207756232687
+2,10000,0.5,10,4,"Fever Duration_(1,1.16]",Fever Duration,4949,341,782,0.22796081923419412
+2,10000,0.5,10,4,Fever Duration_<=0.91,Fever Duration,4888,1240,225,0.24709897610921502
+2,10000,0.5,10,4,Fever Duration_>1.16,Fever Duration,4962,1228,87,0.10342205323193916
+2,10000,0.5,10,4,"Age in Days_(29,51]",Age in Days,4998,1287,602,0.45314981471678134
+2,10000,0.5,10,4,"Age in Days_(51,71]",Age in Days,4999,1228,295,0.3020354563361786
+2,10000,0.5,10,4,Age in Days_<=29,Age in Days,5048,1273,1085,0.7905004240882103
+2,10000,0.5,10,4,Age in Days_>71,Age in Days,5065,1214,1369,0.6883468834688347
+3,10000,0.75,1,4,Cyanosis_0,Cyanosis,2508,420,49,0.10660980810234541
+3,10000,0.75,1,4,Cyanosis_1,Cyanosis,2503,113,10,0.04878048780487805
+3,10000,0.75,1,4,Cyanosis___MISSING__,Cyanosis,2498,1986,2431,0.8897441702513018
+3,10000,0.75,1,4,Frothing at the Mouth_0,Frothing at the Mouth,2569,120,3,0.0
+3,10000,0.75,1,4,Frothing at the Mouth_1,Frothing at the Mouth,2484,175,10,0.032432432432432434
+3,10000,0.75,1,4,Frothing at the Mouth___MISSING__,Frothing at the Mouth,2505,2168,2491,0.9280961579738142
+3,10000,0.75,1,4,Inspiratory Dyspnea_0,Inspiratory Dyspnea,2573,114,25,0.18705035971223022
+3,10000,0.75,1,4,Inspiratory Dyspnea_1,Inspiratory Dyspnea,2514,29,0,0.0
+3,10000,0.75,1,4,Inspiratory Dyspnea___MISSING__,Inspiratory Dyspnea,2513,2367,2492,0.970158468820745
+3,10000,0.75,1,4,Vomiting_0,Vomiting,2515,1083,1515,0.6605080831408776
+3,10000,0.75,1,4,Vomiting_1,Vomiting,2536,655,398,0.38936372269705605
+3,10000,0.75,1,4,Vomiting___MISSING__,Vomiting,2568,868,726,0.5934755332496863
+3,10000,0.75,1,4,Choking During Feeding_0,Choking During Feeding,2525,372,126,0.24899598393574296
+3,10000,0.75,1,4,Choking During Feeding_1,Choking During Feeding,2527,301,100,0.2942643391521197
+3,10000,0.75,1,4,Choking During Feeding___MISSING__,Choking During Feeding,2431,1820,2250,0.8678132678132678
+3,10000,0.75,1,4,Abnormal Breath Sounds_0,Abnormal Breath Sounds,2542,429,100,0.21550094517958412
+3,10000,0.75,1,4,Abnormal Breath Sounds_1,Abnormal Breath Sounds,2543,51,0,0.0
+3,10000,0.75,1,4,Abnormal Breath Sounds___MISSING__,Abnormal Breath Sounds,2476,2023,2387,0.9029478458049887
+3,10000,0.75,1,4,Cough_0,Cough,2500,905,1071,0.5951417004048583
+3,10000,0.75,1,4,Cough_1,Cough,2569,1051,1073,0.6064030131826742
+3,10000,0.75,1,4,Cough___MISSING__,Cough,2574,567,470,0.5593056894889104
+3,10000,0.75,1,4,Pharyngeal Congestion_0,Pharyngeal Congestion,2492,1,0,0.0
+3,10000,0.75,1,4,Pharyngeal Congestion_1,Pharyngeal Congestion,2476,464,8,0.01694915254237288
+3,10000,0.75,1,4,Pharyngeal Congestion___MISSING__,Pharyngeal Congestion,2516,2029,2505,0.8928098808998677
+3,10000,0.75,1,4,Rales_0,Rales,2559,662,104,0.16449086161879894
+3,10000,0.75,1,4,Rales_1,Rales,2476,33,0,0.0
+3,10000,0.75,1,4,Rales___MISSING__,Rales,2529,1814,2440,0.8392101551480959
+3,10000,0.75,1,4,Hoarseness_0,Hoarseness,2450,134,0,0.0
+3,10000,0.75,1,4,Hoarseness_1,Hoarseness,2515,15,0,0.0
+3,10000,0.75,1,4,Hoarseness___MISSING__,Hoarseness,2497,2357,2496,0.9709458067174943
+3,10000,0.75,1,4,Chills_0,Chills,2453,337,193,0.4037735849056604
+3,10000,0.75,1,4,Chills_1,Chills,2480,10,0,0.0
+3,10000,0.75,1,4,Chills___MISSING__,Chills,2530,2171,2315,0.925100312082033
+3,10000,0.75,1,4,Convulsion_0,Convulsion,2527,933,744,0.6261180679785331
+3,10000,0.75,1,4,Convulsion_1,Convulsion,2521,72,1,0.0
+3,10000,0.75,1,4,Convulsion___MISSING__,Convulsion,2524,1476,1750,0.7910725356478612
+3,10000,0.75,1,4,Hand Rash_0,Hand Rash,2507,45,0,0.0
+3,10000,0.75,1,4,Hand Rash_1,Hand Rash,2508,170,11,0.08839779005524862
+3,10000,0.75,1,4,Hand Rash___MISSING__,Hand Rash,2554,2334,2542,0.9561115668580804
+3,10000,0.75,1,4,Shortness of Breath_0,Shortness of Breath,2469,313,79,0.2193877551020408
+3,10000,0.75,1,4,Shortness of Breath_1,Shortness of Breath,2582,138,2,0.0
+3,10000,0.75,1,4,Shortness of Breath___MISSING__,Shortness of Breath,2592,2134,2508,0.9069366652305041
+3,10000,0.75,1,4,Irritability_0,Irritability,2553,175,4,0.0223463687150838
+3,10000,0.75,1,4,Irritability_1,Irritability,2573,136,0,0.0
+3,10000,0.75,1,4,Irritability___MISSING__,Irritability,2481,2205,2478,0.9408498825539184
+3,10000,0.75,1,4,Aversion to Cold_0,Aversion to Cold,2551,200,94,0.38095238095238093
+3,10000,0.75,1,4,Aversion to Cold_1,Aversion to Cold,2483,2,0,0.0
+3,10000,0.75,1,4,Aversion to Cold___MISSING__,Aversion to Cold,2554,2384,2478,0.9670917317976141
+3,10000,0.75,1,4,Rash_0,Rash,2459,1201,1224,0.7224742268041238
+3,10000,0.75,1,4,Rash_1,Rash,2601,90,7,0.061855670103092786
+3,10000,0.75,1,4,Rash___MISSING__,Rash,2431,1205,1235,0.728688524590164
+3,10000,0.75,1,4,Listlessness_0,Listlessness,2540,127,21,0.06756756756756757
+3,10000,0.75,1,4,Listlessness_1,Listlessness,2569,409,30,0.10022779043280182
+3,10000,0.75,1,4,Listlessness___MISSING__,Listlessness,2490,1996,2463,0.8903341556402781
+3,10000,0.75,1,4,Cold Extremities_0,Cold Extremities,2499,287,24,0.07717041800643087
+3,10000,0.75,1,4,Cold Extremities_1,Cold Extremities,2515,2,0,0.0
+3,10000,0.75,1,4,Cold Extremities___MISSING__,Cold Extremities,2556,2217,2530,0.9298504318516958
+3,10000,0.75,1,4,Diarrhea_0,Diarrhea,2508,1383,1748,0.7786649632705206
+3,10000,0.75,1,4,Diarrhea_1,Diarrhea,2512,253,31,0.056338028169014086
+3,10000,0.75,1,4,Diarrhea___MISSING__,Diarrhea,2462,922,743,0.6366366366366366
+3,10000,0.75,1,4,Reduced Feeding / Anorexia_0,Reduced Feeding / Anorexia,2502,88,7,0.06315789473684211
+3,10000,0.75,1,4,Reduced Feeding / Anorexia_1,Reduced Feeding / Anorexia,2458,406,27,0.03695150115473441
+3,10000,0.75,1,4,Reduced Feeding / Anorexia___MISSING__,Reduced Feeding / Anorexia,2548,2004,2506,0.8811529933481153
+3,10000,0.75,1,4,Jaundice_0,Jaundice,2506,43,0,0.0
+3,10000,0.75,1,4,Jaundice_1,Jaundice,2566,147,44,0.17801047120418848
+3,10000,0.75,1,4,Jaundice___MISSING__,Jaundice,2545,2350,2495,0.9597523219814241
+3,10000,0.75,1,4,Sex_0,Sex,2542,1069,981,0.6126829268292683
+3,10000,0.75,1,4,Sex_1,Sex,2489,1448,1566,0.7339084273390842
+3,10000,0.75,1,4,Hospitalization_0,Hospitalization,2537,1568,1663,0.8189415041782729
+3,10000,0.75,1,4,Hospitalization_1,Hospitalization,2518,981,911,0.6913319238900634
+3,10000,0.75,1,4,icu_0,ICU Admission,2488,2345,2441,0.970748015043878
+3,10000,0.75,1,4,icu_1,ICU Admission,2471,144,49,0.22797927461139897
+3,10000,0.75,1,4,"C-Reactive Protein_(8,9]",C-Reactive Protein,2585,29,872,0.042175360710321866
+3,10000,0.75,1,4,C-Reactive Protein_<=8,C-Reactive Protein,2522,1891,1458,0.7333532397730665
+3,10000,0.75,1,4,C-Reactive Protein_>9,C-Reactive Protein,2498,637,340,0.5097236438075742
+3,10000,0.75,1,4,"Basophil Percentage_(0,0.1]",Basophil Percentage,2499,431,813,0.3520900321543408
+3,10000,0.75,1,4,"Basophil Percentage_(0.1,0.25]",Basophil Percentage,2617,539,657,0.3177257525083612
+3,10000,0.75,1,4,Basophil Percentage_<=0,Basophil Percentage,2600,974,1070,0.5088062622309197
+3,10000,0.75,1,4,Basophil Percentage_>0.25,Basophil Percentage,2503,604,339,0.36267232237539765
+3,10000,0.75,1,4,"Eosinophil Percentage_(1,2.1]",Eosinophil Percentage,2502,496,843,0.36893203883495146
+3,10000,0.75,1,4,"Eosinophil Percentage_(2.1,4]",Eosinophil Percentage,2464,661,604,0.38735177865612647
+3,10000,0.75,1,4,Eosinophil Percentage_<=1,Eosinophil Percentage,2562,777,787,0.5127877237851662
+3,10000,0.75,1,4,Eosinophil Percentage_>4,Eosinophil Percentage,2603,623,564,0.45661331086773377
+3,10000,0.75,1,4,"Neutrophil Percentage_(30,43]",Neutrophil Percentage,2554,640,592,0.547077922077922
+3,10000,0.75,1,4,"Neutrophil Percentage_(43,56]",Neutrophil Percentage,2496,611,597,0.5397350993377483
+3,10000,0.75,1,4,Neutrophil Percentage_<=30,Neutrophil Percentage,2564,631,710,0.7367636092468307
+3,10000,0.75,1,4,Neutrophil Percentage_>56,Neutrophil Percentage,2565,608,755,0.6940572267057961
+3,10000,0.75,1,4,"Absolute Neutrophil Count_(2.22,3.53]",Absolute Neutrophil Count,2499,611,576,0.561078348778433
+3,10000,0.75,1,4,"Absolute Neutrophil Count_(3.53,5.84]",Absolute Neutrophil Count,2506,610,593,0.5818786367414797
+3,10000,0.75,1,4,Absolute Neutrophil Count_<=2.22,Absolute Neutrophil Count,2477,592,678,0.7196850393700788
+3,10000,0.75,1,4,Absolute Neutrophil Count_>5.84,Absolute Neutrophil Count,2525,602,674,0.7899686520376176
+3,10000,0.75,1,4,"Monocyte Percentage_(4,6]",Monocyte Percentage,2533,627,683,0.4534351145038168
+3,10000,0.75,1,4,"Monocyte Percentage_(6,9.2]",Monocyte Percentage,2457,653,740,0.542713567839196
+3,10000,0.75,1,4,Monocyte Percentage_<=4,Monocyte Percentage,2482,675,658,0.5731432858214554
+3,10000,0.75,1,4,Monocyte Percentage_>9.2,Monocyte Percentage,2523,655,653,0.6085626911314985
+3,10000,0.75,1,4,"Absolute Monocyte Count_(0.4,0.59]",Absolute Monocyte Count,2495,619,573,0.4546979865771812
+3,10000,0.75,1,4,"Absolute Monocyte Count_(0.59,0.88]",Absolute Monocyte Count,2540,665,562,0.4580277098614507
+3,10000,0.75,1,4,Absolute Monocyte Count_<=0.4,Absolute Monocyte Count,2469,687,828,0.6613861386138614
+3,10000,0.75,1,4,Absolute Monocyte Count_>0.88,Absolute Monocyte Count,2517,587,641,0.6172638436482085
+3,10000,0.75,1,4,"Mean Corpuscular Volume_(88.5,93.1]",Mean Corpuscular Volume,2479,627,540,0.4387317909168809
+3,10000,0.75,1,4,"Mean Corpuscular Volume_(93.1,97.8]",Mean Corpuscular Volume,2464,583,600,0.4463229078613694
+3,10000,0.75,1,4,Mean Corpuscular Volume_<=88.5,Mean Corpuscular Volume,2480,612,694,0.663093415007657
+3,10000,0.75,1,4,Mean Corpuscular Volume_>97.8,Mean Corpuscular Volume,2464,591,751,0.6095380029806259
+3,10000,0.75,1,4,"Mean Corpuscular Hemoglobin Concentration_(322,330]",Mean Corpuscular Hemoglobin Concentration,2512,603,639,0.36553945249597425
+3,10000,0.75,1,4,"Mean Corpuscular Hemoglobin Concentration_(330,339]",Mean Corpuscular Hemoglobin Concentration,2522,670,766,0.41086350974930363
+3,10000,0.75,1,4,Mean Corpuscular Hemoglobin Concentration_<=322,Mean Corpuscular Hemoglobin Concentration,2420,684,686,0.46277372262773725
+3,10000,0.75,1,4,Mean Corpuscular Hemoglobin Concentration_>339,Mean Corpuscular Hemoglobin Concentration,2582,596,689,0.47003891050583657
+3,10000,0.75,1,4,"Mean Corpuscular Hemoglobin_(29,30.7]",Mean Corpuscular Hemoglobin,2514,627,523,0.45565217391304347
+3,10000,0.75,1,4,"Mean Corpuscular Hemoglobin_(30.7,32.5]",Mean Corpuscular Hemoglobin,2504,634,524,0.48704663212435234
+3,10000,0.75,1,4,Mean Corpuscular Hemoglobin_<=29,Mean Corpuscular Hemoglobin,2469,652,798,0.663448275862069
+3,10000,0.75,1,4,Mean Corpuscular Hemoglobin_>32.5,Mean Corpuscular Hemoglobin,2493,597,757,0.7090103397341211
+3,10000,0.75,1,4,"Lymphocyte Percentage_(33,45.5]",Lymphocyte Percentage,2490,582,581,0.5520206362854686
+3,10000,0.75,1,4,"Lymphocyte Percentage_(45.5,59]",Lymphocyte Percentage,2500,656,613,0.5626477541371159
+3,10000,0.75,1,4,Lymphocyte Percentage_<=33,Lymphocyte Percentage,2515,645,718,0.7292736610418196
+3,10000,0.75,1,4,Lymphocyte Percentage_>59,Lymphocyte Percentage,2496,597,713,0.7358778625954199
+3,10000,0.75,1,4,"Absolute Lymphocyte Count_(2.73,4.36]",Absolute Lymphocyte Count,2453,598,626,0.5408496732026143
+3,10000,0.75,1,4,"Absolute Lymphocyte Count_(4.36,5.96]",Absolute Lymphocyte Count,2538,648,577,0.5289795918367347
+3,10000,0.75,1,4,Absolute Lymphocyte Count_<=2.73,Absolute Lymphocyte Count,2471,645,724,0.7596785975164354
+3,10000,0.75,1,4,Absolute Lymphocyte Count_>5.96,Absolute Lymphocyte Count,2488,599,649,0.6682692307692307
+3,10000,0.75,1,4,"White Blood Cell Count_(6.67,9.22]",White Blood Cell Count,2498,620,625,0.5734939759036145
+3,10000,0.75,1,4,"White Blood Cell Count_(9.22,12.56]",White Blood Cell Count,2503,631,594,0.5975510204081632
+3,10000,0.75,1,4,White Blood Cell Count_<=6.67,White Blood Cell Count,2494,615,678,0.7594740912606341
+3,10000,0.75,1,4,White Blood Cell Count_>12.56,White Blood Cell Count,2455,612,656,0.7239747634069401
+3,10000,0.75,1,4,"Plateletcrit_(0.3,0.38]",Plateletcrit,2564,637,788,0.4421052631578947
+3,10000,0.75,1,4,"Plateletcrit_(0.38,0.47]",Plateletcrit,2561,587,679,0.3902053712480253
+3,10000,0.75,1,4,Plateletcrit_<=0.3,Plateletcrit,2498,685,785,0.5782312925170068
+3,10000,0.75,1,4,Plateletcrit_>0.47,Plateletcrit,2489,618,506,0.5266903914590747
+3,10000,0.75,1,4,"Platelet Count_(278.75,357]",Platelet Count,2495,635,613,0.41185897435897434
+3,10000,0.75,1,4,"Platelet Count_(357,447]",Platelet Count,2581,634,644,0.38497652582159625
+3,10000,0.75,1,4,Platelet Count_<=278.75,Platelet Count,2573,620,803,0.5284609978917779
+3,10000,0.75,1,4,Platelet Count_>447,Platelet Count,2576,646,709,0.5062730627306273
+3,10000,0.75,1,4,"Hemoglobin_(107,118]",Hemoglobin,2533,606,570,0.44387755102040816
+3,10000,0.75,1,4,"Hemoglobin_(118,135]",Hemoglobin,2554,604,595,0.4670558798999166
+3,10000,0.75,1,4,Hemoglobin_<=107,Hemoglobin,2567,714,825,0.6107862248213125
+3,10000,0.75,1,4,Hemoglobin_>135,Hemoglobin,2514,611,723,0.7031484257871065
+3,10000,0.75,1,4,"Hematocrit_(32.7,36.1]",Hematocrit,2564,659,671,0.4706766917293233
+3,10000,0.75,1,4,"Hematocrit_(36.1,40.66]",Hematocrit,2450,587,603,0.47394957983193275
+3,10000,0.75,1,4,Hematocrit_<=32.7,Hematocrit,2575,693,809,0.6191744340878829
+3,10000,0.75,1,4,Hematocrit_>40.66,Hematocrit,2542,615,687,0.6620583717357911
+3,10000,0.75,1,4,"Weight_(3.95,4.84]",Weight,2510,589,682,0.45161290322580644
+3,10000,0.75,1,4,"Weight_(4.84,5.56]",Weight,2576,630,596,0.42251223491027734
+3,10000,0.75,1,4,Weight_<=3.95,Weight,2552,627,732,0.6195732155997057
+3,10000,0.75,1,4,Weight_>5.56,Weight,2459,595,649,0.5803858520900321
+3,10000,0.75,1,4,"Peak Temperature_(38,38.28]",Peak Temperature,2473,473,650,0.3508459483526269
+3,10000,0.75,1,4,"Peak Temperature_(38.28,38.6]",Peak Temperature,2554,717,761,0.4587280108254398
+3,10000,0.75,1,4,Peak Temperature_<=38,Peak Temperature,2518,762,739,0.5049966688874084
+3,10000,0.75,1,4,Peak Temperature_>38.6,Peak Temperature,2468,548,551,0.4986351228389445
+3,10000,0.75,1,4,"Fever Duration_(0.91,1]",Fever Duration,2521,1130,1154,0.5525394045534151
+3,10000,0.75,1,4,"Fever Duration_(1,1.16]",Fever Duration,2500,161,860,0.16258570029382957
+3,10000,0.75,1,4,Fever Duration_<=0.91,Fever Duration,2532,630,466,0.39416058394160586
+3,10000,0.75,1,4,Fever Duration_>1.16,Fever Duration,2526,593,274,0.3229527104959631
+3,10000,0.75,1,4,"Age in Days_(29,51]",Age in Days,2548,627,653,0.540625
+3,10000,0.75,1,4,"Age in Days_(51,71]",Age in Days,2508,620,535,0.47619047619047616
+3,10000,0.75,1,4,Age in Days_<=29,Age in Days,2483,608,616,0.7320261437908496
+3,10000,0.75,1,4,Age in Days_>71,Age in Days,2438,608,797,0.6604982206405694
+4,10000,0.75,10,4,Cyanosis_0,Cyanosis,2487,391,3,0.015228426395939087
+4,10000,0.75,10,4,Cyanosis_1,Cyanosis,2597,104,0,0.0
+4,10000,0.75,10,4,Cyanosis___MISSING__,Cyanosis,2426,1929,2425,0.8860817638952687
+4,10000,0.75,10,4,Frothing at the Mouth_0,Frothing at the Mouth,2527,131,0,0.0
+4,10000,0.75,10,4,Frothing at the Mouth_1,Frothing at the Mouth,2509,204,0,0.0
+4,10000,0.75,10,4,Frothing at the Mouth___MISSING__,Frothing at the Mouth,2560,2235,2559,0.932415519399249
+4,10000,0.75,10,4,Inspiratory Dyspnea_0,Inspiratory Dyspnea,2534,119,1,0.016666666666666666
+4,10000,0.75,10,4,Inspiratory Dyspnea_1,Inspiratory Dyspnea,2535,30,0,0.0
+4,10000,0.75,10,4,Inspiratory Dyspnea___MISSING__,Inspiratory Dyspnea,2536,2370,2535,0.9663608562691132
+4,10000,0.75,10,4,Vomiting_0,Vomiting,2520,1091,1700,0.7137226800429953
+4,10000,0.75,10,4,Vomiting_1,Vomiting,2488,619,143,0.2887139107611549
+4,10000,0.75,10,4,Vomiting___MISSING__,Vomiting,2517,794,504,0.6194144838212635
+4,10000,0.75,10,4,Choking During Feeding_0,Choking During Feeding,2532,370,17,0.06201550387596899
+4,10000,0.75,10,4,Choking During Feeding_1,Choking During Feeding,2485,278,13,0.07560137457044673
+4,10000,0.75,10,4,Choking During Feeding___MISSING__,Choking During Feeding,2518,1873,2487,0.8568807339449541
+4,10000,0.75,10,4,Abnormal Breath Sounds_0,Abnormal Breath Sounds,2574,428,5,0.023094688221709007
+4,10000,0.75,10,4,Abnormal Breath Sounds_1,Abnormal Breath Sounds,2536,53,0,0.0
+4,10000,0.75,10,4,Abnormal Breath Sounds___MISSING__,Abnormal Breath Sounds,2526,2025,2520,0.8910891089108911
+4,10000,0.75,10,4,Cough_0,Cough,2458,923,949,0.6623931623931624
+4,10000,0.75,10,4,Cough_1,Cough,2531,1031,899,0.655958549222798
+4,10000,0.75,10,4,Cough___MISSING__,Cough,2545,561,312,0.6025200458190149
+4,10000,0.75,10,4,Pharyngeal Congestion_0,Pharyngeal Congestion,2515,1,0,0.0
+4,10000,0.75,10,4,Pharyngeal Congestion_1,Pharyngeal Congestion,2520,467,0,0.0
+4,10000,0.75,10,4,Pharyngeal Congestion___MISSING__,Pharyngeal Congestion,2475,2016,2475,0.8977955911823647
+4,10000,0.75,10,4,Rales_0,Rales,2535,640,3,0.00933125972006221
+4,10000,0.75,10,4,Rales_1,Rales,2478,30,0,0.0
+4,10000,0.75,10,4,Rales___MISSING__,Rales,2549,1897,2548,0.8535433070866142
+4,10000,0.75,10,4,Hoarseness_0,Hoarseness,2549,134,0,0.0
+4,10000,0.75,10,4,Hoarseness_1,Hoarseness,2542,20,0,0.0
+4,10000,0.75,10,4,Hoarseness___MISSING__,Hoarseness,2539,2384,2539,0.9685151330489539
+4,10000,0.75,10,4,Chills_0,Chills,2524,342,70,0.28640776699029125
+4,10000,0.75,10,4,Chills_1,Chills,2500,6,0,0.0
+4,10000,0.75,10,4,Chills___MISSING__,Chills,2467,2117,2400,0.9338056232012397
+4,10000,0.75,10,4,Convulsion_0,Convulsion,2550,910,558,0.6389645776566758
+4,10000,0.75,10,4,Convulsion_1,Convulsion,2583,64,0,0.0
+4,10000,0.75,10,4,Convulsion___MISSING__,Convulsion,2470,1514,1961,0.8362589928057554
+4,10000,0.75,10,4,Hand Rash_0,Hand Rash,2488,30,0,0.0
+4,10000,0.75,10,4,Hand Rash_1,Hand Rash,2522,191,0,0.0
+4,10000,0.75,10,4,Hand Rash___MISSING__,Hand Rash,2522,2276,2522,0.948728636932055
+4,10000,0.75,10,4,Shortness of Breath_0,Shortness of Breath,2441,318,11,0.060790273556231005
+4,10000,0.75,10,4,Shortness of Breath_1,Shortness of Breath,2569,124,0,0.0
+4,10000,0.75,10,4,Shortness of Breath___MISSING__,Shortness of Breath,2492,2078,2480,0.9118034225537517
+4,10000,0.75,10,4,Irritability_0,Irritability,2506,157,0,0.0
+4,10000,0.75,10,4,Irritability_1,Irritability,2516,123,0,0.0
+4,10000,0.75,10,4,Irritability___MISSING__,Irritability,2568,2286,2568,0.9419035846724351
+4,10000,0.75,10,4,Aversion to Cold_0,Aversion to Cold,2464,166,24,0.25263157894736843
+4,10000,0.75,10,4,Aversion to Cold_1,Aversion to Cold,2477,5,0,0.0
+4,10000,0.75,10,4,Aversion to Cold___MISSING__,Aversion to Cold,2548,2383,2529,0.9702768729641694
+4,10000,0.75,10,4,Rash_0,Rash,2502,1200,1370,0.7712062256809339
+4,10000,0.75,10,4,Rash_1,Rash,2472,84,0,0.0
+4,10000,0.75,10,4,Rash___MISSING__,Rash,2455,1170,1133,0.7537993920972644
+4,10000,0.75,10,4,Listlessness_0,Listlessness,2551,102,0,0.0
+4,10000,0.75,10,4,Listlessness_1,Listlessness,2575,365,1,0.00546448087431694
+4,10000,0.75,10,4,Listlessness___MISSING__,Listlessness,2505,2046,2503,0.8995383600791382
+4,10000,0.75,10,4,Cold Extremities_0,Cold Extremities,2525,303,0,0.0
+4,10000,0.75,10,4,Cold Extremities_1,Cold Extremities,2544,2,0,0.0
+4,10000,0.75,10,4,Cold Extremities___MISSING__,Cold Extremities,2490,2197,2490,0.9374866652442927
+4,10000,0.75,10,4,Diarrhea_0,Diarrhea,2548,1359,1948,0.7886301784094345
+4,10000,0.75,10,4,Diarrhea_1,Diarrhea,2509,219,2,0.01809954751131222
+4,10000,0.75,10,4,Diarrhea___MISSING__,Diarrhea,2552,918,611,0.6435578809679529
+4,10000,0.75,10,4,Reduced Feeding / Anorexia_0,Reduced Feeding / Anorexia,2558,91,0,0.0
+4,10000,0.75,10,4,Reduced Feeding / Anorexia_1,Reduced Feeding / Anorexia,2441,401,0,0.0
+4,10000,0.75,10,4,Reduced Feeding / Anorexia___MISSING__,Reduced Feeding / Anorexia,2502,1965,2502,0.8797850906648758
+4,10000,0.75,10,4,Jaundice_0,Jaundice,2540,37,0,0.0
+4,10000,0.75,10,4,Jaundice_1,Jaundice,2473,139,12,0.13245033112582782
+4,10000,0.75,10,4,Jaundice___MISSING__,Jaundice,2506,2318,2500,0.9613947696139477
+4,10000,0.75,10,4,Sex_0,Sex,2491,1066,653,0.6457242582897034
+4,10000,0.75,10,4,Sex_1,Sex,2528,1449,1894,0.8076577924020341
+4,10000,0.75,10,4,Hospitalization_0,Hospitalization,2524,1587,1822,0.8712232326195365
+4,10000,0.75,10,4,Hospitalization_1,Hospitalization,2522,970,715,0.7335311572700297
+4,10000,0.75,10,4,icu_0,ICU Admission,2474,2327,2473,0.9695833333333334
+4,10000,0.75,10,4,icu_1,ICU Admission,2406,125,2,0.031496062992125984
+4,10000,0.75,10,4,"C-Reactive Protein_(8,9]",C-Reactive Protein,2548,53,409,0.12554112554112554
+4,10000,0.75,10,4,C-Reactive Protein_<=8,C-Reactive Protein,2547,1901,1433,0.7528494301139772
+4,10000,0.75,10,4,C-Reactive Protein_>9,C-Reactive Protein,2526,591,168,0.4137022397891963
+4,10000,0.75,10,4,"Basophil Percentage_(0,0.1]",Basophil Percentage,2495,392,295,0.3784570596797671
+4,10000,0.75,10,4,"Basophil Percentage_(0.1,0.25]",Basophil Percentage,2482,541,230,0.26718547341115434
+4,10000,0.75,10,4,Basophil Percentage_<=0,Basophil Percentage,2521,961,671,0.5110294117647058
+4,10000,0.75,10,4,Basophil Percentage_>0.25,Basophil Percentage,2479,598,74,0.17261904761904762
+4,10000,0.75,10,4,"Eosinophil Percentage_(1,2.1]",Eosinophil Percentage,2557,507,420,0.4077669902912621
+4,10000,0.75,10,4,"Eosinophil Percentage_(2.1,4]",Eosinophil Percentage,2532,668,173,0.23781212841854935
+4,10000,0.75,10,4,Eosinophil Percentage_<=1,Eosinophil Percentage,2530,794,488,0.5132605304212169
+4,10000,0.75,10,4,Eosinophil Percentage_>4,Eosinophil Percentage,2527,623,251,0.40045766590389015
+4,10000,0.75,10,4,"Neutrophil Percentage_(30,43]",Neutrophil Percentage,2594,641,273,0.5426695842450766
+4,10000,0.75,10,4,"Neutrophil Percentage_(43,56]",Neutrophil Percentage,2506,660,271,0.5026852846401718
+4,10000,0.75,10,4,Neutrophil Percentage_<=30,Neutrophil Percentage,2477,604,531,0.8634361233480177
+4,10000,0.75,10,4,Neutrophil Percentage_>56,Neutrophil Percentage,2428,583,544,0.84472049689441
+4,10000,0.75,10,4,"Absolute Neutrophil Count_(2.22,3.53]",Absolute Neutrophil Count,2535,627,296,0.5612134344528711
+4,10000,0.75,10,4,"Absolute Neutrophil Count_(3.53,5.84]",Absolute Neutrophil Count,2458,607,394,0.6973026973026973
+4,10000,0.75,10,4,Absolute Neutrophil Count_<=2.22,Absolute Neutrophil Count,2543,665,607,0.8254716981132075
+4,10000,0.75,10,4,Absolute Neutrophil Count_>5.84,Absolute Neutrophil Count,2476,630,582,0.8943894389438944
+4,10000,0.75,10,4,"Monocyte Percentage_(4,6]",Monocyte Percentage,2568,615,248,0.4380069524913094
+4,10000,0.75,10,4,"Monocyte Percentage_(6,9.2]",Monocyte Percentage,2496,614,320,0.4817987152034261
+4,10000,0.75,10,4,Monocyte Percentage_<=4,Monocyte Percentage,2542,666,351,0.6037364798426745
+4,10000,0.75,10,4,Monocyte Percentage_>9.2,Monocyte Percentage,2479,622,382,0.7071713147410359
+4,10000,0.75,10,4,"Absolute Monocyte Count_(0.4,0.59]",Absolute Monocyte Count,2451,610,168,0.3341902313624679
+4,10000,0.75,10,4,"Absolute Monocyte Count_(0.59,0.88]",Absolute Monocyte Count,2569,627,228,0.4233918128654971
+4,10000,0.75,10,4,Absolute Monocyte Count_<=0.4,Absolute Monocyte Count,2588,655,584,0.7280064568200162
+4,10000,0.75,10,4,Absolute Monocyte Count_>0.88,Absolute Monocyte Count,2490,576,386,0.7089397089397089
+4,10000,0.75,10,4,"Mean Corpuscular Volume_(88.5,93.1]",Mean Corpuscular Volume,2445,590,138,0.30494505494505497
+4,10000,0.75,10,4,"Mean Corpuscular Volume_(93.1,97.8]",Mean Corpuscular Volume,2488,595,183,0.3444730077120823
+4,10000,0.75,10,4,Mean Corpuscular Volume_<=88.5,Mean Corpuscular Volume,2540,649,595,0.7427652733118971
+4,10000,0.75,10,4,Mean Corpuscular Volume_>97.8,Mean Corpuscular Volume,2591,648,672,0.7333333333333333
+4,10000,0.75,10,4,"Mean Corpuscular Hemoglobin Concentration_(322,330]",Mean Corpuscular Hemoglobin Concentration,2564,655,201,0.2897196261682243
+4,10000,0.75,10,4,"Mean Corpuscular Hemoglobin Concentration_(330,339]",Mean Corpuscular Hemoglobin Concentration,2453,595,256,0.37132784958871917
+4,10000,0.75,10,4,Mean Corpuscular Hemoglobin Concentration_<=322,Mean Corpuscular Hemoglobin Concentration,2562,744,384,0.4645390070921986
+4,10000,0.75,10,4,Mean Corpuscular Hemoglobin Concentration_>339,Mean Corpuscular Hemoglobin Concentration,2470,553,397,0.5073684210526316
+4,10000,0.75,10,4,"Mean Corpuscular Hemoglobin_(29,30.7]",Mean Corpuscular Hemoglobin,2526,662,199,0.39256678281068524
+4,10000,0.75,10,4,"Mean Corpuscular Hemoglobin_(30.7,32.5]",Mean Corpuscular Hemoglobin,2544,619,201,0.37073170731707317
+4,10000,0.75,10,4,Mean Corpuscular Hemoglobin_<=29,Mean Corpuscular Hemoglobin,2495,669,663,0.7852852852852853
+4,10000,0.75,10,4,Mean Corpuscular Hemoglobin_>32.5,Mean Corpuscular Hemoglobin,2523,657,627,0.7912772585669782
+4,10000,0.75,10,4,"Lymphocyte Percentage_(33,45.5]",Lymphocyte Percentage,2525,651,321,0.5699588477366255
+4,10000,0.75,10,4,"Lymphocyte Percentage_(45.5,59]",Lymphocyte Percentage,2517,672,274,0.5031712473572939
+4,10000,0.75,10,4,Lymphocyte Percentage_<=33,Lymphocyte Percentage,2485,633,552,0.8320675105485232
+4,10000,0.75,10,4,Lymphocyte Percentage_>59,Lymphocyte Percentage,2551,621,605,0.8613376835236541
+4,10000,0.75,10,4,"Absolute Lymphocyte Count_(2.73,4.36]",Absolute Lymphocyte Count,2468,616,364,0.5897959183673469
+4,10000,0.75,10,4,"Absolute Lymphocyte Count_(4.36,5.96]",Absolute Lymphocyte Count,2535,643,276,0.5201305767138193
+4,10000,0.75,10,4,Absolute Lymphocyte Count_<=2.73,Absolute Lymphocyte Count,2525,666,594,0.8777777777777778
+4,10000,0.75,10,4,Absolute Lymphocyte Count_>5.96,Absolute Lymphocyte Count,2556,615,447,0.7645951035781544
+4,10000,0.75,10,4,"White Blood Cell Count_(6.67,9.22]",White Blood Cell Count,2574,670,448,0.667262969588551
+4,10000,0.75,10,4,"White Blood Cell Count_(9.22,12.56]",White Blood Cell Count,2412,613,322,0.5818181818181818
+4,10000,0.75,10,4,White Blood Cell Count_<=6.67,White Blood Cell Count,2526,655,560,0.8559670781893004
+4,10000,0.75,10,4,White Blood Cell Count_>12.56,White Blood Cell Count,2621,644,523,0.8071979434447301
+4,10000,0.75,10,4,"Plateletcrit_(0.3,0.38]",Plateletcrit,2516,689,290,0.4065372829417773
+4,10000,0.75,10,4,"Plateletcrit_(0.38,0.47]",Plateletcrit,2439,537,191,0.3516483516483517
+4,10000,0.75,10,4,Plateletcrit_<=0.3,Plateletcrit,2461,646,464,0.6468468468468469
+4,10000,0.75,10,4,Plateletcrit_>0.47,Plateletcrit,2457,585,175,0.4
+4,10000,0.75,10,4,"Platelet Count_(278.75,357]",Platelet Count,2489,655,129,0.24489795918367346
+4,10000,0.75,10,4,"Platelet Count_(357,447]",Platelet Count,2492,645,103,0.18983957219251338
+4,10000,0.75,10,4,Platelet Count_<=278.75,Platelet Count,2485,608,453,0.6220546654099905
+4,10000,0.75,10,4,Platelet Count_>447,Platelet Count,2524,649,335,0.5447154471544715
+4,10000,0.75,10,4,"Hemoglobin_(107,118]",Hemoglobin,2474,561,166,0.3768913342503439
+4,10000,0.75,10,4,"Hemoglobin_(118,135]",Hemoglobin,2535,652,195,0.3754427390791027
+4,10000,0.75,10,4,Hemoglobin_<=107,Hemoglobin,2439,644,565,0.7427626137303557
+4,10000,0.75,10,4,Hemoglobin_>135,Hemoglobin,2544,613,554,0.7969151670951157
+4,10000,0.75,10,4,"Hematocrit_(32.7,36.1]",Hematocrit,2473,643,219,0.3805104408352668
+4,10000,0.75,10,4,"Hematocrit_(36.1,40.66]",Hematocrit,2501,672,196,0.3640552995391705
+4,10000,0.75,10,4,Hematocrit_<=32.7,Hematocrit,2482,616,516,0.6855123674911661
+4,10000,0.75,10,4,Hematocrit_>40.66,Hematocrit,2515,600,506,0.7377938517179023
+4,10000,0.75,10,4,"Weight_(3.95,4.84]",Weight,2531,661,278,0.44515441959531415
+4,10000,0.75,10,4,"Weight_(4.84,5.56]",Weight,2543,664,174,0.32935560859188545
+4,10000,0.75,10,4,Weight_<=3.95,Weight,2493,617,568,0.7324894514767932
+4,10000,0.75,10,4,Weight_>5.56,Weight,2633,649,507,0.6851211072664359
+4,10000,0.75,10,4,"Peak Temperature_(38,38.28]",Peak Temperature,2510,481,174,0.28091603053435116
+4,10000,0.75,10,4,"Peak Temperature_(38.28,38.6]",Peak Temperature,2543,665,317,0.40122199592668023
+4,10000,0.75,10,4,Peak Temperature_<=38,Peak Temperature,2601,822,457,0.5504300234558248
+4,10000,0.75,10,4,Peak Temperature_>38.6,Peak Temperature,2512,591,302,0.5397536394176932
+4,10000,0.75,10,4,"Fever Duration_(0.91,1]",Fever Duration,2599,1131,822,0.55094726062468
+4,10000,0.75,10,4,"Fever Duration_(1,1.16]",Fever Duration,2585,166,394,0.22857142857142856
+4,10000,0.75,10,4,Fever Duration_<=0.91,Fever Duration,2503,620,121,0.2483130904183536
+4,10000,0.75,10,4,Fever Duration_>1.16,Fever Duration,2580,616,60,0.14201183431952663
+4,10000,0.75,10,4,"Age in Days_(29,51]",Age in Days,2497,642,383,0.5892682926829268
+4,10000,0.75,10,4,"Age in Days_(51,71]",Age in Days,2523,612,136,0.30213903743315507
+4,10000,0.75,10,4,Age in Days_<=29,Age in Days,2544,640,565,0.8248962655601659
+4,10000,0.75,10,4,Age in Days_>71,Age in Days,2494,608,721,0.7524454477050414

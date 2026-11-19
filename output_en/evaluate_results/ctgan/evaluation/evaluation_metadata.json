@@ -1,0 +1,146 @@
+{
+  "generation_real_shape": [
+    18604,
+    48
+  ],
+  "evaluation_real_shape": [
+    4651,
+    48
+  ],
+  "comparison_real_shape": [
+    18604,
+    48
+  ],
+  "synthetic_shape": [
+    18604,
+    46
+  ],
+  "schema": {
+    "common_columns": [
+      "C-Reactive Protein",
+      "Basophil Percentage",
+      "Eosinophil Percentage",
+      "Neutrophil Percentage",
+      "Absolute Neutrophil Count",
+      "Monocyte Percentage",
+      "Absolute Monocyte Count",
+      "Mean Corpuscular Volume",
+      "Mean Corpuscular Hemoglobin Concentration",
+      "Mean Corpuscular Hemoglobin",
+      "Lymphocyte Percentage",
+      "Absolute Lymphocyte Count",
+      "White Blood Cell Count",
+      "Plateletcrit",
+      "Platelet Count",
+      "Hemoglobin",
+      "Hematocrit",
+      "Weight",
+      "Peak Temperature",
+      "Fever Duration",
+      "Age in Days",
+      "Cyanosis",
+      "Frothing at the Mouth",
+      "Inspiratory Dyspnea",
+      "Vomiting",
+      "Choking During Feeding",
+      "Abnormal Breath Sounds",
+      "Cough",
+      "Pharyngeal Congestion",
+      "Rales",
+      "Hoarseness",
+      "Chills",
+      "Convulsion",
+      "Hand Rash",
+      "Shortness of Breath",
+      "Irritability",
+      "Aversion to Cold",
+      "Rash",
+      "Listlessness",
+      "Cold Extremities",
+      "Diarrhea",
+      "Reduced Feeding / Anorexia",
+      "Jaundice",
+      "Sex",
+      "Hospitalization",
+      "ICU Admission"
+    ],
+    "continuous_columns": [
+      "C-Reactive Protein",
+      "Basophil Percentage",
+      "Eosinophil Percentage",
+      "Neutrophil Percentage",
+      "Absolute Neutrophil Count",
+      "Monocyte Percentage",
+      "Absolute Monocyte Count",
+      "Mean Corpuscular Volume",
+      "Mean Corpuscular Hemoglobin Concentration",
+      "Mean Corpuscular Hemoglobin",
+      "Lymphocyte Percentage",
+      "Absolute Lymphocyte Count",
+      "White Blood Cell Count",
+      "Plateletcrit",
+      "Platelet Count",
+      "Hemoglobin",
+      "Hematocrit",
+      "Weight",
+      "Peak Temperature",
+      "Fever Duration",
+      "Age in Days"
+    ],
+    "categorical_columns": [
+      "Cyanosis",
+      "Frothing at the Mouth",
+      "Inspiratory Dyspnea",
+      "Vomiting",
+      "Choking During Feeding",
+      "Abnormal Breath Sounds",
+      "Cough",
+      "Pharyngeal Congestion",
+      "Rales",
+      "Hoarseness",
+      "Chills",
+      "Convulsion",
+      "Hand Rash",
+      "Shortness of Breath",
+      "Irritability",
+      "Aversion to Cold",
+      "Rash",
+      "Listlessness",
+      "Cold Extremities",
+      "Diarrhea",
+      "Reduced Feeding / Anorexia",
+      "Jaundice",
+      "Sex"
+    ],
+    "outcome_columns": [
+      "Hospitalization",
+      "ICU Admission"
+    ]
+  },
+  "active_similarity_modules": [
+    "similarity.univariate",
+    "similarity.multivariate.pwcc",
+    "similarity.multivariate.ccd",
+    "similarity.multivariate.cvt",
+    "similarity.global.umap_lisi"
+  ],
+  "active_ml_utility_tasks": [
+    "predict_hospitalization",
+    "predict_icu_within_hospitalized"
+  ],
+  "active_privacy_modules": [
+    "attribute_inference",
+    "dcr"
+  ],
+  "ccd_grouping_columns": [
+    "Age in Days"
+  ],
+  "ccd_categorical_grouping_columns": [],
+  "ccd_continuous_grouping_columns": [
+    {
+      "column": "Age in Days",
+      "thresholds": []
+    }
+  ],
+  "ccd_enabled": true
+}

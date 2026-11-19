@@ -1,0 +1,2 @@
+﻿status,feature_count,continuous_feature_count,categorical_feature_count,real_reference_sample_count,synthetic_projected_sample_count,umap_n_neighbors,umap_min_dist,mlisi_mean,mlisi_target_upper_bound,mlisi_gap_from_ideal
+ok,46,21,25,18604,18604,30,0.1,1.8443036753448312,2.0,0.1556963246551688

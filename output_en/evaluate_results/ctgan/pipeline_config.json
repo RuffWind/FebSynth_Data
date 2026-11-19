@@ -1,0 +1,23 @@
+{
+  "model": "ctgan",
+  "input_path": "/path/to/real_data.csv",
+  "output_root": "output_en/evaluate_results",
+  "constraints_path": "constraints.json",
+  "grouping_path": "grouping.json",
+  "split_assignment_path": null,
+  "test_size": 0.2,
+  "n_samples": null,
+  "random_state": 42,
+  "epochs": null,
+  "batch_size": null,
+  "cpu": false,
+  "cuda": false,
+  "load_model": false,
+  "model_path": null,
+  "copula_default_distribution": null,
+  "copula_no_enforce_min_max_values": false,
+  "copula_no_enforce_rounding": false,
+  "patience": 50,
+  "val_split": 0.1,
+  "output_language": "en"
+}

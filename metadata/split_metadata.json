@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "record_role": "aggregate_release_split_index",
+  "joint_outcome_order": [
+    "Hospitalization",
+    "ICU Admission"
+  ],
+  "archived_split": {
+    "train_size": 18604,
+    "test_size": 4651,
+    "requested_test_ratio": 0.2,
+    "actual_test_ratio": 0.2,
+    "stratified_by_outcome_joint_state": true,
+    "split_source": "random_split",
+    "full_outcome_distribution": {
+      "(0, 0)": 0.6165125779402278,
+      "(1, 0)": 0.3258224037841324,
+      "(1, 1)": 0.057665018275639635
+    },
+    "train_outcome_distribution": {
+      "(0, 0)": 0.6164803268114384,
+      "(1, 0)": 0.3258439045366588,
+      "(1, 1)": 0.05767576865190282
+    },
+    "test_outcome_distribution": {
+      "(0, 0)": 0.6166415824553859,
+      "(1, 0)": 0.3257364007740271,
+      "(1, 1)": 0.05762201677058697
+    }
+  },
+  "joint_outcome_counts": {
+    "full": {
+      "(0, 0)": 14337,
+      "(1, 0)": 7577,
+      "(1, 1)": 1341
+    },
+    "train": {
+      "(0, 0)": 11469,
+      "(1, 0)": 6062,
+      "(1, 1)": 1073
+    },
+    "test": {
+      "(0, 0)": 2868,
+      "(1, 0)": 1515,
+      "(1, 1)": 268
+    }
+  },
+  "base_random_seed": 42,
+  "archived_evidence_paths": [
+    "output_en/ablation/grouping_and_constraints_effect/results/copula/split_metadata.json",
+    "output_en/ablation/grouping_and_constraints_effect/results_constraints/copula/split_metadata.json",
+    "output_en/ablation/grouping_and_constraints_effect/results_grouping_constraints/copula/split_metadata.json",
+    "output_en/evaluate_results/copula/split_metadata.json",
+    "output_en/evaluate_results/ctgan/split_metadata.json",
+    "output_en/evaluate_results/tabddpm/split_metadata.json",
+    "output_en/evaluate_results/tvae/split_metadata.json",
+    "output_en/extended_release/copula/split_metadata.json",
+    "output_en/nsample_sensitivity/copula/predict_hospitalization/mixed_training/split_metadata.json",
+    "output_en/nsample_sensitivity/copula/predict_hospitalization/synthetic_only_training/split_metadata.json",
+    "output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/mixed_training/split_metadata.json",
+    "output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/synthetic_only_training/split_metadata.json"
+  ],
+  "verification": {
+    "current_input_assignment_reconstruction": "matches the source split assignment",
+    "mismatched_labels": 0,
+    "verification_date": "2026-11-03"
+  },
+  "data_roles": {
+    "main_and_extended": {
+      "generator_real_rows": 18604,
+      "fidelity_reference": "train",
+      "utility_test": "test",
+      "dcr_baseline": "real test queries against real train reference"
+    },
+    "mixed_training": {
+      "classifier_real_A": 1000,
+      "generator_real_B": 17604,
+      "A_B_disjoint": true
+    },
+    "synthetic_only_training": {
+      "generator_real_rows": 18604,
+      "classifier_real_rows": 0,
+      "A_role": "real-only comparator"
+    },
+    "icu_task": "Filter each classifier dataset to Hospitalization=1; requested synthetic sizes are before filtering."
+  },
+  "privacy": "No patient-level assignment rows or indices are added by this aggregate file."
+}

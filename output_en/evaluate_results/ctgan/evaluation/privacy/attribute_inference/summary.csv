@@ -1,0 +1,5 @@
+﻿status,experiment_id,n_att,effective_n_att,p_given,k_neighbors,n_token_range,effective_k_neighbors,encoded_feature_count,evaluated_encoded_feature_count,known_feature_count,unknown_feature_count,known_feature_ratio_actual,original_feature_count,continuous_feature_count,categorical_feature_count,real_reference_rows,synthetic_rows,f1_score,feature_f1_std,total_unknown_binary_targets,true_unknown_positive_count,predicted_unknown_positive_count
+ok,1,10000,10000,0.5,1,4,1,155,155,78,77,0.5032258064516129,46,21,25,18604,18604,0.4011565274547244,0.2317344912563409,770000,228436,238500
+ok,2,10000,10000,0.5,10,4,10,155,155,78,77,0.5032258064516129,46,21,25,18604,18604,0.32030994586201617,0.3020011115452582,770000,228500,160780
+ok,3,10000,10000,0.75,1,4,1,155,155,116,39,0.7483870967741936,46,21,25,18604,18604,0.4194176960309511,0.23338769779041696,390000,115774,122026
+ok,4,10000,10000,0.75,10,4,10,155,155,116,39,0.7483870967741936,46,21,25,18604,18604,0.34588299593216626,0.3109142450230843,390000,115844,82781

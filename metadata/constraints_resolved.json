@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "document_role": "audited_reference_constraints_not_a_runtime_config",
+  "reference": {
+    "population": "preprocessed real training split",
+    "rows": 18604,
+    "seed": 42,
+    "test_ratio": 0.2,
+    "split_reconstruction_matches_local_assignment": true
+  },
+  "validation": {
+    "all_22_bounds_match": "Supplementary Table S2",
+    "evidence": "Recomputed using current input and constraint resolver; no patient rows are exported."
+  },
+  "scope": "Full-training reference for constrained main, constrained ablation and extended settings. The no-constraint ablation does not enforce these rules. Mixed sensitivity repeats resolve data-derived bounds from their own dataset B; these are not universal per-repeat bounds.",
+  "ranges": [
+    {
+      "column": "C-Reactive Protein",
+      "source_column": "C反应蛋白",
+      "lower": 8.0,
+      "upper": 215.86,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "clip",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Basophil Percentage",
+      "source_column": "嗜碱性粒细胞百分数",
+      "lower": 0.0,
+      "upper": 4.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Eosinophil Percentage",
+      "source_column": "嗜酸性粒细胞百分数",
+      "lower": 0.0,
+      "upper": 25.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Neutrophil Percentage",
+      "source_column": "中性粒细胞百分数",
+      "lower": 0.0,
+      "upper": 91.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Absolute Neutrophil Count",
+      "source_column": "中性粒细胞绝对值",
+      "lower": 0.0,
+      "upper": 36.76,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Monocyte Percentage",
+      "source_column": "单核细胞百分数",
+      "lower": 0.0,
+      "upper": 32.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Absolute Monocyte Count",
+      "source_column": "单核细胞绝对值",
+      "lower": 0.0,
+      "upper": 6.12,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Mean Corpuscular Volume",
+      "source_column": "平均红细胞体积",
+      "lower": 0.0,
+      "upper": 116.8,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Mean Corpuscular Hemoglobin Concentration",
+      "source_column": "平均血红蛋白浓度",
+      "lower": 0.0,
+      "upper": 407.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Mean Corpuscular Hemoglobin",
+      "source_column": "平均血红蛋白量",
+      "lower": 0.0,
+      "upper": 40.2,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Lymphocyte Percentage",
+      "source_column": "淋巴细胞百分数",
+      "lower": 0.0,
+      "upper": 88.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Absolute Lymphocyte Count",
+      "source_column": "淋巴细胞绝对值",
+      "lower": 0.0,
+      "upper": 22.01,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "White Blood Cell Count",
+      "source_column": "白细胞计数",
+      "lower": 0.0,
+      "upper": 55.28,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Platelet Distribution Width",
+      "source_column": "血小板分布宽度",
+      "lower": 0.0,
+      "upper": 25.4,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": false,
+      "application": "ignored_missing_generated_column"
+    },
+    {
+      "column": "Plateletcrit",
+      "source_column": "血小板比容",
+      "lower": 0.0,
+      "upper": 7.81,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Platelet Count",
+      "source_column": "血小板计数",
+      "lower": 0.0,
+      "upper": 1183.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Hemoglobin",
+      "source_column": "血红蛋白",
+      "lower": 0.0,
+      "upper": 236.0,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Hematocrit",
+      "source_column": "血细胞比容",
+      "lower": 0.0,
+      "upper": 70.2,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Weight",
+      "source_column": "体重",
+      "lower": 0.0,
+      "upper": 301.21,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Peak Temperature",
+      "source_column": "热峰",
+      "lower": 0.0,
+      "upper": 49.65,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Fever Duration",
+      "source_column": "发热时间",
+      "lower": 0.0,
+      "upper": 37.4,
+      "lower_origin": "configured",
+      "upper_origin": "sixth_largest_nonmissing_training_value",
+      "trim_count_each_tail": 5,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    },
+    {
+      "column": "Age in Days",
+      "source_column": "计算年龄",
+      "lower": 0,
+      "upper": 90,
+      "lower_origin": "configured",
+      "upper_origin": "configured",
+      "trim_count_each_tail": 0,
+      "action": "reject",
+      "present_in_analytical_table": true,
+      "application": "active_when_constraint_layer_enabled"
+    }
+  ],
+  "formulas": [
+    {
+      "target": "Absolute Neutrophil Count",
+      "operation": "multiply",
+      "sources": [
+        "White Blood Cell Count",
+        "Neutrophil Percentage"
+      ],
+      "constant": 0.01
+    },
+    {
+      "target": "Absolute Monocyte Count",
+      "operation": "multiply",
+      "sources": [
+        "White Blood Cell Count",
+        "Monocyte Percentage"
+      ],
+      "constant": 0.01
+    },
+    {
+      "target": "Absolute Lymphocyte Count",
+      "operation": "multiply",
+      "sources": [
+        "White Blood Cell Count",
+        "Lymphocyte Percentage"
+      ],
+      "constant": 0.01
+    }
+  ],
+  "allowed_values": [
+    {
+      "column": "Sex",
+      "values": [
+        0,
+        1
+      ],
+      "action": "repair_random",
+      "clinical_label_mapping": "not established by the constraint file"
+    }
+  ],
+  "not_null": [
+    "Hospitalization",
+    "ICU Admission"
+  ],
+  "active_logical_rules": [
+    {
+      "if": {
+        "ICU Admission": 1
+      },
+      "set": {
+        "Hospitalization": 1
+      }
+    }
+  ],
+  "inactive_configured_rules": [
+    {
+      "condition_column": "Barking Cough",
+      "reason": "condition column absent from analytical table"
+    },
+    {
+      "condition_column": "Spasmodic Cough",
+      "reason": "condition column absent from analytical table"
+    }
+  ],
+  "continuous_decimal_places": {
+    "C-Reactive Protein": 2,
+    "Basophil Percentage": 2,
+    "Eosinophil Percentage": 2,
+    "Neutrophil Percentage": 2,
+    "Absolute Neutrophil Count": 2,
+    "Monocyte Percentage": 2,
+    "Absolute Monocyte Count": 2,
+    "Mean Corpuscular Volume": 2,
+    "Mean Corpuscular Hemoglobin Concentration": 2,
+    "Mean Corpuscular Hemoglobin": 2,
+    "Lymphocyte Percentage": 2,
+    "Absolute Lymphocyte Count": 2,
+    "White Blood Cell Count": 2,
+    "Plateletcrit": 2,
+    "Platelet Count": 2,
+    "Hemoglobin": 2,
+    "Hematocrit": 2,
+    "Weight": 2,
+    "Peak Temperature": 2,
+    "Fever Duration": 2,
+    "Age in Days": 0
+  },
+  "interpretation": "Operational generation limits, not clinical normal-reference intervals. Formulas and output rounding are part of the generation procedure."
+}

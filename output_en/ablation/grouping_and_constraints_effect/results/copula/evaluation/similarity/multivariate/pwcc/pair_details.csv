@@ -1,0 +1,1036 @@
+﻿column_1,column_2,type_1,type_2,association_method,real_association,synthetic_association,absolute_difference
+C-Reactive Protein,Basophil Percentage,continuous,continuous,pearson,-0.05915207950536358,-0.05190387757619804,0.007248201929165539
+C-Reactive Protein,Eosinophil Percentage,continuous,continuous,pearson,-0.16011994818003591,-0.11532660624843026,0.044793341931605654
+C-Reactive Protein,Neutrophil Percentage,continuous,continuous,pearson,0.24791384718955853,0.18885052619296247,0.05906332099659606
+C-Reactive Protein,Absolute Neutrophil Count,continuous,continuous,pearson,0.39938228086093064,0.3103978961869978,0.08898438467393283
+C-Reactive Protein,Monocyte Percentage,continuous,continuous,pearson,-0.06488662302944807,-0.0681258682021109,0.00323924517266283
+C-Reactive Protein,Absolute Monocyte Count,continuous,continuous,pearson,0.22720894711713296,0.13448422273433655,0.09272472438279641
+C-Reactive Protein,Mean Corpuscular Volume,continuous,continuous,pearson,-0.07793589187247757,-0.08269220956707135,0.004756317694593781
+C-Reactive Protein,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,-0.054756404901291654,-0.04576473847678852,0.008991666424503136
+C-Reactive Protein,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,-0.09375736492971416,-0.0940922283778122,0.0003348634480980356
+C-Reactive Protein,Lymphocyte Percentage,continuous,continuous,pearson,-0.20858881779297456,-0.1511149222088708,0.05747389558410376
+C-Reactive Protein,Absolute Lymphocyte Count,continuous,continuous,pearson,0.09101692261307866,0.0805906371794341,0.010426285433644558
+C-Reactive Protein,White Blood Cell Count,continuous,continuous,pearson,0.3184985075698493,0.2516650043194473,0.066833503250402
+C-Reactive Protein,Plateletcrit,continuous,continuous,pearson,0.02617666759300915,0.01728060377418812,0.008896063818821031
+C-Reactive Protein,Platelet Count,continuous,continuous,pearson,0.01787207788917341,0.007535832825306179,0.010336245063867228
+C-Reactive Protein,Hemoglobin,continuous,continuous,pearson,-0.1683027419868435,-0.1269446355232584,0.04135810646358509
+C-Reactive Protein,Hematocrit,continuous,continuous,pearson,-0.16539144242664722,-0.12169285296115206,0.04369858946549515
+C-Reactive Protein,Weight,continuous,continuous,pearson,-0.0034203586438836804,0.04467350110395387,0.04809385974783755
+C-Reactive Protein,Peak Temperature,continuous,continuous,pearson,0.04834119537061089,0.18550918758566878,0.13716799221505788
+C-Reactive Protein,Fever Duration,continuous,continuous,pearson,0.10074257998206734,0.0973644839205114,0.003378096061555938
+C-Reactive Protein,Age in Days,continuous,continuous,pearson,0.07766373044189519,0.06613771941906602,0.011526011022829172
+C-Reactive Protein,Cyanosis,continuous,categorical,correlation_ratio_eta,0.021896127155149683,0.019526529510784003,0.00236959764436568
+C-Reactive Protein,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.012493632968453457,0.006227496835341677,0.0062661361331117806
+C-Reactive Protein,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.02343988223379281,0.011542597132442243,0.011897285101350567
+C-Reactive Protein,Vomiting,continuous,categorical,correlation_ratio_eta,0.024007918911860097,0.022804038195070594,0.0012038807167895037
+C-Reactive Protein,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.037637821977133716,0.025277366864860384,0.012360455112273332
+C-Reactive Protein,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.022918430081056863,0.004759423969517625,0.018159006111539238
+C-Reactive Protein,Cough,continuous,categorical,correlation_ratio_eta,0.050276882579749625,0.006967212552548388,0.043309670027201236
+C-Reactive Protein,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.014437759563970986,0.01122233335158474,0.003215426212386246
+C-Reactive Protein,Rales,continuous,categorical,correlation_ratio_eta,0.0060329050784004865,0.0074324987990863735,0.001399593720685887
+C-Reactive Protein,Hoarseness,continuous,categorical,correlation_ratio_eta,0.009971825486095709,0.0028816725633400383,0.007090152922755671
+C-Reactive Protein,Chills,continuous,categorical,correlation_ratio_eta,0.057398795054762,0.0013122774569808823,0.05608651759778112
+C-Reactive Protein,Convulsion,continuous,categorical,correlation_ratio_eta,0.04098330763125844,0.012338395835226503,0.028644911796031937
+C-Reactive Protein,Hand Rash,continuous,categorical,correlation_ratio_eta,0.0065563748968669325,0.007230172380173934,0.0006737974833070015
+C-Reactive Protein,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.01820874644072808,0.009438609640879597,0.008770136799848484
+C-Reactive Protein,Irritability,continuous,categorical,correlation_ratio_eta,0.022246220774737948,0.0056443627362260575,0.016601858038511892
+C-Reactive Protein,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.026945237231610117,0.007856193237218128,0.01908904399439199
+C-Reactive Protein,Rash,continuous,categorical,correlation_ratio_eta,0.043483417643928615,0.0027110773875831996,0.040772340256345414
+C-Reactive Protein,Listlessness,continuous,categorical,correlation_ratio_eta,0.05094367418344051,0.02315207660248018,0.027791597580960326
+C-Reactive Protein,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.004121076851542793,0.013115354519509369,0.008994277667966576
+C-Reactive Protein,Diarrhea,continuous,categorical,correlation_ratio_eta,0.024643282232429366,0.01951763809268391,0.005125644139745457
+C-Reactive Protein,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.018349236111932777,0.019722537307573847,0.0013733011956410697
+C-Reactive Protein,Jaundice,continuous,categorical,correlation_ratio_eta,0.022979868944741286,0.007842243242673049,0.015137625702068237
+C-Reactive Protein,Sex,continuous,categorical,correlation_ratio_eta,0.03432649278542858,0.020469962488202903,0.01385653029722568
+C-Reactive Protein,Hospitalization,continuous,categorical,correlation_ratio_eta,0.25484575735652737,0.09731307475994272,0.15753268259658465
+C-Reactive Protein,ICU Admission,continuous,categorical,correlation_ratio_eta,0.08274882693270832,0.05529344562030515,0.027455381312403174
+Basophil Percentage,Eosinophil Percentage,continuous,continuous,pearson,0.06663437821116143,0.07278751743952418,0.006153139228362747
+Basophil Percentage,Neutrophil Percentage,continuous,continuous,pearson,-0.015891158362333006,-0.01716575590693119,0.0012745975445981848
+Basophil Percentage,Absolute Neutrophil Count,continuous,continuous,pearson,-0.03659530638540333,-0.05487553759834294,0.01828023121293961
+Basophil Percentage,Monocyte Percentage,continuous,continuous,pearson,-0.06759770593880012,-0.0436965389813844,0.023901166957415718
+Basophil Percentage,Absolute Monocyte Count,continuous,continuous,pearson,-0.07008643948843704,-0.09578248462826705,0.02569604513983001
+Basophil Percentage,Mean Corpuscular Volume,continuous,continuous,pearson,0.04621144245611519,0.03618843752868426,0.010023004927430933
+Basophil Percentage,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,0.07397367304165445,0.0739837711671883,1.0098125533847258e-05
+Basophil Percentage,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.07590565186710871,0.06734134762691955,0.008564304240189155
+Basophil Percentage,Lymphocyte Percentage,continuous,continuous,pearson,-0.009267091936842418,0.016200184776548526,0.025467276713390944
+Basophil Percentage,Absolute Lymphocyte Count,continuous,continuous,pearson,-0.04864453125311927,-0.03967266609867034,0.008971865154448935
+Basophil Percentage,White Blood Cell Count,continuous,continuous,pearson,-0.04695017711986831,-0.07167451690290838,0.024724339783040068
+Basophil Percentage,Plateletcrit,continuous,continuous,pearson,0.025355514730166378,-0.04673863402954309,0.07209414875970947
+Basophil Percentage,Platelet Count,continuous,continuous,pearson,-0.027920195539338093,-0.05994928586039888,0.032029090321060785
+Basophil Percentage,Hemoglobin,continuous,continuous,pearson,0.078206152801145,0.09332576217628635,0.015119609375141355
+Basophil Percentage,Hematocrit,continuous,continuous,pearson,0.051037457760004595,0.0748024355541462,0.023764977794141606
+Basophil Percentage,Weight,continuous,continuous,pearson,0.001132946627165533,-0.04979702347211552,0.050929970099281054
+Basophil Percentage,Peak Temperature,continuous,continuous,pearson,-0.01651222654966624,-0.06783754102451361,0.051325314474847374
+Basophil Percentage,Fever Duration,continuous,continuous,pearson,-0.025740984601342134,-0.019920442654359008,0.005820541946983126
+Basophil Percentage,Age in Days,continuous,continuous,pearson,-0.07475971156845544,-0.06713105779158508,0.007628653776870359
+Basophil Percentage,Cyanosis,continuous,categorical,correlation_ratio_eta,0.015238613593559639,0.026570359236239547,0.011331745642679908
+Basophil Percentage,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.047164362191233135,0.00560862342095892,0.041555738770274214
+Basophil Percentage,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.014342661538898367,0.015223952830564309,0.0008812912916659425
+Basophil Percentage,Vomiting,continuous,categorical,correlation_ratio_eta,0.03426904508278707,0.012286399451823067,0.021982645630964
+Basophil Percentage,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.04458431474303181,0.0227041797485574,0.021880134994474408
+Basophil Percentage,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.013913650824979302,0.015428217989682498,0.001514567164703197
+Basophil Percentage,Cough,continuous,categorical,correlation_ratio_eta,0.04259365350770542,0.01191972190590628,0.03067393160179914
+Basophil Percentage,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.003225651721066486,0.014050374530953686,0.010824722809887201
+Basophil Percentage,Rales,continuous,categorical,correlation_ratio_eta,0.005581905798244519,0.00804542854049958,0.0024635227422550605
+Basophil Percentage,Hoarseness,continuous,categorical,correlation_ratio_eta,0.005242984247852175,0.005178213950060632,6.477029779154361e-05
+Basophil Percentage,Chills,continuous,categorical,correlation_ratio_eta,0.014470736242278303,0.007775076655546262,0.006695659586732041
+Basophil Percentage,Convulsion,continuous,categorical,correlation_ratio_eta,0.006475097919403957,0.027321919028142287,0.020846821108738332
+Basophil Percentage,Hand Rash,continuous,categorical,correlation_ratio_eta,0.012147524072325645,0.007153769895072937,0.004993754177252709
+Basophil Percentage,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.0027209030927406006,0.014750396804267573,0.012029493711526973
+Basophil Percentage,Irritability,continuous,categorical,correlation_ratio_eta,0.012701674790304202,0.010624784149381715,0.0020768906409224866
+Basophil Percentage,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.015566466965032555,0.02121771127025457,0.005651244305222014
+Basophil Percentage,Rash,continuous,categorical,correlation_ratio_eta,0.01804020712994114,0.015981434906869523,0.002058772223071617
+Basophil Percentage,Listlessness,continuous,categorical,correlation_ratio_eta,0.025456718398538778,0.012391260112286443,0.013065458286252335
+Basophil Percentage,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.0053602593941755455,0.01111971827158094,0.005759458877405395
+Basophil Percentage,Diarrhea,continuous,categorical,correlation_ratio_eta,0.00508208539581731,0.01489054450453479,0.009808459108717478
+Basophil Percentage,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.02995119084826411,0.0167241043560584,0.01322708649220571
+Basophil Percentage,Jaundice,continuous,categorical,correlation_ratio_eta,0.057528181213222146,0.010164735388552228,0.04736344582466992
+Basophil Percentage,Sex,continuous,categorical,correlation_ratio_eta,0.007153273144960302,0.00016267147665877652,0.006990601668301526
+Basophil Percentage,Hospitalization,continuous,categorical,correlation_ratio_eta,0.01936473397002039,0.024668614882093515,0.005303880912073126
+Basophil Percentage,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0015855389439716216,0.03430651046134511,0.03272097151737349
+Eosinophil Percentage,Neutrophil Percentage,continuous,continuous,pearson,-0.2927829014344223,-0.24800504762486447,0.044777853809557844
+Eosinophil Percentage,Absolute Neutrophil Count,continuous,continuous,pearson,-0.250452889601942,-0.21669878085428187,0.03375410874766013
+Eosinophil Percentage,Monocyte Percentage,continuous,continuous,pearson,-0.0017659034466498147,0.07892519897161354,0.08069110241826336
+Eosinophil Percentage,Absolute Monocyte Count,continuous,continuous,pearson,-0.11620976677041547,-0.03675638830886239,0.07945337846155309
+Eosinophil Percentage,Mean Corpuscular Volume,continuous,continuous,pearson,0.1256074498065736,0.14518915931362222,0.019581709507048628
+Eosinophil Percentage,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,0.06736232124635527,0.043347284149626866,0.024015037096728406
+Eosinophil Percentage,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.14165198527127204,0.1490683000982237,0.007416314826951653
+Eosinophil Percentage,Lymphocyte Percentage,continuous,continuous,pearson,0.13912737499012046,0.14762770662160735,0.00850033163148689
+Eosinophil Percentage,Absolute Lymphocyte Count,continuous,continuous,pearson,0.010337976367445984,0.014422357421019605,0.004084381053573621
+Eosinophil Percentage,White Blood Cell Count,continuous,continuous,pearson,-0.12907041508376357,-0.12870114645347436,0.00036926863028921564
+Eosinophil Percentage,Plateletcrit,continuous,continuous,pearson,-0.010049251029773325,-0.005007205377186284,0.005042045652587041
+Eosinophil Percentage,Platelet Count,continuous,continuous,pearson,0.08323834762199613,0.06279295132963646,0.02044539629235967
+Eosinophil Percentage,Hemoglobin,continuous,continuous,pearson,0.050021850136006955,0.06127991855176132,0.011258068415754365
+Eosinophil Percentage,Hematocrit,continuous,continuous,pearson,0.03921219920316688,0.05398040404134525,0.014768204838178367
+Eosinophil Percentage,Weight,continuous,continuous,pearson,-0.0014151213333705285,-0.11242395188761925,0.11100883055424872
+Eosinophil Percentage,Peak Temperature,continuous,continuous,pearson,-0.025128823777895774,-0.22321783132734263,0.19808900754944686
+Eosinophil Percentage,Fever Duration,continuous,continuous,pearson,0.00914002307739096,-0.0231682678310841,0.03230829090847506
+Eosinophil Percentage,Age in Days,continuous,continuous,pearson,-0.126635179874405,-0.0908239466770323,0.03581123319737271
+Eosinophil Percentage,Cyanosis,continuous,categorical,correlation_ratio_eta,0.023329648014566388,0.01887421342119125,0.004455434593375138
+Eosinophil Percentage,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.03058365250506658,0.008974275236790301,0.021609377268276282
+Eosinophil Percentage,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.02570682146612621,0.003560707021352486,0.022146114444773723
+Eosinophil Percentage,Vomiting,continuous,categorical,correlation_ratio_eta,0.05218452785909308,0.03074646270762979,0.021438065151463293
+Eosinophil Percentage,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.06147084236179319,0.023631873826610802,0.037838968535182385
+Eosinophil Percentage,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.039105856406073,0.023170329777538454,0.01593552662853455
+Eosinophil Percentage,Cough,continuous,categorical,correlation_ratio_eta,0.0038659379012149185,0.02921875205840828,0.02535281415719336
+Eosinophil Percentage,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.03061453660003752,0.0215953993529145,0.00901913724712302
+Eosinophil Percentage,Rales,continuous,categorical,correlation_ratio_eta,0.017072668705034107,0.0003522824420007299,0.016720386263033377
+Eosinophil Percentage,Hoarseness,continuous,categorical,correlation_ratio_eta,0.009253679419269824,0.01277867570741059,0.0035249962881407654
+Eosinophil Percentage,Chills,continuous,categorical,correlation_ratio_eta,0.036910488973845426,0.023701176467231765,0.013209312506613662
+Eosinophil Percentage,Convulsion,continuous,categorical,correlation_ratio_eta,0.03358889333900645,0.00869805268788899,0.02489084065111746
+Eosinophil Percentage,Hand Rash,continuous,categorical,correlation_ratio_eta,0.005785691526006066,0.018002017589235662,0.012216326063229596
+Eosinophil Percentage,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.004493815024252665,0.023965065087808456,0.01947125006355579
+Eosinophil Percentage,Irritability,continuous,categorical,correlation_ratio_eta,0.013642981167065684,0.012221633861121557,0.0014213473059441276
+Eosinophil Percentage,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.022140041566457866,0.00552599081453618,0.016614050751921686
+Eosinophil Percentage,Rash,continuous,categorical,correlation_ratio_eta,0.03028061372810681,0.015617932154547478,0.01466268157355933
+Eosinophil Percentage,Listlessness,continuous,categorical,correlation_ratio_eta,0.04604345729257918,0.006986040389157992,0.03905741690342119
+Eosinophil Percentage,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.02088636105870225,0.004844678632877308,0.016041682425824943
+Eosinophil Percentage,Diarrhea,continuous,categorical,correlation_ratio_eta,0.021969928631356585,0.01697865730804352,0.004991271323313066
+Eosinophil Percentage,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.04963838664827113,0.0028307949695336562,0.04680759167873747
+Eosinophil Percentage,Jaundice,continuous,categorical,correlation_ratio_eta,0.00850441790205212,0.017574855389802153,0.009070437487750032
+Eosinophil Percentage,Sex,continuous,categorical,correlation_ratio_eta,0.04221359886663394,0.02344874514461484,0.018764853722019102
+Eosinophil Percentage,Hospitalization,continuous,categorical,correlation_ratio_eta,0.09628061945810752,0.03779686778764901,0.05848375167045851
+Eosinophil Percentage,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0282411044533221,0.014487273240794716,0.013753831212527386
+Neutrophil Percentage,Absolute Neutrophil Count,continuous,continuous,pearson,0.6530221461390725,0.6825951633620001,0.0295730172229276
+Neutrophil Percentage,Monocyte Percentage,continuous,continuous,pearson,-0.05200328969838013,-0.04084076022018085,0.011162529478199283
+Neutrophil Percentage,Absolute Monocyte Count,continuous,continuous,pearson,0.11520387893871283,0.10429794018618402,0.010905938752528807
+Neutrophil Percentage,Mean Corpuscular Volume,continuous,continuous,pearson,-0.01352038918093456,-0.016340843223452573,0.0028204540425180134
+Neutrophil Percentage,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,0.03324165642534938,0.037833413236306346,0.004591756810956964
+Neutrophil Percentage,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.005205872360463386,0.004595487700761215,0.0006103846597021708
+Neutrophil Percentage,Lymphocyte Percentage,continuous,continuous,pearson,-0.9381332184179599,-0.9197806955095716,0.01835252290838829
+Neutrophil Percentage,Absolute Lymphocyte Count,continuous,continuous,pearson,-0.4461268125335842,-0.4595834744709805,0.013456661937396308
+Neutrophil Percentage,White Blood Cell Count,continuous,continuous,pearson,0.23212661277271965,0.20544349249884739,0.026683120273872263
+Neutrophil Percentage,Plateletcrit,continuous,continuous,pearson,0.01000697812336197,0.01299071995269838,0.00298374182933641
+Neutrophil Percentage,Platelet Count,continuous,continuous,pearson,-0.050658658133224975,-0.04439119497862204,0.0062674631546029355
+Neutrophil Percentage,Hemoglobin,continuous,continuous,pearson,0.12359860765954435,0.1106387418821118,0.01295986577743255
+Neutrophil Percentage,Hematocrit,continuous,continuous,pearson,0.11853586661343396,0.10581239484653364,0.012723471766900321
+Neutrophil Percentage,Weight,continuous,continuous,pearson,-0.004431927176052205,0.04108045698579567,0.04551238416184787
+Neutrophil Percentage,Peak Temperature,continuous,continuous,pearson,0.05402787715981873,0.268166642272263,0.21413876511244428
+Neutrophil Percentage,Fever Duration,continuous,continuous,pearson,-0.09639967276895722,-0.15360949204564006,0.05720981927668284
+Neutrophil Percentage,Age in Days,continuous,continuous,pearson,-0.06901988021346303,-0.04398951647723777,0.02503036373622526
+Neutrophil Percentage,Cyanosis,continuous,categorical,correlation_ratio_eta,0.04498769615978986,0.01197760409584951,0.03301009206394035
+Neutrophil Percentage,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.030611390258422487,0.007267753907212019,0.023343636351210468
+Neutrophil Percentage,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.040973829016437036,0.013035154410005034,0.027938674606432002
+Neutrophil Percentage,Vomiting,continuous,categorical,correlation_ratio_eta,0.05729605241669318,0.04857647399587615,0.008719578420817033
+Neutrophil Percentage,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.05902104785329935,0.03649851185771653,0.02252253599558282
+Neutrophil Percentage,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.06828056613653992,0.025119440418469127,0.04316112571807079
+Neutrophil Percentage,Cough,continuous,categorical,correlation_ratio_eta,0.12613018914388335,0.041062087283753684,0.08506810186012967
+Neutrophil Percentage,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.029059442065234146,0.01767704897655643,0.011382393088677716
+Neutrophil Percentage,Rales,continuous,categorical,correlation_ratio_eta,0.021694278349433244,0.010087054290935071,0.011607224058498173
+Neutrophil Percentage,Hoarseness,continuous,categorical,correlation_ratio_eta,0.03186845013021837,0.008934040172433983,0.02293440995778439
+Neutrophil Percentage,Chills,continuous,categorical,correlation_ratio_eta,0.03820716304312447,0.017898240026962924,0.020308923016161547
+Neutrophil Percentage,Convulsion,continuous,categorical,correlation_ratio_eta,0.035539042397215594,0.0075374664679902685,0.028001575929225326
+Neutrophil Percentage,Hand Rash,continuous,categorical,correlation_ratio_eta,0.008180377315400816,0.010139049583706247,0.0019586722683054315
+Neutrophil Percentage,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.01632690519666352,0.006742618124191677,0.009584287072471845
+Neutrophil Percentage,Irritability,continuous,categorical,correlation_ratio_eta,0.008908057047255804,0.023507777988883913,0.014599720941628109
+Neutrophil Percentage,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.011253087708324776,0.012810278201775193,0.0015571904934504176
+Neutrophil Percentage,Rash,continuous,categorical,correlation_ratio_eta,0.04152575750976035,0.03833911505086216,0.0031866424588981868
+Neutrophil Percentage,Listlessness,continuous,categorical,correlation_ratio_eta,0.07839496583167328,0.02520854221911848,0.0531864236125548
+Neutrophil Percentage,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.010907769279523865,0.00699370004662215,0.003914069232901715
+Neutrophil Percentage,Diarrhea,continuous,categorical,correlation_ratio_eta,0.03557666086373704,0.02236703132646821,0.013209629537268834
+Neutrophil Percentage,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.04710185768783222,0.008237457109389919,0.0388644005784423
+Neutrophil Percentage,Jaundice,continuous,categorical,correlation_ratio_eta,0.07719957348633463,0.016084361177993178,0.06111521230834145
+Neutrophil Percentage,Sex,continuous,categorical,correlation_ratio_eta,0.01761986236524723,0.005928440143889088,0.01169142222135814
+Neutrophil Percentage,Hospitalization,continuous,categorical,correlation_ratio_eta,0.120466965114315,0.07022726366029028,0.05023970145402472
+Neutrophil Percentage,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0977088759866648,0.04812328482906417,0.04958559115760064
+Absolute Neutrophil Count,Monocyte Percentage,continuous,continuous,pearson,-0.22241254852186843,-0.22931805444431852,0.006905505922450095
+Absolute Neutrophil Count,Absolute Monocyte Count,continuous,continuous,pearson,0.43576050734427096,0.4126725739829163,0.023087933361354673
+Absolute Neutrophil Count,Mean Corpuscular Volume,continuous,continuous,pearson,-0.05201612351891768,-0.04690871148099691,0.005107412037920769
+Absolute Neutrophil Count,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,0.059402654980624324,0.07671305940116767,0.017310404420543345
+Absolute Neutrophil Count,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,-0.01633607022409208,-0.0038413839920734476,0.012494686232018631
+Absolute Neutrophil Count,Lymphocyte Percentage,continuous,continuous,pearson,-0.5650197893645492,-0.5887079208849573,0.02368813152040805
+Absolute Neutrophil Count,Absolute Lymphocyte Count,continuous,continuous,pearson,0.20985464670774076,0.21464637940882889,0.004791732701088125
+Absolute Neutrophil Count,White Blood Cell Count,continuous,continuous,pearson,0.8009158235461723,0.8077826118142069,0.0068667882680345516
+Absolute Neutrophil Count,Plateletcrit,continuous,continuous,pearson,0.06553437134838924,0.11356983620647264,0.048035464858083396
+Absolute Neutrophil Count,Platelet Count,continuous,continuous,pearson,0.13693198908086626,0.11514190044221105,0.02179008863865521
+Absolute Neutrophil Count,Hemoglobin,continuous,continuous,pearson,0.07462169769727521,0.09115069103151877,0.016528993334243555
+Absolute Neutrophil Count,Hematocrit,continuous,continuous,pearson,0.0609188310570231,0.08121779954005265,0.020298968483029547
+Absolute Neutrophil Count,Weight,continuous,continuous,pearson,-0.0022637519151835826,-0.013420546709814407,0.011156794794630824
+Absolute Neutrophil Count,Peak Temperature,continuous,continuous,pearson,0.03972305445676432,0.22121223320486863,0.1814891787481043
+Absolute Neutrophil Count,Fever Duration,continuous,continuous,pearson,0.017124674296809823,-0.008646712073357482,0.025771386370167307
+Absolute Neutrophil Count,Age in Days,continuous,continuous,pearson,-0.03755364873935078,-0.04452241976528204,0.006968771025931263
+Absolute Neutrophil Count,Cyanosis,continuous,categorical,correlation_ratio_eta,0.031749097457240395,0.003304004373564906,0.028445093083675488
+Absolute Neutrophil Count,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.020321692079684907,0.008136479340179225,0.012185212739505681
+Absolute Neutrophil Count,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.045142698530280315,0.01874787282098964,0.026394825709290675
+Absolute Neutrophil Count,Vomiting,continuous,categorical,correlation_ratio_eta,0.052764513105100844,0.0361427722393351,0.016621740865765747
+Absolute Neutrophil Count,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.03067715095785249,0.017165141280097263,0.013512009677755225
+Absolute Neutrophil Count,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.027034011726239066,0.014014441836957126,0.01301956988928194
+Absolute Neutrophil Count,Cough,continuous,categorical,correlation_ratio_eta,0.10753491039900233,0.023229924901587228,0.08430498549741511
+Absolute Neutrophil Count,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.02064073765913541,0.023262498057331025,0.002621760398195616
+Absolute Neutrophil Count,Rales,continuous,categorical,correlation_ratio_eta,0.004121289972654235,0.00832697607826913,0.0042056861056148954
+Absolute Neutrophil Count,Hoarseness,continuous,categorical,correlation_ratio_eta,0.025642235188780223,0.00799812512258565,0.017644110066194575
+Absolute Neutrophil Count,Chills,continuous,categorical,correlation_ratio_eta,0.04456187066510299,0.015594394821528352,0.02896747584357464
+Absolute Neutrophil Count,Convulsion,continuous,categorical,correlation_ratio_eta,0.037500262711914874,0.00959638057547586,0.027903882136439014
+Absolute Neutrophil Count,Hand Rash,continuous,categorical,correlation_ratio_eta,0.013986014862911636,0.014956726656658443,0.000970711793746807
+Absolute Neutrophil Count,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.015156386217306835,0.006541931918579731,0.008614454298727103
+Absolute Neutrophil Count,Irritability,continuous,categorical,correlation_ratio_eta,0.020257457985485665,0.009409071181484211,0.010848386804001454
+Absolute Neutrophil Count,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.016086807863300752,0.015430721775479947,0.0006560860878208046
+Absolute Neutrophil Count,Rash,continuous,categorical,correlation_ratio_eta,0.043820485654250806,0.025805764883839736,0.01801472077041107
+Absolute Neutrophil Count,Listlessness,continuous,categorical,correlation_ratio_eta,0.05287136910561827,0.028182881104161076,0.024688488001457197
+Absolute Neutrophil Count,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.0008660448175719376,0.008461222960511751,0.007595178142939813
+Absolute Neutrophil Count,Diarrhea,continuous,categorical,correlation_ratio_eta,0.04012483318300441,0.02511108610111337,0.01501374708189104
+Absolute Neutrophil Count,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.0331099748713146,0.030284264097582326,0.0028257107737322713
+Absolute Neutrophil Count,Jaundice,continuous,categorical,correlation_ratio_eta,0.05040189975002358,0.01619012380431839,0.03421177594570519
+Absolute Neutrophil Count,Sex,continuous,categorical,correlation_ratio_eta,0.009373191865806752,0.0046361432823569925,0.00473704858344976
+Absolute Neutrophil Count,Hospitalization,continuous,categorical,correlation_ratio_eta,0.23249766684322662,0.13722593457430216,0.09527173226892446
+Absolute Neutrophil Count,ICU Admission,continuous,categorical,correlation_ratio_eta,0.1024224738141426,0.07074704646254172,0.03167542735160088
+Monocyte Percentage,Absolute Monocyte Count,continuous,continuous,pearson,0.5283601075004989,0.5932603530329525,0.06490024553245366
+Monocyte Percentage,Mean Corpuscular Volume,continuous,continuous,pearson,0.20602155368702035,0.18767665180022408,0.018344901886796272
+Monocyte Percentage,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,-0.20089123481737978,-0.177161003442142,0.023730231375237776
+Monocyte Percentage,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.08707998649369066,0.08183315687321982,0.005246829620470836
+Monocyte Percentage,Lymphocyte Percentage,continuous,continuous,pearson,-0.220560711848437,-0.19320852374894212,0.027352188099494884
+Monocyte Percentage,Absolute Lymphocyte Count,continuous,continuous,pearson,-0.36902313195684316,-0.3607245563753556,0.008298575581487555
+Monocyte Percentage,White Blood Cell Count,continuous,continuous,pearson,-0.27150026634153906,-0.3198808760105485,0.04838060966900942
+Monocyte Percentage,Plateletcrit,continuous,continuous,pearson,-0.054844742557628896,-0.08773270607383576,0.03288796351620687
+Monocyte Percentage,Platelet Count,continuous,continuous,pearson,-0.09604647866428198,-0.07858568963800824,0.017460789026273738
+Monocyte Percentage,Hemoglobin,continuous,continuous,pearson,0.0881858260076617,0.0883437535430062,0.00015792753534450699
+Monocyte Percentage,Hematocrit,continuous,continuous,pearson,0.1435951467217595,0.1345720832502086,0.00902306347155088
+Monocyte Percentage,Weight,continuous,continuous,pearson,-0.0030856899666590796,-0.008226287813820284,0.005140597847161204
+Monocyte Percentage,Peak Temperature,continuous,continuous,pearson,0.0013341868530948474,-0.0812578677888949,0.08259205464198975
+Monocyte Percentage,Fever Duration,continuous,continuous,pearson,-0.10928364561949647,-0.1280056649770541,0.01872201935755763
+Monocyte Percentage,Age in Days,continuous,continuous,pearson,-0.021806879347499034,-0.018255414241150722,0.0035514651063483123
+Monocyte Percentage,Cyanosis,continuous,categorical,correlation_ratio_eta,0.07581397958033499,0.022799514294497957,0.05301446528583703
+Monocyte Percentage,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.017379873938941297,0.007478552001956991,0.009901321936984306
+Monocyte Percentage,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.060695711650416075,0.007662297202684174,0.0530334144477319
+Monocyte Percentage,Vomiting,continuous,categorical,correlation_ratio_eta,0.14430904309251388,0.00236984766732284,0.14193919542519104
+Monocyte Percentage,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.06485875377045978,0.04276404022551737,0.022094713544942413
+Monocyte Percentage,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.061239891811728564,0.034221132757194204,0.02701875905453436
+Monocyte Percentage,Cough,continuous,categorical,correlation_ratio_eta,0.19520451462385213,0.10336134062542641,0.09184317399842572
+Monocyte Percentage,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.05090597672467583,0.041490601786027585,0.009415374938648247
+Monocyte Percentage,Rales,continuous,categorical,correlation_ratio_eta,0.039750953132531325,0.003953456729141978,0.03579749640338935
+Monocyte Percentage,Hoarseness,continuous,categorical,correlation_ratio_eta,0.057270159616439074,0.016908294376816086,0.040361865239622985
+Monocyte Percentage,Chills,continuous,categorical,correlation_ratio_eta,0.0428124695578971,0.01632479631820481,0.026487673239692294
+Monocyte Percentage,Convulsion,continuous,categorical,correlation_ratio_eta,0.07129751432743305,0.07030883617323645,0.0009886781541965928
+Monocyte Percentage,Hand Rash,continuous,categorical,correlation_ratio_eta,0.054297562252364914,0.01763674284967341,0.0366608194026915
+Monocyte Percentage,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.058889686722790095,0.009754996064118285,0.049134690658671806
+Monocyte Percentage,Irritability,continuous,categorical,correlation_ratio_eta,0.0447365712139109,0.010414871261413359,0.034321699952497536
+Monocyte Percentage,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.047933771526432675,0.02371887207122134,0.024214899455211335
+Monocyte Percentage,Rash,continuous,categorical,correlation_ratio_eta,0.08094343439033926,0.01827283407555855,0.06267060031478071
+Monocyte Percentage,Listlessness,continuous,categorical,correlation_ratio_eta,0.009505914780763505,0.006300520380807891,0.003205394399955614
+Monocyte Percentage,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.00476969844646327,0.01341247443663267,0.0086427759901694
+Monocyte Percentage,Diarrhea,continuous,categorical,correlation_ratio_eta,0.10155610007644508,0.010489659668805119,0.09106644040763996
+Monocyte Percentage,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.07287318641810586,0.045513274159994614,0.027359912258111248
+Monocyte Percentage,Jaundice,continuous,categorical,correlation_ratio_eta,0.04434036334707809,0.010461807414410352,0.03387855593266774
+Monocyte Percentage,Sex,continuous,categorical,correlation_ratio_eta,0.02804319251036342,0.0202001653085701,0.00784302720179332
+Monocyte Percentage,Hospitalization,continuous,categorical,correlation_ratio_eta,0.13594641922215195,0.0791926235916108,0.05675379563054114
+Monocyte Percentage,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0192239976639647,0.025539071715432217,0.006315074051467518
+Absolute Monocyte Count,Mean Corpuscular Volume,continuous,continuous,pearson,0.12939476438817746,0.13313006109285921,0.0037352967046817565
+Absolute Monocyte Count,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,-0.09080371564727605,-0.08462459890891842,0.006179116738357623
+Absolute Monocyte Count,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.07234253666539696,0.07858627742121956,0.006243740755822597
+Absolute Monocyte Count,Lymphocyte Percentage,continuous,continuous,pearson,-0.2616456599682499,-0.24973411811969293,0.011911541848556972
+Absolute Monocyte Count,Absolute Lymphocyte Count,continuous,continuous,pearson,0.23913489841492797,0.23636118334188094,0.002773715073047023
+Absolute Monocyte Count,White Blood Cell Count,continuous,continuous,pearson,0.5265473269918021,0.48966063461416287,0.036886692377639196
+Absolute Monocyte Count,Plateletcrit,continuous,continuous,pearson,0.042720932629136246,0.058364473658317866,0.01564354102918162
+Absolute Monocyte Count,Platelet Count,continuous,continuous,pearson,0.09844471385196844,0.0986868263486936,0.00024211249672514978
+Absolute Monocyte Count,Hemoglobin,continuous,continuous,pearson,0.12080147885640691,0.122774909354103,0.001973430497696091
+Absolute Monocyte Count,Hematocrit,continuous,continuous,pearson,0.15156271406792335,0.15580982423303288,0.0042471101651095355
+Absolute Monocyte Count,Weight,continuous,continuous,pearson,-0.0031054012300948753,-0.054481977459636025,0.05137657622954115
+Absolute Monocyte Count,Peak Temperature,continuous,continuous,pearson,0.007901434938182376,0.005048757590124475,0.0028526773480579007
+Absolute Monocyte Count,Fever Duration,continuous,continuous,pearson,-0.019247613770164023,-0.02600718795105602,0.006759574180891997
+Absolute Monocyte Count,Age in Days,continuous,continuous,pearson,-0.06724697911531517,-0.05696054837859693,0.010286430736718241
+Absolute Monocyte Count,Cyanosis,continuous,categorical,correlation_ratio_eta,0.03974531543540538,0.014174225254261584,0.0255710901811438
+Absolute Monocyte Count,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.011250853330770109,0.007003440719501546,0.004247412611268563
+Absolute Monocyte Count,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.008158248397380793,0.01382217557087457,0.0056639271734937775
+Absolute Monocyte Count,Vomiting,continuous,categorical,correlation_ratio_eta,0.07153733171448232,0.016626600396373842,0.054910731318108474
+Absolute Monocyte Count,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.03420104398226938,0.01571720176257532,0.01848384221969406
+Absolute Monocyte Count,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.03945039479564893,0.030337507147651467,0.009112887647997461
+Absolute Monocyte Count,Cough,continuous,categorical,correlation_ratio_eta,0.11865558995949795,0.08798921193230283,0.030666378027195115
+Absolute Monocyte Count,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.017860986998108928,0.024470657484534555,0.006609670486425627
+Absolute Monocyte Count,Rales,continuous,categorical,correlation_ratio_eta,0.0117124272538412,0.005018349467232147,0.006694077786609054
+Absolute Monocyte Count,Hoarseness,continuous,categorical,correlation_ratio_eta,0.034618802774946895,0.010961206756841186,0.023657596018105707
+Absolute Monocyte Count,Chills,continuous,categorical,correlation_ratio_eta,0.016413480762656776,0.016379033863537458,3.444689911931767e-05
+Absolute Monocyte Count,Convulsion,continuous,categorical,correlation_ratio_eta,0.03526074834578023,0.04488570170739375,0.009624953361613516
+Absolute Monocyte Count,Hand Rash,continuous,categorical,correlation_ratio_eta,0.0289760579173158,0.006259372347231253,0.022716685570084546
+Absolute Monocyte Count,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.026753113686969303,0.007386226470725309,0.019366887216243994
+Absolute Monocyte Count,Irritability,continuous,categorical,correlation_ratio_eta,0.03673560568165386,0.015317860483284543,0.02141774519836932
+Absolute Monocyte Count,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.018272691042295626,0.023973835363781927,0.005701144321486301
+Absolute Monocyte Count,Rash,continuous,categorical,correlation_ratio_eta,0.02858101099877681,0.0130825257711163,0.015498485227660511
+Absolute Monocyte Count,Listlessness,continuous,categorical,correlation_ratio_eta,0.029722005027214577,0.014979493210493222,0.014742511816721355
+Absolute Monocyte Count,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.010120786327354882,0.01655352007446889,0.006432733747114009
+Absolute Monocyte Count,Diarrhea,continuous,categorical,correlation_ratio_eta,0.040463739045354156,0.011663354140234877,0.02880038490511928
+Absolute Monocyte Count,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.04777169469633525,0.004871801240422663,0.04289989345591259
+Absolute Monocyte Count,Jaundice,continuous,categorical,correlation_ratio_eta,0.027348979256984075,0.0025763766041059202,0.024772602652878156
+Absolute Monocyte Count,Sex,continuous,categorical,correlation_ratio_eta,0.023954954293172546,0.02685781249390682,0.002902858200734274
+Absolute Monocyte Count,Hospitalization,continuous,categorical,correlation_ratio_eta,0.09656124908802464,0.046865398766747134,0.04969585032127751
+Absolute Monocyte Count,ICU Admission,continuous,categorical,correlation_ratio_eta,0.05941841251555216,0.02862728518164963,0.03079112733390253
+Mean Corpuscular Volume,Mean Corpuscular Hemoglobin Concentration,continuous,continuous,pearson,0.009796039892012063,-0.0014197845748533105,0.011215824466865374
+Mean Corpuscular Volume,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.8859094368348152,0.8818814341451328,0.004028002689682397
+Mean Corpuscular Volume,Lymphocyte Percentage,continuous,continuous,pearson,-0.0666147557167241,-0.06344128786199597,0.003173467854728121
+Mean Corpuscular Volume,Absolute Lymphocyte Count,continuous,continuous,pearson,-0.08512738637442437,-0.08212535381306767,0.003002032561356699
+Mean Corpuscular Volume,White Blood Cell Count,continuous,continuous,pearson,-0.05228701341034878,-0.0573527302905554,0.005065716880206614
+Mean Corpuscular Volume,Plateletcrit,continuous,continuous,pearson,0.025078451556085103,0.007327390798087958,0.017751060757997143
+Mean Corpuscular Volume,Platelet Count,continuous,continuous,pearson,-0.07103752145959688,-0.06591508081570925,0.00512244064388763
+Mean Corpuscular Volume,Hemoglobin,continuous,continuous,pearson,0.41123375239774934,0.39103887447952135,0.020194877918227994
+Mean Corpuscular Volume,Hematocrit,continuous,continuous,pearson,0.4302951781965162,0.4108518048976732,0.019443373298842992
+Mean Corpuscular Volume,Weight,continuous,continuous,pearson,0.006950937032423315,-0.31573594172714353,0.32268687875956686
+Mean Corpuscular Volume,Peak Temperature,continuous,continuous,pearson,-0.030412171679749037,-0.18017011691772955,0.14975794523798053
+Mean Corpuscular Volume,Fever Duration,continuous,continuous,pearson,-0.04543668492273971,-0.04556799021830936,0.00013130529556965032
+Mean Corpuscular Volume,Age in Days,continuous,continuous,pearson,-0.5995632221526742,-0.5754555580243381,0.024107664128336093
+Mean Corpuscular Volume,Cyanosis,continuous,categorical,correlation_ratio_eta,0.049755809574067264,0.044385785017160395,0.005370024556906869
+Mean Corpuscular Volume,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.07036802067573009,0.017310643523520217,0.05305737715220987
+Mean Corpuscular Volume,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.06232997628321743,0.026689423669847213,0.03564055261337022
+Mean Corpuscular Volume,Vomiting,continuous,categorical,correlation_ratio_eta,0.07610368685073737,0.05478356080408186,0.021320126046655515
+Mean Corpuscular Volume,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.13292075069481846,0.06266282993131676,0.0702579207635017
+Mean Corpuscular Volume,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.08316678232099653,0.04068969276063113,0.0424770895603654
+Mean Corpuscular Volume,Cough,continuous,categorical,correlation_ratio_eta,0.16534598339139012,0.136709030978451,0.02863695241293912
+Mean Corpuscular Volume,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.07718871717151919,0.05217304747047998,0.02501566970103921
+Mean Corpuscular Volume,Rales,continuous,categorical,correlation_ratio_eta,0.005818086694300519,0.005520479414877231,0.0002976072794232884
+Mean Corpuscular Volume,Hoarseness,continuous,categorical,correlation_ratio_eta,0.0448344512585282,0.011547935982382568,0.03328651527614564
+Mean Corpuscular Volume,Chills,continuous,categorical,correlation_ratio_eta,0.05600098108028952,0.016824398704942727,0.0391765823753468
+Mean Corpuscular Volume,Convulsion,continuous,categorical,correlation_ratio_eta,0.019331060415961537,0.008300435735726221,0.011030624680235315
+Mean Corpuscular Volume,Hand Rash,continuous,categorical,correlation_ratio_eta,0.049808351260635195,0.01414604237187408,0.03566230888876112
+Mean Corpuscular Volume,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.05686260178487641,0.009405409938853103,0.04745719184602331
+Mean Corpuscular Volume,Irritability,continuous,categorical,correlation_ratio_eta,0.0435643708576541,0.011812979483485518,0.03175139137416858
+Mean Corpuscular Volume,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.031223411435680287,0.00900891307796152,0.022214498357718767
+Mean Corpuscular Volume,Rash,continuous,categorical,correlation_ratio_eta,0.1316147830227068,0.059150637403037866,0.07246414561966893
+Mean Corpuscular Volume,Listlessness,continuous,categorical,correlation_ratio_eta,0.09138425234255257,0.04242139131294543,0.04896286102960714
+Mean Corpuscular Volume,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.010317104613337204,0.014801907566271462,0.004484802952934257
+Mean Corpuscular Volume,Diarrhea,continuous,categorical,correlation_ratio_eta,0.09234736439108082,0.03543169087896831,0.05691567351211251
+Mean Corpuscular Volume,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.08402337243985335,0.03814364484852134,0.045879727591332006
+Mean Corpuscular Volume,Jaundice,continuous,categorical,correlation_ratio_eta,0.17860464846152185,0.05667234609609029,0.12193230236543157
+Mean Corpuscular Volume,Sex,continuous,categorical,correlation_ratio_eta,0.07655990114468088,0.07546202986289537,0.0010978712817855119
+Mean Corpuscular Volume,Hospitalization,continuous,categorical,correlation_ratio_eta,0.13437593382007287,0.09699505338126234,0.037380880438810535
+Mean Corpuscular Volume,ICU Admission,continuous,categorical,correlation_ratio_eta,0.152586654322718,0.051108424160383324,0.10147823016233468
+Mean Corpuscular Hemoglobin Concentration,Mean Corpuscular Hemoglobin,continuous,continuous,pearson,0.47008090458310764,0.46646053170111895,0.003620372881988687
+Mean Corpuscular Hemoglobin Concentration,Lymphocyte Percentage,continuous,continuous,pearson,0.014312828506440771,0.0103684915914452,0.00394433691499557
+Mean Corpuscular Hemoglobin Concentration,Absolute Lymphocyte Count,continuous,continuous,pearson,0.05999721160649643,0.07303057315778866,0.013033361551292227
+Mean Corpuscular Hemoglobin Concentration,White Blood Cell Count,continuous,continuous,pearson,0.053246448327970756,0.08803396626128082,0.034787517933310065
+Mean Corpuscular Hemoglobin Concentration,Plateletcrit,continuous,continuous,pearson,0.11733371291313588,0.11832926059087846,0.0009955476777425837
+Mean Corpuscular Hemoglobin Concentration,Platelet Count,continuous,continuous,pearson,-0.04296430525983149,-0.04181790530410333,0.0011463999557281626
+Mean Corpuscular Hemoglobin Concentration,Hemoglobin,continuous,continuous,pearson,0.3508427018978718,0.33588709176753284,0.01495561013033897
+Mean Corpuscular Hemoglobin Concentration,Hematocrit,continuous,continuous,pearson,0.14687496796198982,0.12626280202452989,0.02061216593745993
+Mean Corpuscular Hemoglobin Concentration,Weight,continuous,continuous,pearson,0.005881228332480401,-0.12926786149168265,0.13514908982416304
+Mean Corpuscular Hemoglobin Concentration,Peak Temperature,continuous,continuous,pearson,-0.016213188508919774,-0.07585457040487704,0.059641381895957274
+Mean Corpuscular Hemoglobin Concentration,Fever Duration,continuous,continuous,pearson,-0.02281357103426313,-0.030773456489014944,0.007959885454751816
+Mean Corpuscular Hemoglobin Concentration,Age in Days,continuous,continuous,pearson,-0.35038856370165933,-0.3148525150833139,0.03553604861834542
+Mean Corpuscular Hemoglobin Concentration,Cyanosis,continuous,categorical,correlation_ratio_eta,0.055736760981154515,0.0043085877434572845,0.05142817323769723
+Mean Corpuscular Hemoglobin Concentration,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.02910069781991504,0.003814253899818731,0.02528644392009631
+Mean Corpuscular Hemoglobin Concentration,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.04199953898549639,0.008180291225636155,0.033819247759860234
+Mean Corpuscular Hemoglobin Concentration,Vomiting,continuous,categorical,correlation_ratio_eta,0.061742751953442226,0.031339283751350866,0.03040346820209136
+Mean Corpuscular Hemoglobin Concentration,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.09561131158804839,0.06727125312316797,0.028340058464880427
+Mean Corpuscular Hemoglobin Concentration,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.03454921164405254,0.017378844628646462,0.017170367015406075
+Mean Corpuscular Hemoglobin Concentration,Cough,continuous,categorical,correlation_ratio_eta,0.10414642097003758,0.04926200734554657,0.054884413624491014
+Mean Corpuscular Hemoglobin Concentration,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.020990930517677888,0.0019882960138092112,0.019002634503868677
+Mean Corpuscular Hemoglobin Concentration,Rales,continuous,categorical,correlation_ratio_eta,0.021639305143167177,0.009914163454588454,0.011725141688578723
+Mean Corpuscular Hemoglobin Concentration,Hoarseness,continuous,categorical,correlation_ratio_eta,0.024990285759621318,0.010297529158703161,0.014692756600918157
+Mean Corpuscular Hemoglobin Concentration,Chills,continuous,categorical,correlation_ratio_eta,0.032353603612174195,0.013700296445877268,0.01865330716629693
+Mean Corpuscular Hemoglobin Concentration,Convulsion,continuous,categorical,correlation_ratio_eta,0.04558404622817811,0.03130174099763851,0.014282305230539603
+Mean Corpuscular Hemoglobin Concentration,Hand Rash,continuous,categorical,correlation_ratio_eta,0.005005924201485774,0.009194451559619943,0.004188527358134169
+Mean Corpuscular Hemoglobin Concentration,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.05711013697524669,0.006096614923571323,0.051013522051675364
+Mean Corpuscular Hemoglobin Concentration,Irritability,continuous,categorical,correlation_ratio_eta,0.02924935988595616,0.005725773142929904,0.023523586743026258
+Mean Corpuscular Hemoglobin Concentration,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.048375353617310365,0.03193274809035105,0.016442605526959315
+Mean Corpuscular Hemoglobin Concentration,Rash,continuous,categorical,correlation_ratio_eta,0.021353554332669174,0.021436065891894084,8.251155922490983e-05
+Mean Corpuscular Hemoglobin Concentration,Listlessness,continuous,categorical,correlation_ratio_eta,0.051185797398219136,0.024932409416829556,0.02625338798138958
+Mean Corpuscular Hemoglobin Concentration,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.029868839395150438,0.009638244904003368,0.020230594491147072
+Mean Corpuscular Hemoglobin Concentration,Diarrhea,continuous,categorical,correlation_ratio_eta,0.015246090742575892,0.0071313130617650005,0.00811477768081089
+Mean Corpuscular Hemoglobin Concentration,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.07764226885750908,0.04195734798863855,0.035684920868870526
+Mean Corpuscular Hemoglobin Concentration,Jaundice,continuous,categorical,correlation_ratio_eta,0.19550071576672748,0.050306652137732444,0.14519406362899503
+Mean Corpuscular Hemoglobin Concentration,Sex,continuous,categorical,correlation_ratio_eta,0.06221732599329318,0.031260148195588436,0.030957177797704745
+Mean Corpuscular Hemoglobin Concentration,Hospitalization,continuous,categorical,correlation_ratio_eta,0.1497545159808743,0.09805522025690416,0.05169929572397014
+Mean Corpuscular Hemoglobin Concentration,ICU Admission,continuous,categorical,correlation_ratio_eta,0.09286078627614075,0.02687955983283031,0.06598122644331045
+Mean Corpuscular Hemoglobin,Lymphocyte Percentage,continuous,continuous,pearson,-0.05335515762533158,-0.05189778873397072,0.0014573688913608607
+Mean Corpuscular Hemoglobin,Absolute Lymphocyte Count,continuous,continuous,pearson,-0.04695746749929004,-0.037430541903103284,0.009526925596186758
+Mean Corpuscular Hemoglobin,White Blood Cell Count,continuous,continuous,pearson,-0.0202919841225408,-0.007807120794539386,0.012484863328001413
+Mean Corpuscular Hemoglobin,Plateletcrit,continuous,continuous,pearson,0.07725302913541535,0.06321201765690271,0.014041011478512638
+Mean Corpuscular Hemoglobin,Platelet Count,continuous,continuous,pearson,-0.08297218910045487,-0.07734068300088243,0.005631506099572442
+Mean Corpuscular Hemoglobin,Hemoglobin,continuous,continuous,pearson,0.5288494262353662,0.5032576241328537,0.02559180210251255
+Mean Corpuscular Hemoglobin,Hematocrit,continuous,continuous,pearson,0.45072067697908785,0.4225625979505969,0.028158079028490934
+Mean Corpuscular Hemoglobin,Weight,continuous,continuous,pearson,0.009336471686855601,-0.34167284683772714,0.3510093185245827
+Mean Corpuscular Hemoglobin,Peak Temperature,continuous,continuous,pearson,-0.03436088379492134,-0.19559786081530794,0.1612369770203866
+Mean Corpuscular Hemoglobin,Fever Duration,continuous,continuous,pearson,-0.05024424153818412,-0.05461026661993557,0.004366025081751455
+Mean Corpuscular Hemoglobin,Age in Days,continuous,continuous,pearson,-0.6946212235103467,-0.6565538010579647,0.03806742245238204
+Mean Corpuscular Hemoglobin,Cyanosis,continuous,categorical,correlation_ratio_eta,0.06899253800192241,0.03963811679998842,0.029354421201933996
+Mean Corpuscular Hemoglobin,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.07529580007022306,0.01429375267235035,0.06100204739787271
+Mean Corpuscular Hemoglobin,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.03449685130984782,0.021516836510468654,0.012980014799379169
+Mean Corpuscular Hemoglobin,Vomiting,continuous,categorical,correlation_ratio_eta,0.07450755162177074,0.0630350936444935,0.011472457977277237
+Mean Corpuscular Hemoglobin,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.16277134303576304,0.0880011066377485,0.07477023639801454
+Mean Corpuscular Hemoglobin,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.08940652069233389,0.04353536538383193,0.04587115530850196
+Mean Corpuscular Hemoglobin,Cough,continuous,categorical,correlation_ratio_eta,0.18132667860901377,0.14324165954005733,0.03808501906895645
+Mean Corpuscular Hemoglobin,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.05902494806269186,0.0468608907094972,0.01216405735319466
+Mean Corpuscular Hemoglobin,Rales,continuous,categorical,correlation_ratio_eta,0.01545652629202759,3.435995376053342e-05,0.015422166338267056
+Mean Corpuscular Hemoglobin,Hoarseness,continuous,categorical,correlation_ratio_eta,0.04751714075899391,0.012360710394526212,0.035156430364467695
+Mean Corpuscular Hemoglobin,Chills,continuous,categorical,correlation_ratio_eta,0.06482354542496446,0.021046188425310232,0.04377735699965423
+Mean Corpuscular Hemoglobin,Convulsion,continuous,categorical,correlation_ratio_eta,0.025286776979871927,0.010858527626018431,0.014428249353853496
+Mean Corpuscular Hemoglobin,Hand Rash,continuous,categorical,correlation_ratio_eta,0.04559950232932412,0.016991177888675463,0.028608324440648654
+Mean Corpuscular Hemoglobin,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.07651504155981248,0.005496430424399246,0.07101861113541323
+Mean Corpuscular Hemoglobin,Irritability,continuous,categorical,correlation_ratio_eta,0.05088946664397716,0.011577591151488358,0.039311875492488796
+Mean Corpuscular Hemoglobin,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.0497286320989439,0.022817936777450632,0.02691069532149327
+Mean Corpuscular Hemoglobin,Rash,continuous,categorical,correlation_ratio_eta,0.11758527509751729,0.058662567944619985,0.058922707152897304
+Mean Corpuscular Hemoglobin,Listlessness,continuous,categorical,correlation_ratio_eta,0.10522702435932232,0.04842798220098823,0.0567990421583341
+Mean Corpuscular Hemoglobin,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.02181533463450367,0.01563192040191633,0.00618341423258734
+Mean Corpuscular Hemoglobin,Diarrhea,continuous,categorical,correlation_ratio_eta,0.08684320998766709,0.03312529589249788,0.05371791409516921
+Mean Corpuscular Hemoglobin,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.10699432478261306,0.053554884999568744,0.053439439783044315
+Mean Corpuscular Hemoglobin,Jaundice,continuous,categorical,correlation_ratio_eta,0.25177349963345336,0.07568642092838121,0.17608707870507215
+Mean Corpuscular Hemoglobin,Sex,continuous,categorical,correlation_ratio_eta,0.03869858877720584,0.05274683504399266,0.014048246266786822
+Mean Corpuscular Hemoglobin,Hospitalization,continuous,categorical,correlation_ratio_eta,0.18957863019985344,0.13282491344233704,0.05675371675751639
+Mean Corpuscular Hemoglobin,ICU Admission,continuous,categorical,correlation_ratio_eta,0.17947981645010738,0.05862629310166813,0.12085352334843925
+Lymphocyte Percentage,Absolute Lymphocyte Count,continuous,continuous,pearson,0.5405523565618933,0.5584934810309643,0.017941124469071035
+Lymphocyte Percentage,White Blood Cell Count,continuous,continuous,pearson,-0.16356125109635364,-0.1150112746462686,0.04854997645008503
+Lymphocyte Percentage,Plateletcrit,continuous,continuous,pearson,0.008438013615117477,0.015103217262610396,0.006665203647492918
+Lymphocyte Percentage,Platelet Count,continuous,continuous,pearson,0.06915676580101739,0.06324559263340682,0.00591117316761057
+Lymphocyte Percentage,Hemoglobin,continuous,continuous,pearson,-0.1566971525074926,-0.13893665026997318,0.017760502237519432
+Lymphocyte Percentage,Hematocrit,continuous,continuous,pearson,-0.16667683082570753,-0.15065617910799145,0.016020651717716078
+Lymphocyte Percentage,Weight,continuous,continuous,pearson,0.0041338745198418545,-0.030355351356858237,0.03448922587670009
+Lymphocyte Percentage,Peak Temperature,continuous,continuous,pearson,-0.050662397011946844,-0.21725719651076322,0.1665947994988164
+Lymphocyte Percentage,Fever Duration,continuous,continuous,pearson,0.1256780833164065,0.18395570206737455,0.05827761875096804
+Lymphocyte Percentage,Age in Days,continuous,continuous,pearson,0.09879850706281983,0.07519511961857464,0.023603387444245186
+Lymphocyte Percentage,Cyanosis,continuous,categorical,correlation_ratio_eta,0.050995967058717236,0.01908377992144852,0.03191218713726872
+Lymphocyte Percentage,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.03370694851376572,0.008691498653076326,0.02501544986068939
+Lymphocyte Percentage,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.022884000625297055,0.014309511437810814,0.008574489187486241
+Lymphocyte Percentage,Vomiting,continuous,categorical,correlation_ratio_eta,0.058074400621632785,0.04152056450747132,0.016553836114161467
+Lymphocyte Percentage,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.06923655524330413,0.045180437278023414,0.02405611796528072
+Lymphocyte Percentage,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.0885554499759594,0.03358376241363568,0.05497168756232373
+Lymphocyte Percentage,Cough,continuous,categorical,correlation_ratio_eta,0.13658227763278538,0.07834120340534773,0.058241074227437656
+Lymphocyte Percentage,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.014174712192670013,0.010830916506606426,0.0033437956860635863
+Lymphocyte Percentage,Rales,continuous,categorical,correlation_ratio_eta,0.02971670470842461,0.012773209963609627,0.016943494744814984
+Lymphocyte Percentage,Hoarseness,continuous,categorical,correlation_ratio_eta,0.03719136974733643,0.0053245002356215035,0.031866869511714926
+Lymphocyte Percentage,Chills,continuous,categorical,correlation_ratio_eta,0.03609213434995359,0.014174766488833212,0.02191736786112038
+Lymphocyte Percentage,Convulsion,continuous,categorical,correlation_ratio_eta,0.040581543699059794,0.026455976020793307,0.014125567678266487
+Lymphocyte Percentage,Hand Rash,continuous,categorical,correlation_ratio_eta,0.012876916927004902,0.007532822988368502,0.0053440939386364
+Lymphocyte Percentage,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.016659390149500113,0.005105783533235231,0.011553606616264882
+Lymphocyte Percentage,Irritability,continuous,categorical,correlation_ratio_eta,0.015177562539607493,0.01913941524986882,0.003961852710261327
+Lymphocyte Percentage,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.016763563366013354,0.006928656256546538,0.009834907109466814
+Lymphocyte Percentage,Rash,continuous,categorical,correlation_ratio_eta,0.025309981100209284,0.02412383175247235,0.001186149347736934
+Lymphocyte Percentage,Listlessness,continuous,categorical,correlation_ratio_eta,0.06851744336218073,0.024037937061052755,0.04447950630112797
+Lymphocyte Percentage,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.007375532263964188,0.006585273548172715,0.0007902587157914732
+Lymphocyte Percentage,Diarrhea,continuous,categorical,correlation_ratio_eta,0.02220335713710169,0.021576187986140066,0.0006271691509616255
+Lymphocyte Percentage,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.021436899295589083,0.005564907978642553,0.01587199131694653
+Lymphocyte Percentage,Jaundice,continuous,categorical,correlation_ratio_eta,0.06733995415526875,0.018163834746051252,0.0491761194092175
+Lymphocyte Percentage,Sex,continuous,categorical,correlation_ratio_eta,0.0016355301618870605,0.006915873553311264,0.005280343391424204
+Lymphocyte Percentage,Hospitalization,continuous,categorical,correlation_ratio_eta,0.07048257774132045,0.04164935261319555,0.028833225128124904
+Lymphocyte Percentage,ICU Admission,continuous,categorical,correlation_ratio_eta,0.09202971474296699,0.040560262375408725,0.05146945236755827
+Absolute Lymphocyte Count,White Blood Cell Count,continuous,continuous,pearson,0.6329087868077132,0.7065327510132731,0.07362396420555983
+Absolute Lymphocyte Count,Plateletcrit,continuous,continuous,pearson,0.08841801090138608,0.14389831429246672,0.055480303391080635
+Absolute Lymphocyte Count,Platelet Count,continuous,continuous,pearson,0.23713180650251864,0.21378079616319035,0.023351010339328293
+Absolute Lymphocyte Count,Hemoglobin,continuous,continuous,pearson,-0.062132531216376935,-0.05354542675044541,0.008587104465931528
+Absolute Lymphocyte Count,Hematocrit,continuous,continuous,pearson,-0.07998791060424955,-0.06961752330246772,0.01037038730178183
+Absolute Lymphocyte Count,Weight,continuous,continuous,pearson,0.0013604016359300536,-0.06780563093951496,0.06916603257544501
+Absolute Lymphocyte Count,Peak Temperature,continuous,continuous,pearson,-0.017740493422464348,-0.06563757546242807,0.04789708203996372
+Absolute Lymphocyte Count,Fever Duration,continuous,continuous,pearson,0.14306297812269952,0.2066173744111842,0.06355439628848467
+Absolute Lymphocyte Count,Age in Days,continuous,continuous,pearson,0.04517906436110963,0.022948486153099204,0.02223057820801043
+Absolute Lymphocyte Count,Cyanosis,continuous,categorical,correlation_ratio_eta,0.0426307781626982,0.02299768296335053,0.019633095199347673
+Absolute Lymphocyte Count,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.013010314693210122,0.001281824272937678,0.011728490420272443
+Absolute Lymphocyte Count,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.02461568539188197,0.0075174989414092215,0.017098186450472747
+Absolute Lymphocyte Count,Vomiting,continuous,categorical,correlation_ratio_eta,0.05124527549554154,0.022636118554471688,0.02860915694106985
+Absolute Lymphocyte Count,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.04796626668897728,0.03700052999860532,0.010965736690371958
+Absolute Lymphocyte Count,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.06692619361923578,0.02153331467310445,0.04539287894613134
+Absolute Lymphocyte Count,Cough,continuous,categorical,correlation_ratio_eta,0.07603073845273352,0.047887908896582704,0.028142829556150814
+Absolute Lymphocyte Count,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.005695358452769767,0.01119997915148132,0.005504620698711552
+Absolute Lymphocyte Count,Rales,continuous,categorical,correlation_ratio_eta,0.032040339691569004,0.01383612206739497,0.018204217624174034
+Absolute Lymphocyte Count,Hoarseness,continuous,categorical,correlation_ratio_eta,0.0237396120759304,0.01302181247412515,0.010717799601805252
+Absolute Lymphocyte Count,Chills,continuous,categorical,correlation_ratio_eta,0.026805565495708325,0.0018404200579107575,0.024965145437797567
+Absolute Lymphocyte Count,Convulsion,continuous,categorical,correlation_ratio_eta,0.039814569507673196,0.02973376692250956,0.010080802585163636
+Absolute Lymphocyte Count,Hand Rash,continuous,categorical,correlation_ratio_eta,0.01880486883599585,0.009665836793239992,0.00913903204275586
+Absolute Lymphocyte Count,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.025764963221332208,0.008148038814252918,0.01761692440707929
+Absolute Lymphocyte Count,Irritability,continuous,categorical,correlation_ratio_eta,0.03669058583446281,0.020861207688453617,0.015829378146009192
+Absolute Lymphocyte Count,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.02010259578846856,0.00967558170293805,0.010427014085530508
+Absolute Lymphocyte Count,Rash,continuous,categorical,correlation_ratio_eta,0.0396652740948098,0.017141990487787112,0.022523283607022687
+Absolute Lymphocyte Count,Listlessness,continuous,categorical,correlation_ratio_eta,0.044250133677457504,0.007836953178550559,0.03641318049890695
+Absolute Lymphocyte Count,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.01152805310829318,0.005287865909615519,0.006240187198677661
+Absolute Lymphocyte Count,Diarrhea,continuous,categorical,correlation_ratio_eta,0.02974231493329684,0.005555618378164613,0.02418669655513223
+Absolute Lymphocyte Count,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.024559907044024037,0.027092729493262458,0.0025328224492384213
+Absolute Lymphocyte Count,Jaundice,continuous,categorical,correlation_ratio_eta,0.03143837956977593,0.0019183956205284481,0.029519983949247482
+Absolute Lymphocyte Count,Sex,continuous,categorical,correlation_ratio_eta,0.006491990773245198,0.0016871301766872475,0.004804860596557951
+Absolute Lymphocyte Count,Hospitalization,continuous,categorical,correlation_ratio_eta,0.1345337392574921,0.08377437639650206,0.05075936286099003
+Absolute Lymphocyte Count,ICU Admission,continuous,categorical,correlation_ratio_eta,0.008533892368073816,0.02042788622595867,0.011893993857884855
+White Blood Cell Count,Plateletcrit,continuous,continuous,pearson,0.08392322071923042,0.16559307657277048,0.08166985585354006
+White Blood Cell Count,Platelet Count,continuous,continuous,pearson,0.20071085741044303,0.21192683569346402,0.011215978283020983
+White Blood Cell Count,Hemoglobin,continuous,continuous,pearson,0.030340424196467465,0.047103996033558054,0.01676357183709059
+White Blood Cell Count,Hematocrit,continuous,continuous,pearson,0.015853731164256812,0.034710295865541654,0.018856564701284842
+White Blood Cell Count,Weight,continuous,continuous,pearson,-0.00037528079001956325,-0.05989522781184879,0.05951994702182923
+White Blood Cell Count,Peak Temperature,continuous,continuous,pearson,0.017793882134997517,0.10634180802675618,0.08854792589175867
+White Blood Cell Count,Fever Duration,continuous,continuous,pearson,0.0762640674278451,0.1131368785158046,0.036872811087959506
+White Blood Cell Count,Age in Days,continuous,continuous,pearson,-0.01885322688507522,-0.033645987235047595,0.014792760349972376
+White Blood Cell Count,Cyanosis,continuous,categorical,correlation_ratio_eta,0.027150562372518946,0.010622865353522267,0.01652769701899668
+White Blood Cell Count,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.013999496223101236,0.009239367803834728,0.0047601284192665076
+White Blood Cell Count,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.03605222429441521,0.016145817427122972,0.019906406867292236
+White Blood Cell Count,Vomiting,continuous,categorical,correlation_ratio_eta,0.04081420099283065,0.017902267277273568,0.022911933715557085
+White Blood Cell Count,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.003459803322207637,0.013316735548648687,0.00985693222644105
+White Blood Cell Count,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.028082131023516328,0.0073414155285958715,0.020740715494920455
+White Blood Cell Count,Cough,continuous,categorical,correlation_ratio_eta,0.07301937515175107,0.003836490098561259,0.06918288505318981
+White Blood Cell Count,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.01644519204090381,0.01267560396879523,0.0037695880721085786
+White Blood Cell Count,Rales,continuous,categorical,correlation_ratio_eta,0.014126921348373777,0.009452718319945298,0.004674203028428478
+White Blood Cell Count,Hoarseness,continuous,categorical,correlation_ratio_eta,0.01770024485590677,0.01166313739033326,0.00603710746557351
+White Blood Cell Count,Chills,continuous,categorical,correlation_ratio_eta,0.03202041136764716,0.007702498869552569,0.02431791249809459
+White Blood Cell Count,Convulsion,continuous,categorical,correlation_ratio_eta,0.02944168688877892,0.021669015888612916,0.0077726710001660045
+White Blood Cell Count,Hand Rash,continuous,categorical,correlation_ratio_eta,0.013045439195158387,0.01608871022524374,0.0030432710300853528
+White Blood Cell Count,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.027378445046010513,0.008966632528924129,0.018411812517086384
+White Blood Cell Count,Irritability,continuous,categorical,correlation_ratio_eta,0.03034002657951439,0.006190984969014802,0.024149041610499588
+White Blood Cell Count,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.009682172205095275,0.015945855995105625,0.00626368379001035
+White Blood Cell Count,Rash,continuous,categorical,correlation_ratio_eta,0.049776682420049866,0.007378692590388421,0.04239798982966145
+White Blood Cell Count,Listlessness,continuous,categorical,correlation_ratio_eta,0.02539408385183129,0.018106681252123908,0.007287402599707383
+White Blood Cell Count,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.006087803998666832,0.00826463504634664,0.0021768310476798077
+White Blood Cell Count,Diarrhea,continuous,categorical,correlation_ratio_eta,0.035774399726196414,0.016780051522370627,0.018994348203825787
+White Blood Cell Count,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.024167618866496914,0.03920067880375852,0.015033059937261607
+White Blood Cell Count,Jaundice,continuous,categorical,correlation_ratio_eta,0.028223213652373406,0.01056650596681656,0.017656707685556848
+White Blood Cell Count,Sex,continuous,categorical,correlation_ratio_eta,0.001777333701437533,0.008138881100941242,0.006361547399503709
+White Blood Cell Count,Hospitalization,continuous,categorical,correlation_ratio_eta,0.2180045400383579,0.14576225873166734,0.07224228130669055
+White Blood Cell Count,ICU Admission,continuous,categorical,correlation_ratio_eta,0.07068285126142587,0.06067499767137832,0.01000785359004755
+Plateletcrit,Platelet Count,continuous,continuous,pearson,0.2255622277661387,0.4244793866802866,0.1989171589141479
+Plateletcrit,Hemoglobin,continuous,continuous,pearson,-0.04360603102275913,-0.06256551475519398,0.018959483732434848
+Plateletcrit,Hematocrit,continuous,continuous,pearson,-0.07017022662397018,-0.08690813245223962,0.016737905828269437
+Plateletcrit,Weight,continuous,continuous,pearson,-0.006204775514528014,-0.057768307554320344,0.05156353203979233
+Plateletcrit,Peak Temperature,continuous,continuous,pearson,-0.003686988080133499,-0.009788659299487327,0.006101671219353828
+Plateletcrit,Fever Duration,continuous,continuous,pearson,0.02797472317216085,0.04033419331525596,0.012359470143095106
+Plateletcrit,Age in Days,continuous,continuous,pearson,-0.07863860959112619,-0.05786292197113498,0.020775687619991205
+Plateletcrit,Cyanosis,continuous,categorical,correlation_ratio_eta,0.04394839728898893,0.025537502412332984,0.018410894876655946
+Plateletcrit,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.028005256900724015,0.016157929133601843,0.011847327767122173
+Plateletcrit,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.030831102957479765,0.021044588791694283,0.009786514165785482
+Plateletcrit,Vomiting,continuous,categorical,correlation_ratio_eta,0.02314908010818811,0.01904949068990681,0.004099589418281299
+Plateletcrit,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.029195895748843015,0.011914525786725454,0.01728136996211756
+Plateletcrit,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.03322569716712176,0.006153709488024039,0.02707198767909772
+Plateletcrit,Cough,continuous,categorical,correlation_ratio_eta,0.009520431150584277,0.006916387251661032,0.002604043898923245
+Plateletcrit,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.006410829944076726,0.016475837724531952,0.010065007780455226
+Plateletcrit,Rales,continuous,categorical,correlation_ratio_eta,0.0437680102534129,0.007090064495459799,0.0366779457579531
+Plateletcrit,Hoarseness,continuous,categorical,correlation_ratio_eta,0.0011939154281794487,0.006788306007270898,0.00559439057909145
+Plateletcrit,Chills,continuous,categorical,correlation_ratio_eta,0.05065453140776921,0.0036521811601834204,0.04700235024758579
+Plateletcrit,Convulsion,continuous,categorical,correlation_ratio_eta,0.020287557575382573,0.015223795173051375,0.005063762402331197
+Plateletcrit,Hand Rash,continuous,categorical,correlation_ratio_eta,0.02037948104162652,0.01580299491920622,0.004576486122420301
+Plateletcrit,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.058431972206031864,0.013773699325002855,0.04465827288102901
+Plateletcrit,Irritability,continuous,categorical,correlation_ratio_eta,0.01594778728159753,0.006455920493300756,0.009491866788296777
+Plateletcrit,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.03261135403973721,0.013912381960527504,0.018698972079209703
+Plateletcrit,Rash,continuous,categorical,correlation_ratio_eta,0.016296250933211718,0.00926099265365422,0.007035258279557498
+Plateletcrit,Listlessness,continuous,categorical,correlation_ratio_eta,0.05261122558504954,0.03639159218831547,0.016219633396734073
+Plateletcrit,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.011654746653521167,0.01211693177957119,0.0004621851260500232
+Plateletcrit,Diarrhea,continuous,categorical,correlation_ratio_eta,0.020551074743623162,0.014911192518574161,0.005639882225049001
+Plateletcrit,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.03101404441996972,0.021402683400665503,0.009611361019304217
+Plateletcrit,Jaundice,continuous,categorical,correlation_ratio_eta,0.057054578037007656,0.020487880945035362,0.03656669709197229
+Plateletcrit,Sex,continuous,categorical,correlation_ratio_eta,0.021354223406113638,0.018348279666364757,0.0030059437397488807
+Plateletcrit,Hospitalization,continuous,categorical,correlation_ratio_eta,0.23684654782552947,0.15003834263478477,0.0868082051907447
+Plateletcrit,ICU Admission,continuous,categorical,correlation_ratio_eta,0.03288161257305407,0.027308090794571315,0.005573521778482752
+Platelet Count,Hemoglobin,continuous,continuous,pearson,-0.17831923792535015,-0.15940584976658756,0.01891338815876259
+Platelet Count,Hematocrit,continuous,continuous,pearson,-0.172784744150712,-0.1559435694350619,0.01684117471565008
+Platelet Count,Weight,continuous,continuous,pearson,-0.00974208575251061,-0.029014713289837357,0.019272627537326746
+Platelet Count,Peak Temperature,continuous,continuous,pearson,-0.019823074225780956,-0.04408671311694101,0.024263638891160056
+Platelet Count,Fever Duration,continuous,continuous,pearson,0.08424835608901914,0.07659618107404535,0.007652175014973783
+Platelet Count,Age in Days,continuous,continuous,pearson,0.10294575207818163,0.09758425122914216,0.005361500849039469
+Platelet Count,Cyanosis,continuous,categorical,correlation_ratio_eta,0.026288419862685018,0.0100738663380426,0.01621455352464242
+Platelet Count,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.008596098240271256,0.004670497025543283,0.003925601214727973
+Platelet Count,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.019393029124209555,0.02021916661137107,0.0008261374871615136
+Platelet Count,Vomiting,continuous,categorical,correlation_ratio_eta,0.028783433611189065,0.02430450798996023,0.004478925621228834
+Platelet Count,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.020249050902858647,0.008972306813384245,0.011276744089474402
+Platelet Count,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.047494378294333,0.018938162519698105,0.028556215774634894
+Platelet Count,Cough,continuous,categorical,correlation_ratio_eta,0.05264815514267908,0.015276989925316784,0.03737116521736229
+Platelet Count,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.017967134835772766,0.013739410860064648,0.004227723975708118
+Platelet Count,Rales,continuous,categorical,correlation_ratio_eta,0.028822538452081086,0.003713332830171662,0.025109205621909422
+Platelet Count,Hoarseness,continuous,categorical,correlation_ratio_eta,0.00522674530849784,0.006704534411731638,0.0014777891032337984
+Platelet Count,Chills,continuous,categorical,correlation_ratio_eta,0.021555538006054812,0.00391684989885039,0.017638688107204422
+Platelet Count,Convulsion,continuous,categorical,correlation_ratio_eta,0.018723351151832317,0.013828459135917012,0.004894892015915305
+Platelet Count,Hand Rash,continuous,categorical,correlation_ratio_eta,0.012835126355217028,0.014176320158089136,0.0013411938028721083
+Platelet Count,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.01921808123173587,0.008385734589853323,0.010832346641882548
+Platelet Count,Irritability,continuous,categorical,correlation_ratio_eta,0.01724182468070216,0.014096266376946278,0.003145558303755883
+Platelet Count,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.01723510477065409,0.00850417843941378,0.00873092633124031
+Platelet Count,Rash,continuous,categorical,correlation_ratio_eta,0.02879151068241987,0.012913710284213826,0.015877800398206042
+Platelet Count,Listlessness,continuous,categorical,correlation_ratio_eta,0.009364733582527672,0.015049692366613592,0.00568495878408592
+Platelet Count,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.016258942299436745,0.0032962493250976083,0.012962692974339137
+Platelet Count,Diarrhea,continuous,categorical,correlation_ratio_eta,0.024271297521707133,0.017895737236584938,0.0063755602851221956
+Platelet Count,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.016421129231116025,0.024176673223377684,0.007755543992261658
+Platelet Count,Jaundice,continuous,categorical,correlation_ratio_eta,0.05819507498898384,0.019096095552428912,0.03909897943655492
+Platelet Count,Sex,continuous,categorical,correlation_ratio_eta,0.06596966249540466,0.032381718798060406,0.033587943697344254
+Platelet Count,Hospitalization,continuous,categorical,correlation_ratio_eta,0.09541660123484512,0.04367798910686063,0.05173861212798449
+Platelet Count,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0005650199133732331,0.013597836847394245,0.013032816934021012
+Hemoglobin,Hematocrit,continuous,continuous,pearson,0.9687380262142787,0.9663696155350244,0.002368410679254307
+Hemoglobin,Weight,continuous,continuous,pearson,0.009893430723570868,-0.1754245482049222,0.18531797892849308
+Hemoglobin,Peak Temperature,continuous,continuous,pearson,-0.02543041012376744,-0.15267512564818214,0.1272447155244147
+Hemoglobin,Fever Duration,continuous,continuous,pearson,-0.12595234463557187,-0.1694576944492753,0.04350534981370344
+Hemoglobin,Age in Days,continuous,continuous,pearson,-0.5777047412968137,-0.4817026213285516,0.09600211996826213
+Hemoglobin,Cyanosis,continuous,categorical,correlation_ratio_eta,0.037420544753147086,0.015726133864422558,0.02169441088872453
+Hemoglobin,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.06202414035343126,0.022763325640302912,0.03926081471312835
+Hemoglobin,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.028139153056510154,0.023057414211772872,0.0050817388447372824
+Hemoglobin,Vomiting,continuous,categorical,correlation_ratio_eta,0.023287019890440987,0.011457638306837258,0.01182938158360373
+Hemoglobin,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.12015003957258398,0.050723043846212686,0.06942699572637129
+Hemoglobin,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.07972968290305395,0.03580693031906111,0.043922752583992836
+Hemoglobin,Cough,continuous,categorical,correlation_ratio_eta,0.16895771831706316,0.08782858576650479,0.08112913255055837
+Hemoglobin,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.03245733983080058,0.0314404024798278,0.001016937350972781
+Hemoglobin,Rales,continuous,categorical,correlation_ratio_eta,0.026282116854221535,0.01122355079915086,0.015058566055070674
+Hemoglobin,Hoarseness,continuous,categorical,correlation_ratio_eta,0.042267134007813796,0.015654450267066678,0.026612683740747118
+Hemoglobin,Chills,continuous,categorical,correlation_ratio_eta,0.04149935895382147,0.006823325243084317,0.03467603371073716
+Hemoglobin,Convulsion,continuous,categorical,correlation_ratio_eta,0.03565485050840707,0.010689865461841938,0.02496498504656513
+Hemoglobin,Hand Rash,continuous,categorical,correlation_ratio_eta,0.01515214728230277,0.0030834691415237256,0.012068678140779044
+Hemoglobin,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.025963250838421627,0.004310453633024634,0.021652797205396992
+Hemoglobin,Irritability,continuous,categorical,correlation_ratio_eta,0.013011816207866742,0.00832110032923588,0.004690715878630862
+Hemoglobin,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.025159401935174037,0.012327451749336898,0.012831950185837139
+Hemoglobin,Rash,continuous,categorical,correlation_ratio_eta,0.06487932995101185,0.045986742664230106,0.018892587286781747
+Hemoglobin,Listlessness,continuous,categorical,correlation_ratio_eta,0.0801501002228401,0.026113797373402303,0.05403630284943779
+Hemoglobin,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.017871707166664447,0.002506321265926718,0.01536538590073773
+Hemoglobin,Diarrhea,continuous,categorical,correlation_ratio_eta,0.05973502741332436,0.006437056185804166,0.05329797122752019
+Hemoglobin,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.08801187349701359,0.03627130690927894,0.05174056658773465
+Hemoglobin,Jaundice,continuous,categorical,correlation_ratio_eta,0.24494537595975616,0.062106377787746414,0.18283899817200974
+Hemoglobin,Sex,continuous,categorical,correlation_ratio_eta,0.04278256398659616,0.02980831914393506,0.0129742448426611
+Hemoglobin,Hospitalization,continuous,categorical,correlation_ratio_eta,0.03194914933771153,0.03358285575315353,0.001633706415441999
+Hemoglobin,ICU Admission,continuous,categorical,correlation_ratio_eta,0.09151136517028065,0.008585248655259451,0.0829261165150212
+Hematocrit,Weight,continuous,continuous,pearson,0.008288172965801076,-0.15705382495832912,0.1653419979241302
+Hematocrit,Peak Temperature,continuous,continuous,pearson,-0.022704043455175394,-0.14334267574836423,0.12063863229318884
+Hematocrit,Fever Duration,continuous,continuous,pearson,-0.12817667302212765,-0.1698561070882277,0.04167943406610006
+Hematocrit,Age in Days,continuous,continuous,pearson,-0.5291704499166738,-0.43667638828083777,0.09249406163583607
+Hematocrit,Cyanosis,continuous,categorical,correlation_ratio_eta,0.026988843374770536,0.01604513924138851,0.010943704133382026
+Hematocrit,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.057668917792715046,0.022713608312962385,0.03495530947975266
+Hematocrit,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.036470525632411016,0.023899800665925525,0.01257072496648549
+Hematocrit,Vomiting,continuous,categorical,correlation_ratio_eta,0.018995290370676297,0.0050136533035044185,0.013981637067171877
+Hematocrit,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.10441862514721516,0.037016665426078614,0.06740195972113655
+Hematocrit,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.07744098319189813,0.035969009939409644,0.041471973252488484
+Hematocrit,Cough,continuous,categorical,correlation_ratio_eta,0.15840025583711811,0.08258043378386658,0.07581982205325154
+Hematocrit,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.038772510370907315,0.033161736094608374,0.005610774276298941
+Hematocrit,Rales,continuous,categorical,correlation_ratio_eta,0.023386926123368228,0.009601795444007426,0.013785130679360802
+Hematocrit,Hoarseness,continuous,categorical,correlation_ratio_eta,0.04261630502790263,0.014818789292774706,0.027797515735127926
+Hematocrit,Chills,continuous,categorical,correlation_ratio_eta,0.03790386298406728,0.006294947912504211,0.03160891507156307
+Hematocrit,Convulsion,continuous,categorical,correlation_ratio_eta,0.04200017979531797,0.007895570692972118,0.03410460910234585
+Hematocrit,Hand Rash,continuous,categorical,correlation_ratio_eta,0.014291100146285176,0.0034610713501598825,0.010830028796125293
+Hematocrit,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.014488446955404154,0.0050943443618661965,0.009394102593537956
+Hematocrit,Irritability,continuous,categorical,correlation_ratio_eta,0.008511053332244403,0.010263583290702536,0.0017525299584581332
+Hematocrit,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.016261653391238355,0.006599534354544305,0.00966211903669405
+Hematocrit,Rash,continuous,categorical,correlation_ratio_eta,0.06813394687266229,0.044722363965244184,0.023411582907418106
+Hematocrit,Listlessness,continuous,categorical,correlation_ratio_eta,0.07142944849282035,0.025033307195724146,0.0463961412970962
+Hematocrit,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.012825938227213663,0.005930007998294192,0.006895930228919471
+Hematocrit,Diarrhea,continuous,categorical,correlation_ratio_eta,0.06135090609041892,0.007020123740715786,0.054330782349703136
+Hematocrit,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.07587021365753509,0.029783199839678302,0.046087013817856785
+Hematocrit,Jaundice,continuous,categorical,correlation_ratio_eta,0.20653347108302605,0.05381159906235201,0.15272187202067405
+Hematocrit,Sex,continuous,categorical,correlation_ratio_eta,0.05837341765029382,0.03697529932995904,0.02139811832033478
+Hematocrit,Hospitalization,continuous,categorical,correlation_ratio_eta,0.06675857195586582,0.055237854054146066,0.011520717901719754
+Hematocrit,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0751253529115905,0.01350721850583062,0.06161813440575988
+Weight,Peak Temperature,continuous,continuous,pearson,-0.001473179322866752,0.1452201113722739,0.14669329069514064
+Weight,Fever Duration,continuous,continuous,pearson,-0.0017675567653493104,0.018253974929835163,0.020021531695184475
+Weight,Age in Days,continuous,continuous,pearson,-0.006655767701300574,0.26515726679870455,0.2718130345000051
+Weight,Cyanosis,continuous,categorical,correlation_ratio_eta,0.009689034234294805,0.037130966061949294,0.02744193182765449
+Weight,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.009025519687208427,0.01360026091928492,0.004574741232076494
+Weight,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.004274920906874102,0.015892555264375687,0.011617634357501586
+Weight,Vomiting,continuous,categorical,correlation_ratio_eta,0.013073727396005897,0.05162633779144421,0.038552610395438315
+Weight,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.013085079309532685,0.0458084079763162,0.03272332866678351
+Weight,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.005455632082776324,0.031405034325708354,0.025949402242932032
+Weight,Cough,continuous,categorical,correlation_ratio_eta,0.005574311132210675,0.07243585353990278,0.06686154240769211
+Weight,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.004097295602057679,0.03780657721244739,0.033709281610389705
+Weight,Rales,continuous,categorical,correlation_ratio_eta,0.0012892037295848394,0.005762047726548901,0.0044728439969640614
+Weight,Hoarseness,continuous,categorical,correlation_ratio_eta,0.003208362172401903,0.013926036991475328,0.010717674819073425
+Weight,Chills,continuous,categorical,correlation_ratio_eta,0.0036099778497967914,0.021928466245269014,0.018318488395472222
+Weight,Convulsion,continuous,categorical,correlation_ratio_eta,0.002637757992649646,0.02567543601662677,0.02303767802397712
+Weight,Hand Rash,continuous,categorical,correlation_ratio_eta,0.0038860181129515203,0.020682742965587787,0.016796724852636266
+Weight,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.00700437607032278,0.011538915294157763,0.004534539223834982
+Weight,Irritability,continuous,categorical,correlation_ratio_eta,0.007916251896381553,0.0251324110019496,0.01721615910556805
+Weight,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.00257940240259896,0.02261236472007181,0.02003296231747285
+Weight,Rash,continuous,categorical,correlation_ratio_eta,0.011734333175547507,0.03827708466609918,0.026542751490551672
+Weight,Listlessness,continuous,categorical,correlation_ratio_eta,0.00782330988236465,0.026448970519166736,0.018625660636802086
+Weight,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.005735861816160096,0.011295858399438499,0.005559996583278402
+Weight,Diarrhea,continuous,categorical,correlation_ratio_eta,0.016967039231028217,0.020752879129109374,0.0037858398980811572
+Weight,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.016613512384534602,0.035551848303607574,0.01893833591907297
+Weight,Jaundice,continuous,categorical,correlation_ratio_eta,0.031968295522228955,0.03232050753443412,0.000352212012205165
+Weight,Sex,continuous,categorical,correlation_ratio_eta,0.004315562597969398,0.024521543616002818,0.02020598101803342
+Weight,Hospitalization,continuous,categorical,correlation_ratio_eta,0.006671261393873252,0.08687975998253993,0.08020849858866667
+Weight,ICU Admission,continuous,categorical,correlation_ratio_eta,0.009749608135562264,0.04622786611872865,0.03647825798316639
+Peak Temperature,Fever Duration,continuous,continuous,pearson,0.007491832399225138,0.08932037815064912,0.08182854575142398
+Peak Temperature,Age in Days,continuous,continuous,pearson,0.030000979407143025,0.14111727509767186,0.11111629569052883
+Peak Temperature,Cyanosis,continuous,categorical,correlation_ratio_eta,0.014826917263956014,0.019753077681602386,0.004926160417646373
+Peak Temperature,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.015409515259257045,0.014616462375466816,0.0007930528837902292
+Peak Temperature,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.017139774711902853,0.005741037201719712,0.011398737510183141
+Peak Temperature,Vomiting,continuous,categorical,correlation_ratio_eta,0.024738928790575196,0.0650500299333384,0.040311101142763206
+Peak Temperature,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.019376240383355153,0.051697104520467455,0.0323208641371123
+Peak Temperature,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.005971571206464194,0.006550295360252779,0.0005787241537885852
+Peak Temperature,Cough,continuous,categorical,correlation_ratio_eta,0.013192397340329579,0.0012126109361672932,0.011979786404162286
+Peak Temperature,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.014680147676335947,0.016479955812838717,0.0017998081365027709
+Peak Temperature,Rales,continuous,categorical,correlation_ratio_eta,0.010188271196177606,0.019796097421983155,0.00960782622580555
+Peak Temperature,Hoarseness,continuous,categorical,correlation_ratio_eta,0.0011739450832879558,0.006529578018073955,0.005355632934785999
+Peak Temperature,Chills,continuous,categorical,correlation_ratio_eta,0.03567798565955918,0.016884074115349253,0.018793911544209927
+Peak Temperature,Convulsion,continuous,categorical,correlation_ratio_eta,0.024719987276616753,0.021687088705732837,0.0030328985708839157
+Peak Temperature,Hand Rash,continuous,categorical,correlation_ratio_eta,0.0007973461626685434,0.022058845673756183,0.02126149951108764
+Peak Temperature,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.006107812970902632,0.007628330412193653,0.001520517441291021
+Peak Temperature,Irritability,continuous,categorical,correlation_ratio_eta,0.008775116055643028,0.014615766823463185,0.0058406507678201575
+Peak Temperature,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.044058714246307855,0.01919311758020337,0.024865596666104484
+Peak Temperature,Rash,continuous,categorical,correlation_ratio_eta,0.02111085933778832,0.03645651249921025,0.015345653161421932
+Peak Temperature,Listlessness,continuous,categorical,correlation_ratio_eta,0.013222414264400715,0.0060565123743317765,0.007165901890068938
+Peak Temperature,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.0030435739533398653,0.006747879959405289,0.0037043060060654234
+Peak Temperature,Diarrhea,continuous,categorical,correlation_ratio_eta,0.004546416276031291,0.010680280316158882,0.0061338640401275915
+Peak Temperature,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.007885292002805638,0.012625941589174045,0.0047406495863684065
+Peak Temperature,Jaundice,continuous,categorical,correlation_ratio_eta,0.016088771577243224,0.022463516991912177,0.006374745414668953
+Peak Temperature,Sex,continuous,categorical,correlation_ratio_eta,0.010222398375514934,0.008519558873183968,0.0017028395023309661
+Peak Temperature,Hospitalization,continuous,categorical,correlation_ratio_eta,0.013223647064062698,0.07478865980165045,0.06156501273758775
+Peak Temperature,ICU Admission,continuous,categorical,correlation_ratio_eta,0.0016884421271129541,0.03656698265686313,0.034878540529750174
+Fever Duration,Age in Days,continuous,continuous,pearson,0.012128269485257243,-0.0001438316436693696,0.012272101128926613
+Fever Duration,Cyanosis,continuous,categorical,correlation_ratio_eta,0.01770281340409396,0.02432004572787923,0.00661723232378527
+Fever Duration,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.013158835842689667,0.006055491484843908,0.007103344357845759
+Fever Duration,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.011297182229467457,0.01544936905635344,0.004152186826885984
+Fever Duration,Vomiting,continuous,categorical,correlation_ratio_eta,0.028005565494144725,0.02802495164462745,1.9386150482726683e-05
+Fever Duration,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.028165977027075975,0.0034580399566106197,0.024707937070465355
+Fever Duration,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.02377255861481338,0.014097598402062072,0.009674960212751308
+Fever Duration,Cough,continuous,categorical,correlation_ratio_eta,0.03914692116617595,0.00946211317832958,0.029684807987846368
+Fever Duration,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.02013908298450748,0.022224570051414292,0.0020854870669068104
+Fever Duration,Rales,continuous,categorical,correlation_ratio_eta,0.01631333144514201,0.017845033156531378,0.0015317017113893674
+Fever Duration,Hoarseness,continuous,categorical,correlation_ratio_eta,0.01184539096236958,0.012297979134267303,0.00045258817189772205
+Fever Duration,Chills,continuous,categorical,correlation_ratio_eta,0.017928963115538644,0.008437102299165977,0.009491860816372667
+Fever Duration,Convulsion,continuous,categorical,correlation_ratio_eta,0.03508348409643345,0.035413768148829634,0.00033028405239618475
+Fever Duration,Hand Rash,continuous,categorical,correlation_ratio_eta,0.019563082326788862,0.015322113884627682,0.00424096844216118
+Fever Duration,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.03805159152495648,0.0036318079567501937,0.03441978356820628
+Fever Duration,Irritability,continuous,categorical,correlation_ratio_eta,0.0016603419897413554,0.009860859141821906,0.00820051715208055
+Fever Duration,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.014843410381159385,0.012595907589156612,0.0022475027920027726
+Fever Duration,Rash,continuous,categorical,correlation_ratio_eta,0.06138101211959652,0.06104903626059003,0.0003319758590064892
+Fever Duration,Listlessness,continuous,categorical,correlation_ratio_eta,0.010516369841936454,0.013648556038728048,0.0031321861967915938
+Fever Duration,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.005470105237225099,0.013727151210411138,0.00825704597318604
+Fever Duration,Diarrhea,continuous,categorical,correlation_ratio_eta,0.04035276406357153,0.04099962051207494,0.0006468564485034092
+Fever Duration,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.016321970741101265,0.01694542297959791,0.0006234522384966461
+Fever Duration,Jaundice,continuous,categorical,correlation_ratio_eta,0.04395022800637141,0.006701976173060718,0.037248251833310694
+Fever Duration,Sex,continuous,categorical,correlation_ratio_eta,0.00669536967797446,0.005124725147077284,0.0015706445308971764
+Fever Duration,Hospitalization,continuous,categorical,correlation_ratio_eta,0.13017541378938102,0.08592917466054753,0.04424623912883349
+Fever Duration,ICU Admission,continuous,categorical,correlation_ratio_eta,0.027408665853405838,0.03811232339420572,0.010703657540799882
+Age in Days,Cyanosis,continuous,categorical,correlation_ratio_eta,0.0896919418671753,0.03650016155584113,0.05319178031133417
+Age in Days,Frothing at the Mouth,continuous,categorical,correlation_ratio_eta,0.07842214684379936,0.021379540604655616,0.05704260623914374
+Age in Days,Inspiratory Dyspnea,continuous,categorical,correlation_ratio_eta,0.03729503159829725,0.01476302998751465,0.0225320016107826
+Age in Days,Vomiting,continuous,categorical,correlation_ratio_eta,0.07420601047461477,0.05575292046536425,0.018453090009250515
+Age in Days,Choking During Feeding,continuous,categorical,correlation_ratio_eta,0.1716469068659653,0.08512897123809475,0.08651793562787054
+Age in Days,Abnormal Breath Sounds,continuous,categorical,correlation_ratio_eta,0.09358300887460401,0.04052240724620495,0.05306060162839906
+Age in Days,Cough,continuous,categorical,correlation_ratio_eta,0.20824561553897636,0.12686699389235095,0.0813786216466254
+Age in Days,Pharyngeal Congestion,continuous,categorical,correlation_ratio_eta,0.0547274599492577,0.03401618772202634,0.02071127222723136
+Age in Days,Rales,continuous,categorical,correlation_ratio_eta,0.015229660072056318,0.006370159446893671,0.008859500625162647
+Age in Days,Hoarseness,continuous,categorical,correlation_ratio_eta,0.04797726235543942,0.008676793584565703,0.03930046877087372
+Age in Days,Chills,continuous,categorical,correlation_ratio_eta,0.07042313640725878,0.02684596643013452,0.043577169977124255
+Age in Days,Convulsion,continuous,categorical,correlation_ratio_eta,0.029184283403418596,0.009610533496891312,0.019573749906527285
+Age in Days,Hand Rash,continuous,categorical,correlation_ratio_eta,0.03832312365110206,0.012638046160917597,0.025685077490184463
+Age in Days,Shortness of Breath,continuous,categorical,correlation_ratio_eta,0.09798681080173047,0.020175322740425102,0.07781148806130536
+Age in Days,Irritability,continuous,categorical,correlation_ratio_eta,0.04859294759877423,0.023829571769273316,0.024763375829500913
+Age in Days,Aversion to Cold,continuous,categorical,correlation_ratio_eta,0.0559895619426378,0.037580657243916744,0.018408904698721057
+Age in Days,Rash,continuous,categorical,correlation_ratio_eta,0.11883721950621574,0.05960274993458363,0.059234469571632115
+Age in Days,Listlessness,continuous,categorical,correlation_ratio_eta,0.12457863842477564,0.05284547020706767,0.07173316821770798
+Age in Days,Cold Extremities,continuous,categorical,correlation_ratio_eta,0.019410370611551618,0.012239198358848935,0.007171172252702683
+Age in Days,Diarrhea,continuous,categorical,correlation_ratio_eta,0.08721080802328088,0.02518430608667681,0.06202650193660407
+Age in Days,Reduced Feeding / Anorexia,continuous,categorical,correlation_ratio_eta,0.12854961853995323,0.06372714322239507,0.06482247531755815
+Age in Days,Jaundice,continuous,categorical,correlation_ratio_eta,0.2928908799028541,0.07046466549145683,0.2224262144113973
+Age in Days,Sex,continuous,categorical,correlation_ratio_eta,0.002028243166928493,0.009467767517639867,0.007439524350711374
+Age in Days,Hospitalization,continuous,categorical,correlation_ratio_eta,0.2440239532159928,0.1545555364430949,0.08946841677289791
+Age in Days,ICU Admission,continuous,categorical,correlation_ratio_eta,0.23910891018647007,0.0796001361566033,0.15950877402986677
+Cyanosis,Frothing at the Mouth,categorical,categorical,cramers_v,0.07560728338263338,0.03300441572188152,0.04260286766075186
+Cyanosis,Inspiratory Dyspnea,categorical,categorical,cramers_v,0.3224780478084471,0.0,0.3224780478084471
+Cyanosis,Vomiting,categorical,categorical,cramers_v,0.13643939575189978,0.038475638615459586,0.0979637571364402
+Cyanosis,Choking During Feeding,categorical,categorical,cramers_v,0.11241979295280657,0.015510644732994043,0.09690914821981253
+Cyanosis,Abnormal Breath Sounds,categorical,categorical,cramers_v,0.21773028712771472,0.0011837449896345774,0.21654654213808014
+Cyanosis,Cough,categorical,categorical,cramers_v,0.003941147377486999,0.009722178267160873,0.005781030889673874
+Cyanosis,Pharyngeal Congestion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Cyanosis,Rales,categorical,categorical,cramers_v,0.02891853486230563,0.004858826834614583,0.024059708027691046
+Cyanosis,Hoarseness,categorical,categorical,cramers_v,0.06732636292377166,0.014913787948773564,0.05241257497499809
+Cyanosis,Chills,categorical,categorical,cramers_v,0.09548534181439473,0.06298462106249197,0.03250072075190276
+Cyanosis,Convulsion,categorical,categorical,cramers_v,0.2702159753405193,0.0019213712852029136,0.26829460405531635
+Cyanosis,Hand Rash,categorical,categorical,cramers_v,0.1273008730971755,0.03253036928817589,0.09477050380899961
+Cyanosis,Shortness of Breath,categorical,categorical,cramers_v,0.5706274060291595,0.06851408984802893,0.5021133161811306
+Cyanosis,Irritability,categorical,categorical,cramers_v,0.2106192808858,0.07892621964154398,0.13169306124425603
+Cyanosis,Aversion to Cold,categorical,categorical,cramers_v,0.007683669383613982,0.11154771108670317,0.10386404170308919
+Cyanosis,Rash,categorical,categorical,cramers_v,0.02922138300634228,0.04317058765502948,0.013949204648687197
+Cyanosis,Listlessness,categorical,categorical,cramers_v,0.1077482992902453,0.0,0.1077482992902453
+Cyanosis,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Cyanosis,Diarrhea,categorical,categorical,cramers_v,0.019759776425033307,0.010534001568216938,0.009225774856816369
+Cyanosis,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.041051396237032,0.014058321430298502,0.0269930748067335
+Cyanosis,Jaundice,categorical,categorical,cramers_v,0.12173314793696195,0.022167019201344996,0.09956612873561696
+Cyanosis,Sex,categorical,categorical,cramers_v,0.026234809134458813,0.034768367441026626,0.008533558306567813
+Cyanosis,Hospitalization,categorical,categorical,cramers_v,0.20880497999043335,0.016053893516469842,0.1927510864739635
+Cyanosis,ICU Admission,categorical,categorical,cramers_v,0.09625135570736475,0.018563906686015496,0.07768744902134925
+Frothing at the Mouth,Inspiratory Dyspnea,categorical,categorical,cramers_v,0.005129783766114831,0.0035849418697174226,0.0015448418963974085
+Frothing at the Mouth,Vomiting,categorical,categorical,cramers_v,0.1914980344194981,0.07026679700116517,0.12123123741833292
+Frothing at the Mouth,Choking During Feeding,categorical,categorical,cramers_v,0.3543247707501123,0.053823215754397635,0.3005015549957147
+Frothing at the Mouth,Abnormal Breath Sounds,categorical,categorical,cramers_v,0.07294133502207324,0.09838205320804934,0.025440718185976097
+Frothing at the Mouth,Cough,categorical,categorical,cramers_v,0.24237249467363894,0.028432811078384787,0.21393968359525417
+Frothing at the Mouth,Pharyngeal Congestion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Frothing at the Mouth,Rales,categorical,categorical,cramers_v,0.10257574631791799,0.004440532185267538,0.09813521413265046
+Frothing at the Mouth,Hoarseness,categorical,categorical,cramers_v,0.08576089374373297,0.0,0.08576089374373297
+Frothing at the Mouth,Chills,categorical,categorical,cramers_v,0.0,0.014702944482207504,0.014702944482207504
+Frothing at the Mouth,Convulsion,categorical,categorical,cramers_v,0.0,0.0062085998083351085,0.0062085998083351085
+Frothing at the Mouth,Hand Rash,categorical,categorical,cramers_v,0.15948529232537456,0.08673761991802319,0.07274767240735137
+Frothing at the Mouth,Shortness of Breath,categorical,categorical,cramers_v,0.15766245435803083,0.07280299508781238,0.08485945927021846
+Frothing at the Mouth,Irritability,categorical,categorical,cramers_v,0.027444324922104378,0.0,0.027444324922104378
+Frothing at the Mouth,Aversion to Cold,categorical,categorical,cramers_v,0.011216398907826611,0.2397904050534167,0.2285740061455901
+Frothing at the Mouth,Rash,categorical,categorical,cramers_v,0.0195468275700972,0.02021113188159546,0.0006643043114982587
+Frothing at the Mouth,Listlessness,categorical,categorical,cramers_v,0.245107492810524,0.029315147257290765,0.21579234555323323
+Frothing at the Mouth,Cold Extremities,categorical,categorical,cramers_v,0.018539550346442075,0.0,0.018539550346442075
+Frothing at the Mouth,Diarrhea,categorical,categorical,cramers_v,0.038594151266019894,0.04453565636824566,0.005941505102225769
+Frothing at the Mouth,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.20051395711285705,0.056059677295411996,0.14445427981744505
+Frothing at the Mouth,Jaundice,categorical,categorical,cramers_v,0.10470317557744967,0.03157162082281032,0.07313155475463934
+Frothing at the Mouth,Sex,categorical,categorical,cramers_v,0.05519089494768772,0.06937903643368318,0.01418814148599546
+Frothing at the Mouth,Hospitalization,categorical,categorical,cramers_v,0.056124269226330875,0.034940842329663165,0.02118342689666771
+Frothing at the Mouth,ICU Admission,categorical,categorical,cramers_v,0.0416578033973149,0.017396311153731643,0.02426149224358326
+Inspiratory Dyspnea,Vomiting,categorical,categorical,cramers_v,0.0,0.018779242012438312,0.018779242012438312
+Inspiratory Dyspnea,Choking During Feeding,categorical,categorical,cramers_v,0.10056131455428734,0.0,0.10056131455428734
+Inspiratory Dyspnea,Abnormal Breath Sounds,categorical,categorical,cramers_v,0.42181880866865307,0.04829452884162952,0.3735242798270235
+Inspiratory Dyspnea,Cough,categorical,categorical,cramers_v,0.007242849176449224,0.03263100311857293,0.025388153942123702
+Inspiratory Dyspnea,Pharyngeal Congestion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Inspiratory Dyspnea,Rales,categorical,categorical,cramers_v,0.16068030535583078,0.009386380702525874,0.1512939246533049
+Inspiratory Dyspnea,Hoarseness,categorical,categorical,cramers_v,0.07138563708555122,0.10937132905831563,0.03798569197276441
+Inspiratory Dyspnea,Chills,categorical,categorical,cramers_v,0.0,0.03681713500030134,0.03681713500030134
+Inspiratory Dyspnea,Convulsion,categorical,categorical,cramers_v,0.01199313750790939,0.03869652418340105,0.026703386675491658
+Inspiratory Dyspnea,Hand Rash,categorical,categorical,cramers_v,0.010257624248277739,0.0,0.010257624248277739
+Inspiratory Dyspnea,Shortness of Breath,categorical,categorical,cramers_v,0.44069820382980357,0.007663635612084226,0.43303456821771935
+Inspiratory Dyspnea,Irritability,categorical,categorical,cramers_v,0.08765525975041985,0.08285593523120141,0.00479932451921844
+Inspiratory Dyspnea,Aversion to Cold,categorical,categorical,cramers_v,0.0,0.0,0.0
+Inspiratory Dyspnea,Rash,categorical,categorical,cramers_v,0.09825259640563043,0.002604277648549927,0.0956483187570805
+Inspiratory Dyspnea,Listlessness,categorical,categorical,cramers_v,0.19059618814633733,0.14195322619777417,0.04864296194856316
+Inspiratory Dyspnea,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Inspiratory Dyspnea,Diarrhea,categorical,categorical,cramers_v,0.0,0.011875370535489989,0.011875370535489989
+Inspiratory Dyspnea,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.13738194413591104,0.09688768211978745,0.04049426201612359
+Inspiratory Dyspnea,Jaundice,categorical,categorical,cramers_v,0.18263066663635547,0.01020694218789238,0.17242372444846307
+Inspiratory Dyspnea,Sex,categorical,categorical,cramers_v,0.044935158064764745,0.02237947537554635,0.022555682689218395
+Inspiratory Dyspnea,Hospitalization,categorical,categorical,cramers_v,0.2667722799646673,0.0016211079124605777,0.26515117205220673
+Inspiratory Dyspnea,ICU Admission,categorical,categorical,cramers_v,0.11059091767324349,0.00021279007951840732,0.11037812759372508
+Vomiting,Choking During Feeding,categorical,categorical,cramers_v,0.5340382418987613,0.08206656523485621,0.45197167666390503
+Vomiting,Abnormal Breath Sounds,categorical,categorical,cramers_v,0.05502480456022962,0.023811823989580896,0.031212980570648727
+Vomiting,Cough,categorical,categorical,cramers_v,0.11367981779172957,0.006916068023121543,0.10676374976860803
+Vomiting,Pharyngeal Congestion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Vomiting,Rales,categorical,categorical,cramers_v,0.043987296689087685,0.013219565972665851,0.03076773071642183
+Vomiting,Hoarseness,categorical,categorical,cramers_v,0.06557474935958979,0.0,0.06557474935958979
+Vomiting,Chills,categorical,categorical,cramers_v,0.05337972771649817,0.022166236333746446,0.031213491382751722
+Vomiting,Convulsion,categorical,categorical,cramers_v,0.03353799838744808,0.05824412894092793,0.024706130553479852
+Vomiting,Hand Rash,categorical,categorical,cramers_v,0.06711057803744824,0.020497810586209163,0.04661276745123908
+Vomiting,Shortness of Breath,categorical,categorical,cramers_v,0.1329633763986222,0.0016534667516075016,0.13130990964701472
+Vomiting,Irritability,categorical,categorical,cramers_v,0.039438856412116585,0.025154972733167795,0.01428388367894879
+Vomiting,Aversion to Cold,categorical,categorical,cramers_v,0.0,0.026413219414812155,0.026413219414812155
+Vomiting,Rash,categorical,categorical,cramers_v,0.0,0.04050267288903641,0.04050267288903641
+Vomiting,Listlessness,categorical,categorical,cramers_v,0.05514139338924971,0.014400370313102087,0.040741023076147624
+Vomiting,Cold Extremities,categorical,categorical,cramers_v,0.005221264290884529,0.008631512870344972,0.0034102485794604434
+Vomiting,Diarrhea,categorical,categorical,cramers_v,0.11951341687260263,0.13523110510250255,0.015717688229899926
+Vomiting,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.01744911143916033,0.008552486256788863,0.008896625182371467
+Vomiting,Jaundice,categorical,categorical,cramers_v,0.09179079598523585,0.0020031372699767045,0.08978765871525914
+Vomiting,Sex,categorical,categorical,cramers_v,0.014971681504700227,0.005795833872379731,0.009175847632320495
+Vomiting,Hospitalization,categorical,categorical,cramers_v,0.05515635598140884,0.03325053703947786,0.021905818941930978
+Vomiting,ICU Admission,categorical,categorical,cramers_v,0.04127242265007351,0.006636796454943964,0.03463562619512955
+Choking During Feeding,Abnormal Breath Sounds,categorical,categorical,cramers_v,0.05298227432329928,0.018011212309634227,0.03497106201366505
+Choking During Feeding,Cough,categorical,categorical,cramers_v,0.22121929418285102,0.0603273794533403,0.16089191472951073
+Choking During Feeding,Pharyngeal Congestion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Choking During Feeding,Rales,categorical,categorical,cramers_v,0.12514477031427437,0.03330373313728288,0.09184103717699149
+Choking During Feeding,Hoarseness,categorical,categorical,cramers_v,0.030833240345811995,0.07104205084811138,0.04020881050229939
+Choking During Feeding,Chills,categorical,categorical,cramers_v,0.022117520088568852,0.044731849508870686,0.022614329420301834
+Choking During Feeding,Convulsion,categorical,categorical,cramers_v,0.017065924998960667,0.03742292816670538,0.020357003167744712
+Choking During Feeding,Hand Rash,categorical,categorical,cramers_v,0.014512785084555778,0.054615343486297575,0.040102558401741796
+Choking During Feeding,Shortness of Breath,categorical,categorical,cramers_v,0.12862239363919983,0.03525320525134076,0.09336918838785907
+Choking During Feeding,Irritability,categorical,categorical,cramers_v,0.15778964838841278,0.006421012241567954,0.15136863614684481
+Choking During Feeding,Aversion to Cold,categorical,categorical,cramers_v,0.0,0.03883360970118853,0.03883360970118853
+Choking During Feeding,Rash,categorical,categorical,cramers_v,0.015227760443264097,0.05217958102607098,0.03695182058280688
+Choking During Feeding,Listlessness,categorical,categorical,cramers_v,0.16420546545547002,0.0024824401599007843,0.16172302529556923
+Choking During Feeding,Cold Extremities,categorical,categorical,cramers_v,0.03647554364010715,0.02274538894283488,0.013730154697272266
+Choking During Feeding,Diarrhea,categorical,categorical,cramers_v,0.04056737334225543,0.0168827381791994,0.02368463516305603
+Choking During Feeding,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.204676743138487,0.02457537006117244,0.18010137307731455
+Choking During Feeding,Jaundice,categorical,categorical,cramers_v,0.029471645315093876,0.006972497901435345,0.02249914741365853
+Choking During Feeding,Sex,categorical,categorical,cramers_v,0.007106742072643069,0.009633622090850929,0.00252688001820786
+Choking During Feeding,Hospitalization,categorical,categorical,cramers_v,0.0655366205478553,0.018862432806932533,0.04667418774092277
+Choking During Feeding,ICU Admission,categorical,categorical,cramers_v,0.022523768815977296,0.015364376305907443,0.007159392510069853
+Abnormal Breath Sounds,Cough,categorical,categorical,cramers_v,0.17230581820280433,0.011589998157663244,0.1607158200451411
+Abnormal Breath Sounds,Pharyngeal Congestion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Abnormal Breath Sounds,Rales,categorical,categorical,cramers_v,0.2564222255426852,0.020107145787207074,0.2363150797554781
+Abnormal Breath Sounds,Hoarseness,categorical,categorical,cramers_v,0.08886363155982896,0.016289115911415606,0.07257451564841336
+Abnormal Breath Sounds,Chills,categorical,categorical,cramers_v,0.0,0.07894181866368026,0.07894181866368026
+Abnormal Breath Sounds,Convulsion,categorical,categorical,cramers_v,0.03136375988592186,0.0,0.03136375988592186
+Abnormal Breath Sounds,Hand Rash,categorical,categorical,cramers_v,0.0036332596969024557,0.01644319411324252,0.012809934416340065
+Abnormal Breath Sounds,Shortness of Breath,categorical,categorical,cramers_v,0.40633608454469444,0.028644601186470837,0.3776914833582236
+Abnormal Breath Sounds,Irritability,categorical,categorical,cramers_v,0.08083899907617474,0.04936707101161254,0.0314719280645622
+Abnormal Breath Sounds,Aversion to Cold,categorical,categorical,cramers_v,0.0,0.0,0.0
+Abnormal Breath Sounds,Rash,categorical,categorical,cramers_v,0.006655378552937236,0.021561805769296314,0.014906427216359078
+Abnormal Breath Sounds,Listlessness,categorical,categorical,cramers_v,0.083895892477612,0.0,0.083895892477612
+Abnormal Breath Sounds,Cold Extremities,categorical,categorical,cramers_v,0.0,0.009169794323746488,0.009169794323746488
+Abnormal Breath Sounds,Diarrhea,categorical,categorical,cramers_v,0.041418675632308916,0.013894935343313758,0.02752374028899516
+Abnormal Breath Sounds,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.1027256449293506,0.023387119930951238,0.07933852499839936
+Abnormal Breath Sounds,Jaundice,categorical,categorical,cramers_v,0.0,0.09415675572652506,0.09415675572652506
+Abnormal Breath Sounds,Sex,categorical,categorical,cramers_v,0.030876866857075653,0.0009841892066853098,0.02989267765039034
+Abnormal Breath Sounds,Hospitalization,categorical,categorical,cramers_v,0.1276344138611164,0.011938764560053525,0.11569564930106288
+Abnormal Breath Sounds,ICU Admission,categorical,categorical,cramers_v,0.016936649614482897,0.002476177910004608,0.014460471704478289
+Cough,Pharyngeal Congestion,categorical,categorical,cramers_v,0.007887904984433066,0.005896419929111969,0.001991485055321097
+Cough,Rales,categorical,categorical,cramers_v,0.15302952231915096,0.02353147426507331,0.12949804805407764
+Cough,Hoarseness,categorical,categorical,cramers_v,0.06635371321532729,0.01971361179711399,0.0466401014182133
+Cough,Chills,categorical,categorical,cramers_v,0.020426575454875678,0.027286556473506748,0.00685998101863107
+Cough,Convulsion,categorical,categorical,cramers_v,0.022108622065982273,0.010659823669218568,0.011448798396763705
+Cough,Hand Rash,categorical,categorical,cramers_v,0.019602971386073413,0.013304512004929785,0.006298459381143628
+Cough,Shortness of Breath,categorical,categorical,cramers_v,0.0811250039473737,0.0017431653384494168,0.07938183860892428
+Cough,Irritability,categorical,categorical,cramers_v,0.0036319487439298737,0.027792771644934045,0.024160822901004173
+Cough,Aversion to Cold,categorical,categorical,cramers_v,0.0596912922953269,0.012397412328274378,0.047293879967052525
+Cough,Rash,categorical,categorical,cramers_v,0.014160079198829056,0.04459953601617662,0.03043945681734756
+Cough,Listlessness,categorical,categorical,cramers_v,0.1461341359601927,0.02344812145597797,0.12268601450421474
+Cough,Cold Extremities,categorical,categorical,cramers_v,0.02786743297941539,0.0,0.02786743297941539
+Cough,Diarrhea,categorical,categorical,cramers_v,0.01849673918553118,0.09192729134297731,0.07343055215744612
+Cough,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.16091563965063088,0.02926293056743719,0.13165270908319368
+Cough,Jaundice,categorical,categorical,cramers_v,0.012502559176010834,0.03793748933910907,0.025434930163098238
+Cough,Sex,categorical,categorical,cramers_v,0.013327072806175863,0.003520916789545169,0.009806156016630693
+Cough,Hospitalization,categorical,categorical,cramers_v,0.04392070532527769,0.025351512275355995,0.018569193049921696
+Cough,ICU Admission,categorical,categorical,cramers_v,0.07456776632953184,0.018143776994289387,0.05642398933524245
+Pharyngeal Congestion,Rales,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Hoarseness,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Chills,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Convulsion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Hand Rash,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Shortness of Breath,categorical,categorical,cramers_v,0.0,0.01850702655561163,0.01850702655561163
+Pharyngeal Congestion,Irritability,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Aversion to Cold,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Rash,categorical,categorical,cramers_v,0.0373570548568591,0.0,0.0373570548568591
+Pharyngeal Congestion,Listlessness,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Diarrhea,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.07678087032910597,0.0,0.07678087032910597
+Pharyngeal Congestion,Jaundice,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Sex,categorical,categorical,cramers_v,0.0,0.0,0.0
+Pharyngeal Congestion,Hospitalization,categorical,categorical,cramers_v,0.0,0.016510741366530027,0.016510741366530027
+Pharyngeal Congestion,ICU Admission,categorical,categorical,cramers_v,0.0,0.0,0.0
+Rales,Hoarseness,categorical,categorical,cramers_v,0.03093162591605246,0.036818031010783715,0.005886405094731255
+Rales,Chills,categorical,categorical,cramers_v,0.045325166822440456,0.02979648564977173,0.015528681172668726
+Rales,Convulsion,categorical,categorical,cramers_v,0.002240811994842784,0.010591797937400105,0.008350985942557322
+Rales,Hand Rash,categorical,categorical,cramers_v,0.2439315474545337,0.0036059834424167375,0.24032556401211694
+Rales,Shortness of Breath,categorical,categorical,cramers_v,0.09073344219980536,0.01699481396799506,0.07373862823181031
+Rales,Irritability,categorical,categorical,cramers_v,0.07071474935800522,0.0,0.07071474935800522
+Rales,Aversion to Cold,categorical,categorical,cramers_v,0.0451474819009884,0.0,0.0451474819009884
+Rales,Rash,categorical,categorical,cramers_v,0.021166056775803223,0.01732002359032997,0.0038460331854732535
+Rales,Listlessness,categorical,categorical,cramers_v,0.03765027217563109,0.03136744227601876,0.006282829899612333
+Rales,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Rales,Diarrhea,categorical,categorical,cramers_v,0.011483672920831842,0.006295693131374643,0.005187979789457199
+Rales,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.012571995170527518,0.021708896133874053,0.009136900963346534
+Rales,Jaundice,categorical,categorical,cramers_v,0.031684169445636144,0.029706633481508368,0.0019775359641277766
+Rales,Sex,categorical,categorical,cramers_v,0.0,0.0041249242158463185,0.0041249242158463185
+Rales,Hospitalization,categorical,categorical,cramers_v,0.09507787782282708,0.0032298318576888868,0.0918480459651382
+Rales,ICU Admission,categorical,categorical,cramers_v,0.02930515442334557,0.05230092161966378,0.02299576719631821
+Hoarseness,Chills,categorical,categorical,cramers_v,0.0,0.11695018571329997,0.11695018571329997
+Hoarseness,Convulsion,categorical,categorical,cramers_v,0.0,0.0,0.0
+Hoarseness,Hand Rash,categorical,categorical,cramers_v,0.0,0.14914731349013838,0.14914731349013838
+Hoarseness,Shortness of Breath,categorical,categorical,cramers_v,0.0,0.008473138055324899,0.008473138055324899
+Hoarseness,Irritability,categorical,categorical,cramers_v,0.14704493982242808,0.07370679137268016,0.07333814844974793
+Hoarseness,Aversion to Cold,categorical,categorical,cramers_v,0.016472822762809737,0.0,0.016472822762809737
+Hoarseness,Rash,categorical,categorical,cramers_v,0.0,0.0,0.0
+Hoarseness,Listlessness,categorical,categorical,cramers_v,0.08132243574394991,0.0,0.08132243574394991
+Hoarseness,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Hoarseness,Diarrhea,categorical,categorical,cramers_v,0.07252587831703038,0.01524278703158221,0.057283091285448166
+Hoarseness,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.0,0.029565619799454122,0.029565619799454122
+Hoarseness,Jaundice,categorical,categorical,cramers_v,0.0,0.0,0.0
+Hoarseness,Sex,categorical,categorical,cramers_v,0.015719215430644716,0.03902334529145272,0.023304129860808
+Hoarseness,Hospitalization,categorical,categorical,cramers_v,0.01285228250975961,0.0419775767860638,0.02912529427630419
+Hoarseness,ICU Admission,categorical,categorical,cramers_v,0.02286311296477082,0.024811949392482418,0.0019488364277115977
+Chills,Convulsion,categorical,categorical,cramers_v,0.016711867895062224,0.03079017163641321,0.014078303741350984
+Chills,Hand Rash,categorical,categorical,cramers_v,0.0183952596462124,0.07445716367594653,0.05606190402973413
+Chills,Shortness of Breath,categorical,categorical,cramers_v,0.04577548114952147,0.026405821255162863,0.01936965989435861
+Chills,Irritability,categorical,categorical,cramers_v,0.03291415295889142,0.08637652509495766,0.05346237213606624
+Chills,Aversion to Cold,categorical,categorical,cramers_v,0.919824130350446,0.0,0.919824130350446
+Chills,Rash,categorical,categorical,cramers_v,0.02255710616682318,0.01752399672277091,0.0050331094440522715
+Chills,Listlessness,categorical,categorical,cramers_v,0.045183438645644655,0.0,0.045183438645644655
+Chills,Cold Extremities,categorical,categorical,cramers_v,0.10271404553123263,0.0,0.10271404553123263
+Chills,Diarrhea,categorical,categorical,cramers_v,0.06859309028510738,0.013693653148651692,0.05489943713645569
+Chills,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.04719159140718907,0.035830662673069946,0.011360928734119126
+Chills,Jaundice,categorical,categorical,cramers_v,0.0,0.02554168482643013,0.02554168482643013
+Chills,Sex,categorical,categorical,cramers_v,0.0005035865239668421,0.0038000147864985087,0.0032964282625316667
+Chills,Hospitalization,categorical,categorical,cramers_v,0.10920508428633577,0.024664177980219124,0.08454090630611664
+Chills,ICU Admission,categorical,categorical,cramers_v,0.0,0.03698213076152073,0.03698213076152073
+Convulsion,Hand Rash,categorical,categorical,cramers_v,0.10482556772102287,0.0,0.10482556772102287
+Convulsion,Shortness of Breath,categorical,categorical,cramers_v,0.09673828593316812,0.013815071387292656,0.08292321454587546
+Convulsion,Irritability,categorical,categorical,cramers_v,0.1771621915059786,0.0017139713068758016,0.17544822019910278
+Convulsion,Aversion to Cold,categorical,categorical,cramers_v,0.029415381195111497,0.024213165674658862,0.0052022155204526355
+Convulsion,Rash,categorical,categorical,cramers_v,0.042353259522382274,0.17579750296000748,0.1334442434376252
+Convulsion,Listlessness,categorical,categorical,cramers_v,0.070724196349509,0.0006927026370740597,0.07003149371243493
+Convulsion,Cold Extremities,categorical,categorical,cramers_v,0.0,0.01560390127065991,0.01560390127065991
+Convulsion,Diarrhea,categorical,categorical,cramers_v,0.0,0.058680589365849925,0.058680589365849925
+Convulsion,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.03827956837825011,0.026674457241006748,0.011605111137243364
+Convulsion,Jaundice,categorical,categorical,cramers_v,0.0906875136188492,0.007164854368743087,0.08352265925010612
+Convulsion,Sex,categorical,categorical,cramers_v,0.016338696113333186,0.004737135592691156,0.01160156052064203
+Convulsion,Hospitalization,categorical,categorical,cramers_v,0.15304284711403643,0.0,0.15304284711403643
+Convulsion,ICU Admission,categorical,categorical,cramers_v,0.02983754020673311,0.004537277930530026,0.025300262276203085
+Hand Rash,Shortness of Breath,categorical,categorical,cramers_v,0.10531420750703858,0.0,0.10531420750703858
+Hand Rash,Irritability,categorical,categorical,cramers_v,0.30809811406176335,0.18410658809576183,0.12399152596600152
+Hand Rash,Aversion to Cold,categorical,categorical,cramers_v,0.0,0.0,0.0
+Hand Rash,Rash,categorical,categorical,cramers_v,0.03553494655755943,0.010494617621709135,0.025040328935850294
+Hand Rash,Listlessness,categorical,categorical,cramers_v,0.12372414989154867,0.017244175587586136,0.10647997430396254
+Hand Rash,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Hand Rash,Diarrhea,categorical,categorical,cramers_v,0.03951206119461704,0.019566083061385447,0.019945978133231592
+Hand Rash,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.07990456827365386,0.012456098556334998,0.06744846971731885
+Hand Rash,Jaundice,categorical,categorical,cramers_v,0.060496790092391,0.01647610780078489,0.044020682291606106
+Hand Rash,Sex,categorical,categorical,cramers_v,0.010673233353139355,0.021022222047293475,0.01034898869415412
+Hand Rash,Hospitalization,categorical,categorical,cramers_v,0.0006206963702900814,0.07139164953396564,0.07077095316367556
+Hand Rash,ICU Admission,categorical,categorical,cramers_v,0.009193982727865337,0.0,0.009193982727865337
+Shortness of Breath,Irritability,categorical,categorical,cramers_v,0.228180658323213,0.02941780977316038,0.1987628485500526
+Shortness of Breath,Aversion to Cold,categorical,categorical,cramers_v,0.018169380596127504,0.020597155276957657,0.0024277746808301533
+Shortness of Breath,Rash,categorical,categorical,cramers_v,0.0,0.03589451218619401,0.03589451218619401
+Shortness of Breath,Listlessness,categorical,categorical,cramers_v,0.18526125747032576,0.054387025943579324,0.13087423152674643
+Shortness of Breath,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Shortness of Breath,Diarrhea,categorical,categorical,cramers_v,0.0010780818998051243,0.0011724597000004537,9.437780019532936e-05
+Shortness of Breath,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.15847579744466375,0.0,0.15847579744466375
+Shortness of Breath,Jaundice,categorical,categorical,cramers_v,0.312470998774493,0.026255251575525183,0.28621574719896786
+Shortness of Breath,Sex,categorical,categorical,cramers_v,0.03054977242926796,0.00237170993664762,0.02817806249262034
+Shortness of Breath,Hospitalization,categorical,categorical,cramers_v,0.29066503789625975,0.011281343148968939,0.2793836947472908
+Shortness of Breath,ICU Admission,categorical,categorical,cramers_v,0.11232520184207544,0.00040225686324124995,0.11192294497883419
+Irritability,Aversion to Cold,categorical,categorical,cramers_v,0.04092994432932412,0.0,0.04092994432932412
+Irritability,Rash,categorical,categorical,cramers_v,0.13489245884701587,0.002312991495161687,0.1325794673518542
+Irritability,Listlessness,categorical,categorical,cramers_v,0.19851264033005295,0.05550199422296487,0.14301064610708808
+Irritability,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Irritability,Diarrhea,categorical,categorical,cramers_v,0.008573195894823742,0.014887597184713719,0.006314401289889977
+Irritability,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.18187109232647536,0.014403513488965054,0.16746757883751032
+Irritability,Jaundice,categorical,categorical,cramers_v,0.2729641496845165,0.0,0.2729641496845165
+Irritability,Sex,categorical,categorical,cramers_v,0.006646062195931356,0.005764758334504805,0.0008813038614265507
+Irritability,Hospitalization,categorical,categorical,cramers_v,0.04413509725325312,0.006627644147393177,0.03750745310585994
+Irritability,ICU Admission,categorical,categorical,cramers_v,0.0,0.02543608354417128,0.02543608354417128
+Aversion to Cold,Rash,categorical,categorical,cramers_v,0.017395952287098424,0.07628913568076544,0.05889318339366702
+Aversion to Cold,Listlessness,categorical,categorical,cramers_v,0.04357299623944415,0.04312246170265217,0.0004505345367919744
+Aversion to Cold,Cold Extremities,categorical,categorical,cramers_v,0.0,0.0,0.0
+Aversion to Cold,Diarrhea,categorical,categorical,cramers_v,0.0,0.0039556784747221095,0.0039556784747221095
+Aversion to Cold,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.016245417278649147,0.0,0.016245417278649147
+Aversion to Cold,Jaundice,categorical,categorical,cramers_v,0.0,0.0,0.0
+Aversion to Cold,Sex,categorical,categorical,cramers_v,0.043364113929202766,0.008134991291031304,0.03522912263817146
+Aversion to Cold,Hospitalization,categorical,categorical,cramers_v,0.019653911297234518,0.08632361435258007,0.06666970305534556
+Aversion to Cold,ICU Admission,categorical,categorical,cramers_v,0.0,0.10696888597181661,0.10696888597181661
+Rash,Listlessness,categorical,categorical,cramers_v,0.02382396883840305,0.059364283582992866,0.03554031474458982
+Rash,Cold Extremities,categorical,categorical,cramers_v,0.0033361967759990034,0.0,0.0033361967759990034
+Rash,Diarrhea,categorical,categorical,cramers_v,0.037609960629650024,0.09547928073454315,0.057869320104893124
+Rash,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.005916646022486008,0.0008757235665854782,0.00504092245590053
+Rash,Jaundice,categorical,categorical,cramers_v,0.019292229233570834,0.015942603024473746,0.0033496262090970882
+Rash,Sex,categorical,categorical,cramers_v,0.007362610037407079,0.008475920966973504,0.0011133109295664257
+Rash,Hospitalization,categorical,categorical,cramers_v,0.06489549377769976,0.04125183755243427,0.023643656225265493
+Rash,ICU Admission,categorical,categorical,cramers_v,0.0,0.030112733491115914,0.030112733491115914
+Listlessness,Cold Extremities,categorical,categorical,cramers_v,0.026463408191268106,0.03304226785784275,0.006578859666574642
+Listlessness,Diarrhea,categorical,categorical,cramers_v,0.06540728543326345,0.00444719810491003,0.06096008732835342
+Listlessness,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.8073933508414561,0.01696841371747296,0.7904249371239832
+Listlessness,Jaundice,categorical,categorical,cramers_v,0.12918021928992166,0.023121520073780686,0.10605869921614097
+Listlessness,Sex,categorical,categorical,cramers_v,0.022205689789154465,0.009065670015088678,0.013140019774065786
+Listlessness,Hospitalization,categorical,categorical,cramers_v,0.045928512391062326,0.013065707916458488,0.03286280447460384
+Listlessness,ICU Admission,categorical,categorical,cramers_v,0.03714571377248887,0.016294761713577483,0.020850952058911385
+Cold Extremities,Diarrhea,categorical,categorical,cramers_v,0.01273041472764056,0.007025624268632978,0.0057047904590075815
+Cold Extremities,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.014018853032516274,0.0,0.014018853032516274
+Cold Extremities,Jaundice,categorical,categorical,cramers_v,0.0,0.029121964969839362,0.029121964969839362
+Cold Extremities,Sex,categorical,categorical,cramers_v,0.0,0.03137306973450192,0.03137306973450192
+Cold Extremities,Hospitalization,categorical,categorical,cramers_v,0.03475256080530693,0.00522081763613494,0.029531743169171988
+Cold Extremities,ICU Admission,categorical,categorical,cramers_v,0.003162489579951373,0.0010722359430258596,0.0020902536369255134
+Diarrhea,Reduced Feeding / Anorexia,categorical,categorical,cramers_v,0.048868516704921455,0.007156361453599638,0.04171215525132182
+Diarrhea,Jaundice,categorical,categorical,cramers_v,0.012775499859674138,0.010531512571133304,0.0022439872885408347
+Diarrhea,Sex,categorical,categorical,cramers_v,0.004126196667208365,0.0033698774484955123,0.000756319218712853
+Diarrhea,Hospitalization,categorical,categorical,cramers_v,0.05918342345760092,0.02885578607893467,0.030327637378666252
+Diarrhea,ICU Admission,categorical,categorical,cramers_v,0.00368058883896941,0.013580060391222093,0.009899471552252683
+Reduced Feeding / Anorexia,Jaundice,categorical,categorical,cramers_v,0.13245361199357134,0.14725333524752568,0.014799723253954344
+Reduced Feeding / Anorexia,Sex,categorical,categorical,cramers_v,0.02161484213218168,0.011809139729233899,0.009805702402947782
+Reduced Feeding / Anorexia,Hospitalization,categorical,categorical,cramers_v,0.0004957646917269822,0.024874449048911087,0.024378684357184106
+Reduced Feeding / Anorexia,ICU Admission,categorical,categorical,cramers_v,0.0348802311087397,0.01745450758406252,0.01742572352467718
+Jaundice,Sex,categorical,categorical,cramers_v,0.007853678095062119,0.01849958977268424,0.01064591167762212
+Jaundice,Hospitalization,categorical,categorical,cramers_v,0.16809658743974898,0.011839985398310767,0.1562566020414382
+Jaundice,ICU Admission,categorical,categorical,cramers_v,0.07658595705161322,0.01588997938774586,0.06069597766386736
+Sex,Hospitalization,categorical,categorical,cramers_v,0.034488413113979384,0.012924643530001258,0.021563769583978126
+Sex,ICU Admission,categorical,categorical,cramers_v,0.01876414176819406,0.0,0.01876414176819406
+Hospitalization,ICU Admission,categorical,categorical,cramers_v,0.3134251962506774,0.3134251962506774,0.0

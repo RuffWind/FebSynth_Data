@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "package_name": "FebSynth",
+  "license": "CC-BY-4.0",
+  "result_files": {
+    "included": 760,
+    "excluded": 1040,
+    "contents": "Synthetic tables, result CSVs and plots retain source bytes; machine-specific paths in run JSON metadata use /path/to/ examples."
+  },
+  "configuration_snapshots": "Six model, evaluation, constraint, grouping, terminology and dependency snapshots. Python comments and docstrings are removed; parameter values and dependency ranges are unchanged.",
+  "run_index": [
+    {
+      "run_path": "output_en/ablation/grouping_and_constraints_effect/results/copula",
+      "origin_run_id": "ablation_results",
+      "synthetic_rows": 18604,
+      "load_model_reported": true,
+      "random_state_reported": 42,
+      "constraints_path_reported": null,
+      "grouping_path_reported": null,
+      "split_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results/copula/split_metadata.json",
+      "generation_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results/copula/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results/copula/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/ablation/grouping_and_constraints_effect/results_constraints/copula",
+      "origin_run_id": "ablation_results_constraints",
+      "synthetic_rows": 18604,
+      "load_model_reported": true,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": null,
+      "split_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results_constraints/copula/split_metadata.json",
+      "generation_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results_constraints/copula/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results_constraints/copula/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/ablation/grouping_and_constraints_effect/results_grouping_constraints/copula",
+      "origin_run_id": "main_copula",
+      "synthetic_rows": 18604,
+      "load_model_reported": false,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": "grouping.json",
+      "split_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results_grouping_constraints/copula/split_metadata.json",
+      "generation_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results_grouping_constraints/copula/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/ablation/grouping_and_constraints_effect/results_grouping_constraints/copula/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/evaluate_results/copula",
+      "origin_run_id": "main_copula",
+      "synthetic_rows": 18604,
+      "load_model_reported": false,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": "grouping.json",
+      "split_metadata_path": "output_en/evaluate_results/copula/split_metadata.json",
+      "generation_metadata_path": "output_en/evaluate_results/copula/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/evaluate_results/copula/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/evaluate_results/ctgan",
+      "origin_run_id": "main_ctgan",
+      "synthetic_rows": 18604,
+      "load_model_reported": false,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": "grouping.json",
+      "split_metadata_path": "output_en/evaluate_results/ctgan/split_metadata.json",
+      "generation_metadata_path": "output_en/evaluate_results/ctgan/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/evaluate_results/ctgan/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/evaluate_results/tabddpm",
+      "origin_run_id": "main_tabddpm",
+      "synthetic_rows": 18604,
+      "load_model_reported": false,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": "grouping.json",
+      "split_metadata_path": "output_en/evaluate_results/tabddpm/split_metadata.json",
+      "generation_metadata_path": "output_en/evaluate_results/tabddpm/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/evaluate_results/tabddpm/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/evaluate_results/tvae",
+      "origin_run_id": "main_tvae",
+      "synthetic_rows": 18604,
+      "load_model_reported": false,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": "grouping.json",
+      "split_metadata_path": "output_en/evaluate_results/tvae/split_metadata.json",
+      "generation_metadata_path": "output_en/evaluate_results/tvae/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/evaluate_results/tvae/evaluation/evaluation_metadata.json"
+    },
+    {
+      "run_path": "output_en/extended_release/copula",
+      "origin_run_id": "extended_copula",
+      "synthetic_rows": 50000,
+      "load_model_reported": true,
+      "random_state_reported": 42,
+      "constraints_path_reported": "constraints.json",
+      "grouping_path_reported": "grouping.json",
+      "split_metadata_path": "output_en/extended_release/copula/split_metadata.json",
+      "generation_metadata_path": "output_en/extended_release/copula/generation_metadata.json",
+      "evaluation_metadata_path": "output_en/extended_release/copula/evaluation/evaluation_metadata.json"
+    }
+  ],
+  "full_ablation_alias": {
+    "published_prefix": "output_en/ablation/grouping_and_constraints_effect/results_grouping_constraints/copula/",
+    "source_run": "output_en/evaluate_results/copula/",
+    "retained_identical_files": 91,
+    "meaning": "Same generation run; 91 files remain byte-identical to the released main Copula counterparts, including consistently sanitised metadata."
+  },
+  "manifest_convention": "Published-file hashes and original source hashes are separate. content_action identifies transformed files. The manifest self row omits size and checksum.",
+  "new_metadata_does_not_contain": "No patient rows, nearest-neighbour identities, UMAP coordinates, raw clinical text or patient-level split assignments are added.",
+  "last_documentation_update": "2026-11-17",
+  "author_supplied_documentation": {
+    "confirmed_fields_source": "/path/to/field_definitions.csv",
+    "confirmed_fields_sha256": "df34203c333e77da666c6c6301d39b7b35a090c547732f2e9e3e510f34e218f7",
+    "dictionary_sources": [
+      {
+        "filename": "/path/to/symptom_dictionary_1.txt",
+        "sha256": "562921584f33412f278113ec83b8f5975b1e8d35772fc1af60f43450d42e21c1",
+        "rows": 196
+      },
+      {
+        "filename": "/path/to/symptom_dictionary_2.txt",
+        "sha256": "e24caa98347a413c3fa03131c44ce6828bb4f4dd843fe56312acfa8ed35ce947",
+        "rows": 40
+      }
+    ],
+    "dictionary_assembly": "Append source rows in file order; retain repeated entries; represent as two-column Chinese CSV.",
+    "dictionary_statistics": {
+      "rows": 236,
+      "distinct_standard_names": 196,
+      "lexical_entries_including_standard_names_and_repetitions": 1419,
+      "distinct_lexical_strings_including_standard_names": 1167,
+      "released_symptom_fields_mapped": 22
+    },
+    "private_missingness_sources": [
+      {
+        "filename": "/path/to/source_preimputation.csv",
+        "sha256": "5bad7779a3f49f0fbc9eb46d05a0af5e1f12fa4e4bbb6e6ad9797cf145f1f285",
+        "rows": 23255,
+        "columns": 48,
+        "publicly_included": false
+      },
+      {
+        "filename": "/path/to/source_postimputation.csv",
+        "sha256": "c80e6a77a6fb49aba350056abf1126d13aa6e0100330515daf532be0d57f31c8",
+        "rows": 23255,
+        "columns": 48,
+        "publicly_included": false
+      }
+    ],
+    "scope_of_missingness": "Supplied pre/post-imputation analytical source stages, common train/test assignment, and each of eight public synthetic tables.",
+    "source_alignment_check": "Age, 22 symptom columns, both outcomes and diagnosis columns match between preprocessing stages in row order.",
+    "symptom_workflow_description_scope": "Dictionary construction, expert review, cohort extraction, 22 released symptoms, retained missingness and internal assessment follow the manuscript Methods.",
+    "reported_internal_assessment": {
+      "reviewed_records": 2000,
+      "precision_percent": 99.7,
+      "recall_percent": 99.8,
+      "interpretation": "Internal review of records from the same institutional record pool used for dictionary development and cohort selection."
+    }
+  },
+  "manuscript_title": "A clinically constrained synthetic dataset of febrile infants for hospitalization and ICU risk prediction",
+  "code_license": "MIT",
+  "license_name": "Creative Commons Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_text_sha256": "ab7b38db02ae91caef180a7216a3b7aa669f111c7eed154f2e635b82e44f98a9",
+  "license_scope": "Authors' released data, evaluation outputs and original documentation: CC BY 4.0. The two Python configuration snapshots and original project code: MIT. Third-party material retains its own terms; excluded real clinical records are not licensed.",
+  "license_attribution": "FebSynth contributors",
+  "code_license_url": "https://opensource.org/license/mit",
+  "code_snapshot_paths": [
+    "metadata/config/model_config.py",
+    "metadata/evaluation/eval_config.py"
+  ],
+  "licence_legal_text_source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+  "code_fingerprints": [
+    {
+      "code_relative_path": "config/__init__.py",
+      "sha256": "e788c2c4a4b6a4cf9d49b0ca6caaf5d237915f792df2908053c94776c4fb0da0"
+    },
+    {
+      "code_relative_path": "config/model_config.py",
+      "sha256": "8c7cf59bf4103d3d3ba0feeddc85cf9d74ca09b76a41a8166a8815e39c76cdf0"
+    },
+    {
+      "code_relative_path": "constraints/__init__.py",
+      "sha256": "3921003e241c724d41534807f77002cf3d70a09479a2ce55484e9f307ff32421"
+    },
+    {
+      "code_relative_path": "constraints/engine.py",
+      "sha256": "34b13dd0a3b5b9d7e4ea43800b0f982642d9df2c52487485f168caad8457af90"
+    },
+    {
+      "code_relative_path": "constraints/generation.py",
+      "sha256": "b212d6a0acc1fdc24686678d5cd222d6cf71ab84d4a484919982d5e67ea391ae"
+    },
+    {
+      "code_relative_path": "constraints/loader.py",
+      "sha256": "5367ac67f5ee35c5f40c03e291505e1482ed7488594043d0382b2c06116184ee"
+    },
+    {
+      "code_relative_path": "constraints/spec.py",
+      "sha256": "6ae2f5d9c8ec894dcae05d55bfb65bfba152783a3a4117a422c6f997c90ba616"
+    },
+    {
+      "code_relative_path": "evaluate.py",
+      "sha256": "851ca31d6eddccca6e1f19c13ee45e3746a77c4d744b0c7f4f9c83a6ca76acee"
+    },
+    {
+      "code_relative_path": "evaluation/__init__.py",
+      "sha256": "6c885b77020558d4fee2c1fcf9dffb274ffe885b5cc94d230ca95c4ca21d0e26"
+    },
+    {
+      "code_relative_path": "evaluation/base.py",
+      "sha256": "76dccfeb78f22fa6d4eac21caf23322d6eb84d740e95a23739a7a10f698bb091"
+    },
+    {
+      "code_relative_path": "evaluation/context.py",
+      "sha256": "8e8a8691d19ac28f53945d9240beaf9a036e3f2d27df147216d744e9ebc973fc"
+    },
+    {
+      "code_relative_path": "evaluation/core.py",
+      "sha256": "cbbf4bf528a3cf27ea94affbff01a933d73aab84ba0326c5f8c12ac2887badc6"
+    },
+    {
+      "code_relative_path": "evaluation/eval_config.py",
+      "sha256": "cdbfef2fa596cba28e7b643f226678543bc48b1761be45e50aefac7578557f1b"
+    },
+    {
+      "code_relative_path": "evaluation/global_similarity.py",
+      "sha256": "211a2d36b0f3ac8a276467bc21e453fd4fa7a6585eb08ee481483458d5802f18"
+    },
+    {
+      "code_relative_path": "evaluation/ml_common.py",
+      "sha256": "69e70b5db33cf8b298fbc87eace62d9d38bf966483b97c32235bf3c4d77dda8a"
+    },
+    {
+      "code_relative_path": "evaluation/ml_task_utils.py",
+      "sha256": "3d2c2d53b9ca507a2a0a241ce06ee4a1d85a868f62227d12d440369d9c98600e"
+    },
+    {
+      "code_relative_path": "evaluation/ml_utility.py",
+      "sha256": "734f1d7538b7faf88fcf3d9eeb3ae248467d48ffa5f4c35e145ceaa7e780f568"
+    },
+    {
+      "code_relative_path": "evaluation/multivariate_similarity.py",
+      "sha256": "db6e4263914c972384bcfd413dcf097447af8b82be055769482bd6507510c238"
+    },
+    {
+      "code_relative_path": "evaluation/privacy.py",
+      "sha256": "c70bd733139f9a50048d9d6b9b10a3d21e0831e3fb4641031fe2e7feb90fbc5b"
+    },
+    {
+      "code_relative_path": "evaluation/results.py",
+      "sha256": "7c16711274916010f275b4a39dbcff66a2553cc3e2dad7cefdf4cde1e9f0293e"
+    },
+    {
+      "code_relative_path": "evaluation/schema.py",
+      "sha256": "2cdbe59faf475693a0c6601c258419ebad769b0efc5e7b8d528c416ae0c40711"
+    },
+    {
+      "code_relative_path": "evaluation/suite.py",
+      "sha256": "b0af2e80725ce3ef299d5a9670e78dbcc17f67f114467c1a7aa2ef406aae74b5"
+    },
+    {
+      "code_relative_path": "evaluation/tasks.py",
+      "sha256": "7ceb903cdde4edb1ef809962d5a759eb6580e455d2022ea236b8315323ea9ddf"
+    },
+    {
+      "code_relative_path": "evaluation/univariate_similarity.py",
+      "sha256": "e1b3f37fd8aa1a1c5a194f09cbc95967a7afba922f6a65a59614ce5e96719068"
+    },
+    {
+      "code_relative_path": "evaluation/utils.py",
+      "sha256": "ba3f2ca52cb8084623b61094f7e7afe26e9861b566177124dfad9e99920dce37"
+    },
+    {
+      "code_relative_path": "generators/__init__.py",
+      "sha256": "967db318c01ba11909e37b6bb64a4ab98d47989165657f1b79c2c0ed02af3001"
+    },
+    {
+      "code_relative_path": "generators/base.py",
+      "sha256": "868cd7b0b6260d921a57ca35ba8664619feaa648b73f52e4be98e48a92276b7d"
+    },
+    {
+      "code_relative_path": "generators/copula.py",
+      "sha256": "0b363292a61e02ae66248fe0fe8777b3c773d3ad929817dab5c3481f9a46db45"
+    },
+    {
+      "code_relative_path": "generators/ctgan.py",
+      "sha256": "4c0363264dac4efd780a6a76df984c0a08fc20fa7e711109d80799ecbe29a809"
+    },
+    {
+      "code_relative_path": "generators/taddpm.py",
+      "sha256": "d3bccbb30d7620632c0d0a292e16a5e79915b8dee73bd7633aeeddceb677ca08"
+    },
+    {
+      "code_relative_path": "generators/tvae.py",
+      "sha256": "f4e3a5669f43058ea6bc4fa5c6a29832c878be9bfb08aa9426502983a5ccc650"
+    },
+    {
+      "code_relative_path": "grouping/__init__.py",
+      "sha256": "90039cfe1c6704ee139bc5f3d7cd43b4cb09f6936409da7df69911e3e874d876"
+    },
+    {
+      "code_relative_path": "grouping/generation.py",
+      "sha256": "e54e111062605e8d0dc790abd6344b77a4b74310b97a474227109e183cef6bc1"
+    },
+    {
+      "code_relative_path": "grouping/loader.py",
+      "sha256": "6cc03210ab096e527df1d179db0774037f5482453cb2388bb2eba1dde827d6ee"
+    },
+    {
+      "code_relative_path": "grouping/spec.py",
+      "sha256": "93054a6ccc8863e74aff786ff82c4fb5cee624424e57b3c0223aa819a9cd7f95"
+    },
+    {
+      "code_relative_path": "main_plus.py",
+      "sha256": "05e25e42b3f2f4af9a7264e2603035d847ae336cc9038ade324afbe83e7294f1"
+    },
+    {
+      "code_relative_path": "nsample_sensitivity.py",
+      "sha256": "63b10ac05fa74a8da5d5a4abd6f934de9ff68f9f05b795bd8d55d95bf5e16265"
+    },
+    {
+      "code_relative_path": "output_localization.py",
+      "sha256": "041733e09da6c4d9d8a22a586f9e96b85632c04f6a8fc4a86886fffd19b45d64"
+    },
+    {
+      "code_relative_path": "pipeline.py",
+      "sha256": "4fe76692c6d37fba423a8a823c44b249c250d33df1ae4e2023b75d1a140bbf3f"
+    },
+    {
+      "code_relative_path": "shared_generation.py",
+      "sha256": "82883a5f176c019b17b3e63248c43b77a453f153bd7174d07c96dceef17aba34"
+    },
+    {
+      "code_relative_path": "utils/__init__.py",
+      "sha256": "d6b85325f9f36158fead985cf2451659bc85b1924ca49fe4d46065d424aef1e8"
+    },
+    {
+      "code_relative_path": "utils/data_processor.py",
+      "sha256": "b9d84819fd255b185d0cecb4f162fe99bc3a068a0ab12736cc61ba49c8034980"
+    },
+    {
+      "code_relative_path": "utils/outcome_utils.py",
+      "sha256": "9b18051735b53a9a5f38cf4b6136bbfe8b136164cdfe0296f86d272e5d04dc49"
+    },
+    {
+      "code_relative_path": "utils/split_assignment.py",
+      "sha256": "4264c97962e30fb27fa227f75bc0f5d53e870de29a9730cbe214c8b0c0bba25e"
+    }
+  ],
+  "code_fingerprint_scope": "Files in the accompanying code release.",
+  "release_transformations": {
+    "machine_paths": "Replaced with /path/to/ examples; portable package-relative references retained.",
+    "python_sources": "Comments and docstrings removed.",
+    "synthetic_tables_changed": false,
+    "numerical_result_csvs_changed": false,
+    "plots_changed": false
+  },
+  "code_release": {
+    "scope": "Generation, validation, ablation and sample-size sensitivity code with pretrained inference checkpoints.",
+    "python_source_files": 44,
+    "model_checkpoints": 105,
+    "checkpoint_manifest_within_code_release": "models/manifest.json",
+    "license": "MIT"
+  }
+}

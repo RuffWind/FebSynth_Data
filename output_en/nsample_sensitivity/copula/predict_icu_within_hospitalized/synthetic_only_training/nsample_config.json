@@ -1,0 +1,87 @@
+{
+  "model": "copula",
+  "input_path": "/path/to/real_data.csv",
+  "output_root": "output_en/nsample_sensitivity",
+  "constraints_path": "constraints.json",
+  "grouping_path": "grouping.json",
+  "split_assignment_path": null,
+  "test_size": 0.2,
+  "random_state": 42,
+  "epochs": null,
+  "batch_size": null,
+  "cpu": false,
+  "cuda": false,
+  "copula_default_distribution": null,
+  "copula_no_enforce_min_max_values": false,
+  "copula_no_enforce_rounding": false,
+  "patience": 50,
+  "val_split": 0.1,
+  "output_language": "en",
+  "n_mlu": 1000,
+  "n_repeats": 100,
+  "synthetic_multipliers": [
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0
+  ],
+  "synthetic_only_sample_sizes": [
+    100,
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000,
+    40000,
+    50000
+  ],
+  "task": {
+    "name": "predict_icu_within_hospitalized",
+    "target_column": "ICU Admission",
+    "subset_column": "Hospitalization",
+    "subset_value": 1,
+    "excluded_feature_columns": [
+      "Hospitalization",
+      "ICU Admission"
+    ],
+    "minimum_rows": 20,
+    "minimum_positive_rows": 5
+  },
+  "all_configured_tasks": [
+    {
+      "name": "predict_hospitalization",
+      "target_column": "Hospitalization",
+      "subset_column": null,
+      "subset_value": null
+    },
+    {
+      "name": "predict_icu_within_hospitalized",
+      "target_column": "ICU Admission",
+      "subset_column": "Hospitalization",
+      "subset_value": 1
+    }
+  ],
+  "experiment_output_dirs": {
+    "mixed_training": "/path/to/project/output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/mixed_training",
+    "synthetic_only_training": "/path/to/project/output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/synthetic_only_training"
+  },
+  "experiment_name": "synthetic_only_training",
+  "included_scenario_types": [
+    "real_only",
+    "synthetic_only"
+  ],
+  "summary_file": "/path/to/project/output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/synthetic_only_training/summary.csv",
+  "details_file": "/path/to/project/output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/synthetic_only_training/details.csv",
+  "performance_plot": "/path/to/project/output_en/nsample_sensitivity/copula/predict_icu_within_hospitalized/synthetic_only_training/performance_curve.png"
+}

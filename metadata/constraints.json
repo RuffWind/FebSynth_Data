@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "columns": {
+    "range": {
+      "C反应蛋白": { "min": 8, "real_trim_count": 5, "mode": "clip" },
+      "嗜碱性粒细胞百分数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "嗜酸性粒细胞百分数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "中性粒细胞百分数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "中性粒细胞绝对值": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "单核细胞百分数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "单核细胞绝对值": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "平均红细胞体积": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "平均血红蛋白浓度": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "平均血红蛋白量": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "淋巴细胞百分数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "淋巴细胞绝对值": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "白细胞计数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "血小板分布宽度": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "血小板比容": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "血小板计数": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "血红蛋白": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "血细胞比容": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "体重": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "热峰": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "发热时间": { "min": 0, "real_trim_count": 5, "mode": "reject" },
+      "计算年龄": { "min": 0, "max": 90 , "mode": "reject" }
+    },
+    "allowed_values": {
+      "性别": { "values": [0, 1], "mode": "repair_random" }
+    }
+  },
+  "not_null": { "columns": ["住院", "icu"] },
+  "formulas": [
+    {
+      "name": "中性粒细胞绝对值",
+      "target_col": "中性粒细胞绝对值",
+      "op": "multiply",
+      "source_cols": ["白细胞计数", "中性粒细胞百分数"],
+      "constant": 0.01
+    },
+    {
+      "name": "单核细胞绝对值",
+      "target_col": "单核细胞绝对值",
+      "op": "multiply",
+      "source_cols": ["白细胞计数", "单核细胞百分数"],
+      "constant": 0.01
+    },
+    {
+      "name": "淋巴细胞绝对值",
+      "target_col": "淋巴细胞绝对值",
+      "op": "multiply",
+      "source_cols": ["白细胞计数", "淋巴细胞百分数"],
+      "constant": 0.01
+    }
+  ],
+  "rules": [
+    {
+      "name": "住院包含ICU",
+      "if": [
+        { "col": "icu", "op": "==", "value": 1 }
+      ],
+      "then": [
+        { "action": "set", "col": "住院", "value": 1 }
+      ]
+    },
+    {
+      "name": "咳嗽包含1_1",
+      "if": [
+        { "col": "犬吠样咳嗽", "op": "==", "value": 1 }
+      ],
+      "then": [
+        { "action": "set", "col": "咳嗽", "value": 1 }
+      ]
+    },
+    {
+      "name": "咳嗽包含2_1",
+      "if": [
+        { "col": "痉挛样咳嗽", "op": "==", "value": 1 }
+      ],
+      "then": [
+        { "action": "set", "col": "咳嗽", "value": 1 }
+      ]
+    }
+  ]
+}

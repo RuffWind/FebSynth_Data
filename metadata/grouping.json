@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "features": [
+    { "column": "计算年龄", "thresholds": [7, 28], "include_null": false },
+    { "column": "性别", "include_null": false },
+    { "column": "诊断ICD编码", "missing_to_other": true }
+  ],
+  "rare_group_min_ratio": 0.005,
+  "oversample_factor": 10,
+  "max_rounds": 20,
+  "min_group_size": 20,
+  "fallback_to_bootstrap": true,
+  "random_seed": 42
+}

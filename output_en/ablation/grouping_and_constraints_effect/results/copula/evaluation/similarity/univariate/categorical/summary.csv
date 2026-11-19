@@ -1,0 +1,2 @@
+﻿evaluated_columns,outcome_columns_evaluated,real_category_count_mean,synthetic_category_count_mean,category_count_mean_relative_error,coverage_mean,missing_category_count_mean,extra_category_count_mean,tvd_mean,intrinsic_tvd_mean,tvd_mean_relative_error,js_distance_mean,intrinsic_js_distance_mean,js_mean_relative_error,max_category_probability_gap_mean
+25,2,2.88,2.88,0.0,1.0,0.0,0.0,0.003343367017845624,0.005220382713394973,0.35955518256881797,0.0039775759143085765,0.0061507763380426695,0.3533213157111039,0.003343367017845622

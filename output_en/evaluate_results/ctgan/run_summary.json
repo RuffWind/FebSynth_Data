@@ -1,0 +1,12 @@
+{
+  "real_data_size": 23255,
+  "train_size": 18604,
+  "test_size": 4651,
+  "synthetic_size": 18604,
+  "synthetic_path": "/path/to/project/output_en/evaluate_results/ctgan/synthetic_data.csv",
+  "evaluation_output_dir": "/path/to/project/output_en/evaluate_results/ctgan/evaluation",
+  "comparison_real_data": "train_split",
+  "ml_test_real_data": "test_split",
+  "generation_metadata_file": "/path/to/project/output_en/evaluate_results/ctgan/generation_metadata.json",
+  "split_metadata_file": "/path/to/project/output_en/evaluate_results/ctgan/split_metadata.json"
+}

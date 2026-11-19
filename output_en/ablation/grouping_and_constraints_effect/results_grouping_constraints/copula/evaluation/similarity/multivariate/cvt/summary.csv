@@ -1,0 +1,4 @@
+﻿item_type,item_name,left_column,right_column,display_label,row_count,valid_count,missing_count,min_value,max_value,mean_value,median_value,std_value,negative_value_ratio
+range_column,White Blood Cell Count,White Blood Cell Count,,White Blood Cell Count,18604,18604,0,1.5,44.91,10.11680391313696,9.09,5.293950991204836,0.0
+range_column,Lymphocyte Percentage,Lymphocyte Percentage,,Lymphocyte Percentage,18604,18604,0,1.83,87.6,45.865468716405076,45.95,16.309460672389555,0.0
+difference_pair,Hospitalization - icu,Hospitalization,ICU Admission,Hospitalization - icu,18604,18604,0,0.0,1.0,0.3412706944743066,0.0,0.47414880776922047,0.0

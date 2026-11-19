@@ -1,0 +1,156 @@
+﻿encoded_feature,source_column
+Cyanosis_0,Cyanosis
+Cyanosis_1,Cyanosis
+Cyanosis___MISSING__,Cyanosis
+Frothing at the Mouth_0,Frothing at the Mouth
+Frothing at the Mouth_1,Frothing at the Mouth
+Frothing at the Mouth___MISSING__,Frothing at the Mouth
+Inspiratory Dyspnea_0,Inspiratory Dyspnea
+Inspiratory Dyspnea_1,Inspiratory Dyspnea
+Inspiratory Dyspnea___MISSING__,Inspiratory Dyspnea
+Vomiting_0,Vomiting
+Vomiting_1,Vomiting
+Vomiting___MISSING__,Vomiting
+Choking During Feeding_0,Choking During Feeding
+Choking During Feeding_1,Choking During Feeding
+Choking During Feeding___MISSING__,Choking During Feeding
+Abnormal Breath Sounds_0,Abnormal Breath Sounds
+Abnormal Breath Sounds_1,Abnormal Breath Sounds
+Abnormal Breath Sounds___MISSING__,Abnormal Breath Sounds
+Cough_0,Cough
+Cough_1,Cough
+Cough___MISSING__,Cough
+Pharyngeal Congestion_0,Pharyngeal Congestion
+Pharyngeal Congestion_1,Pharyngeal Congestion
+Pharyngeal Congestion___MISSING__,Pharyngeal Congestion
+Rales_0,Rales
+Rales_1,Rales
+Rales___MISSING__,Rales
+Hoarseness_0,Hoarseness
+Hoarseness_1,Hoarseness
+Hoarseness___MISSING__,Hoarseness
+Chills_0,Chills
+Chills_1,Chills
+Chills___MISSING__,Chills
+Convulsion_0,Convulsion
+Convulsion_1,Convulsion
+Convulsion___MISSING__,Convulsion
+Hand Rash_0,Hand Rash
+Hand Rash_1,Hand Rash
+Hand Rash___MISSING__,Hand Rash
+Shortness of Breath_0,Shortness of Breath
+Shortness of Breath_1,Shortness of Breath
+Shortness of Breath___MISSING__,Shortness of Breath
+Irritability_0,Irritability
+Irritability_1,Irritability
+Irritability___MISSING__,Irritability
+Aversion to Cold_0,Aversion to Cold
+Aversion to Cold_1,Aversion to Cold
+Aversion to Cold___MISSING__,Aversion to Cold
+Rash_0,Rash
+Rash_1,Rash
+Rash___MISSING__,Rash
+Listlessness_0,Listlessness
+Listlessness_1,Listlessness
+Listlessness___MISSING__,Listlessness
+Cold Extremities_0,Cold Extremities
+Cold Extremities_1,Cold Extremities
+Cold Extremities___MISSING__,Cold Extremities
+Diarrhea_0,Diarrhea
+Diarrhea_1,Diarrhea
+Diarrhea___MISSING__,Diarrhea
+Reduced Feeding / Anorexia_0,Reduced Feeding / Anorexia
+Reduced Feeding / Anorexia_1,Reduced Feeding / Anorexia
+Reduced Feeding / Anorexia___MISSING__,Reduced Feeding / Anorexia
+Jaundice_0,Jaundice
+Jaundice_1,Jaundice
+Jaundice___MISSING__,Jaundice
+Sex_0,Sex
+Sex_1,Sex
+Hospitalization_0,Hospitalization
+Hospitalization_1,Hospitalization
+icu_0,ICU Admission
+icu_1,ICU Admission
+"C-Reactive Protein_(8,9]",C-Reactive Protein
+C-Reactive Protein_<=8,C-Reactive Protein
+C-Reactive Protein_>9,C-Reactive Protein
+"Basophil Percentage_(0,0.1]",Basophil Percentage
+"Basophil Percentage_(0.1,0.25]",Basophil Percentage
+Basophil Percentage_<=0,Basophil Percentage
+Basophil Percentage_>0.25,Basophil Percentage
+"Eosinophil Percentage_(1,2.1]",Eosinophil Percentage
+"Eosinophil Percentage_(2.1,4]",Eosinophil Percentage
+Eosinophil Percentage_<=1,Eosinophil Percentage
+Eosinophil Percentage_>4,Eosinophil Percentage
+"Neutrophil Percentage_(30,43]",Neutrophil Percentage
+"Neutrophil Percentage_(43,56]",Neutrophil Percentage
+Neutrophil Percentage_<=30,Neutrophil Percentage
+Neutrophil Percentage_>56,Neutrophil Percentage
+"Absolute Neutrophil Count_(2.22,3.53]",Absolute Neutrophil Count
+"Absolute Neutrophil Count_(3.53,5.84]",Absolute Neutrophil Count
+Absolute Neutrophil Count_<=2.22,Absolute Neutrophil Count
+Absolute Neutrophil Count_>5.84,Absolute Neutrophil Count
+"Monocyte Percentage_(4,6]",Monocyte Percentage
+"Monocyte Percentage_(6,9.2]",Monocyte Percentage
+Monocyte Percentage_<=4,Monocyte Percentage
+Monocyte Percentage_>9.2,Monocyte Percentage
+"Absolute Monocyte Count_(0.4,0.59]",Absolute Monocyte Count
+"Absolute Monocyte Count_(0.59,0.88]",Absolute Monocyte Count
+Absolute Monocyte Count_<=0.4,Absolute Monocyte Count
+Absolute Monocyte Count_>0.88,Absolute Monocyte Count
+"Mean Corpuscular Volume_(88.5,93.1]",Mean Corpuscular Volume
+"Mean Corpuscular Volume_(93.1,97.8]",Mean Corpuscular Volume
+Mean Corpuscular Volume_<=88.5,Mean Corpuscular Volume
+Mean Corpuscular Volume_>97.8,Mean Corpuscular Volume
+"Mean Corpuscular Hemoglobin Concentration_(322,330]",Mean Corpuscular Hemoglobin Concentration
+"Mean Corpuscular Hemoglobin Concentration_(330,339]",Mean Corpuscular Hemoglobin Concentration
+Mean Corpuscular Hemoglobin Concentration_<=322,Mean Corpuscular Hemoglobin Concentration
+Mean Corpuscular Hemoglobin Concentration_>339,Mean Corpuscular Hemoglobin Concentration
+"Mean Corpuscular Hemoglobin_(29,30.7]",Mean Corpuscular Hemoglobin
+"Mean Corpuscular Hemoglobin_(30.7,32.5]",Mean Corpuscular Hemoglobin
+Mean Corpuscular Hemoglobin_<=29,Mean Corpuscular Hemoglobin
+Mean Corpuscular Hemoglobin_>32.5,Mean Corpuscular Hemoglobin
+"Lymphocyte Percentage_(33,45.5]",Lymphocyte Percentage
+"Lymphocyte Percentage_(45.5,59]",Lymphocyte Percentage
+Lymphocyte Percentage_<=33,Lymphocyte Percentage
+Lymphocyte Percentage_>59,Lymphocyte Percentage
+"Absolute Lymphocyte Count_(2.73,4.36]",Absolute Lymphocyte Count
+"Absolute Lymphocyte Count_(4.36,5.96]",Absolute Lymphocyte Count
+Absolute Lymphocyte Count_<=2.73,Absolute Lymphocyte Count
+Absolute Lymphocyte Count_>5.96,Absolute Lymphocyte Count
+"White Blood Cell Count_(6.67,9.22]",White Blood Cell Count
+"White Blood Cell Count_(9.22,12.56]",White Blood Cell Count
+White Blood Cell Count_<=6.67,White Blood Cell Count
+White Blood Cell Count_>12.56,White Blood Cell Count
+"Plateletcrit_(0.3,0.38]",Plateletcrit
+"Plateletcrit_(0.38,0.47]",Plateletcrit
+Plateletcrit_<=0.3,Plateletcrit
+Plateletcrit_>0.47,Plateletcrit
+"Platelet Count_(278.75,357]",Platelet Count
+"Platelet Count_(357,447]",Platelet Count
+Platelet Count_<=278.75,Platelet Count
+Platelet Count_>447,Platelet Count
+"Hemoglobin_(107,118]",Hemoglobin
+"Hemoglobin_(118,135]",Hemoglobin
+Hemoglobin_<=107,Hemoglobin
+Hemoglobin_>135,Hemoglobin
+"Hematocrit_(32.7,36.1]",Hematocrit
+"Hematocrit_(36.1,40.66]",Hematocrit
+Hematocrit_<=32.7,Hematocrit
+Hematocrit_>40.66,Hematocrit
+"Weight_(3.95,4.84]",Weight
+"Weight_(4.84,5.56]",Weight
+Weight_<=3.95,Weight
+Weight_>5.56,Weight
+"Peak Temperature_(38,38.28]",Peak Temperature
+"Peak Temperature_(38.28,38.6]",Peak Temperature
+Peak Temperature_<=38,Peak Temperature
+Peak Temperature_>38.6,Peak Temperature
+"Fever Duration_(0.91,1]",Fever Duration
+"Fever Duration_(1,1.16]",Fever Duration
+Fever Duration_<=0.91,Fever Duration
+Fever Duration_>1.16,Fever Duration
+"Age in Days_(29,51]",Age in Days
+"Age in Days_(51,71]",Age in Days
+Age in Days_<=29,Age in Days
+Age in Days_>71,Age in Days

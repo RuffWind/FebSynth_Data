@@ -1,0 +1,23 @@
+{
+  "train_size": 18604,
+  "test_size": 4651,
+  "requested_test_ratio": 0.2,
+  "actual_test_ratio": 0.2,
+  "stratified_by_outcome_joint_state": true,
+  "split_source": "random_split",
+  "full_outcome_distribution": {
+    "(0, 0)": 0.6165125779402278,
+    "(1, 0)": 0.3258224037841324,
+    "(1, 1)": 0.057665018275639635
+  },
+  "train_outcome_distribution": {
+    "(0, 0)": 0.6164803268114384,
+    "(1, 0)": 0.3258439045366588,
+    "(1, 1)": 0.05767576865190282
+  },
+  "test_outcome_distribution": {
+    "(0, 0)": 0.6166415824553859,
+    "(1, 0)": 0.3257364007740271,
+    "(1, 1)": 0.05762201677058697
+  }
+}

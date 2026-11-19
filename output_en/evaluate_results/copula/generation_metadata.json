@@ -1,0 +1,540 @@
+{
+  "generation_columns": [
+    "C-Reactive Protein",
+    "Basophil Percentage",
+    "Eosinophil Percentage",
+    "Neutrophil Percentage",
+    "Absolute Neutrophil Count",
+    "Monocyte Percentage",
+    "Absolute Monocyte Count",
+    "Mean Corpuscular Volume",
+    "Mean Corpuscular Hemoglobin Concentration",
+    "Mean Corpuscular Hemoglobin",
+    "Lymphocyte Percentage",
+    "Absolute Lymphocyte Count",
+    "White Blood Cell Count",
+    "Plateletcrit",
+    "Platelet Count",
+    "Hemoglobin",
+    "Hematocrit",
+    "Weight",
+    "Peak Temperature",
+    "Fever Duration",
+    "Age in Days",
+    "Cyanosis",
+    "Frothing at the Mouth",
+    "Inspiratory Dyspnea",
+    "Vomiting",
+    "Choking During Feeding",
+    "Abnormal Breath Sounds",
+    "Cough",
+    "Pharyngeal Congestion",
+    "Rales",
+    "Hoarseness",
+    "Chills",
+    "Convulsion",
+    "Hand Rash",
+    "Shortness of Breath",
+    "Irritability",
+    "Aversion to Cold",
+    "Rash",
+    "Listlessness",
+    "Cold Extremities",
+    "Diarrhea",
+    "Reduced Feeding / Anorexia",
+    "Jaundice",
+    "Sex",
+    "Hospitalization",
+    "ICU Admission"
+  ],
+  "comparison_real_data": "train_split",
+  "ml_test_real_data": "test_split",
+  "outcome_distribution": {
+    "(0, 0)": 0.6164803268114384,
+    "(1, 0)": 0.3258439045366588,
+    "(1, 1)": 0.05767576865190282
+  },
+  "n_samples": 18604,
+  "model_dir": "/path/to/project/models/copula",
+  "load_model": false,
+  "persist_model": true,
+  "group_diag": {
+    "group_count": 26,
+    "excluded_rows": 0,
+    "pooled_target_total": 18604,
+    "final_target_total": 18604,
+    "training_time": 31.039536714553833,
+    "generation_time": 15.415710210800171,
+    "warnings": [
+      "Joint grouping contains 473个稀有或指定缺失Group并入'Other'(稀有阈值 rare_group_min_ratio=0.0050)，合计 3013/18604 rows, 16.20%",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width",
+      "Range-constrained column not found and ignored: Platelet Distribution Width"
+    ],
+    "groups": [
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=J18",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1037,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 23,
+        "target_count": 106,
+        "pooled_target_count": 106,
+        "real_count": 106,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=J06",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 7012,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 18,
+        "target_count": 703,
+        "pooled_target_count": 703,
+        "real_count": 703,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=P36",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1595,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 5,
+        "target_count": 160,
+        "pooled_target_count": 160,
+        "real_count": 160,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J20",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 6019,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 1,
+        "target_count": 602,
+        "pooled_target_count": 602,
+        "real_count": 602,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J20",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 4819,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 1,
+        "target_count": 482,
+        "pooled_target_count": 482,
+        "real_count": 482,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=P23",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 4190,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 419,
+        "pooled_target_count": 419,
+        "real_count": 419,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=0.0 | Diagnosis ICD Code=J06",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 5419,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 11,
+        "target_count": 543,
+        "pooled_target_count": 543,
+        "real_count": 543,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J06",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 41475,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 55,
+        "target_count": 4153,
+        "pooled_target_count": 4153,
+        "real_count": 4153,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J18",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 16059,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 1,
+        "target_count": 1606,
+        "pooled_target_count": 1606,
+        "real_count": 1606,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=P23",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 5539,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 1,
+        "target_count": 554,
+        "pooled_target_count": 554,
+        "real_count": 554,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=J18",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1473,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 7,
+        "target_count": 148,
+        "pooled_target_count": 148,
+        "real_count": 148,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J40",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 950,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 95,
+        "pooled_target_count": 95,
+        "real_count": 95,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J06",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 32287,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 23,
+        "target_count": 3231,
+        "pooled_target_count": 3231,
+        "real_count": 3231,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=J18",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 10464,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 116,
+        "target_count": 1058,
+        "pooled_target_count": 1058,
+        "real_count": 1058,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=R50",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1479,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 1,
+        "target_count": 148,
+        "pooled_target_count": 148,
+        "real_count": 148,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=P36",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 2218,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 2,
+        "target_count": 222,
+        "pooled_target_count": 222,
+        "real_count": 222,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=A41",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 2471,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 9,
+        "target_count": 248,
+        "pooled_target_count": 248,
+        "real_count": 248,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=J40",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1420,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 142,
+        "pooled_target_count": 142,
+        "real_count": 142,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=R50",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 2340,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 234,
+        "pooled_target_count": 234,
+        "real_count": 234,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=A41",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1636,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 4,
+        "target_count": 164,
+        "pooled_target_count": 164,
+        "real_count": 164,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=A41",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1000,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 100,
+        "pooled_target_count": 100,
+        "real_count": 100,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=A09",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1388,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 2,
+        "target_count": 139,
+        "pooled_target_count": 139,
+        "real_count": 139,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "7.0< Age in Days<= 28.0 | Sex=1.0 | Diagnosis ICD Code=R50",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1050,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 105,
+        "pooled_target_count": 105,
+        "real_count": 105,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=1.0 | Diagnosis ICD Code=K52",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 1330,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 133,
+        "pooled_target_count": 133,
+        "real_count": 133,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Age in Days> 28.0 | Sex=0.0 | Diagnosis ICD Code=K52",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 960,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 0,
+        "target_count": 96,
+        "pooled_target_count": 96,
+        "real_count": 96,
+        "fixed_exact_columns": [
+          "Sex"
+        ],
+        "generated_columns_count": 45
+      },
+      {
+        "group_name": "Other(merged 473个稀有/缺失Group)",
+        "provider": "model",
+        "rounds": 2,
+        "pool_size": 26301,
+        "warnings": [
+          "Range-constrained column not found and ignored: Platelet Distribution Width"
+        ],
+        "rejected_rows_total": 3829,
+        "target_count": 3013,
+        "pooled_target_count": 3013,
+        "real_count": 3013,
+        "fixed_exact_columns": [],
+        "generated_columns_count": 46
+      }
+    ]
+  }
+}
